@@ -15,7 +15,7 @@ export default async function createBet(req, res){
 	}
   axios.post(process.env.HOST+'/api/bets', newBet).then(prevRes=>{
 		axios.post(process.env.HOST+'/api/update-event', newBet).then(lastRes=>{
-			res.json(prevRes.data)
+			res.json(lastRes.status)
 		})
 		.catch(err=>console.log(err))
 })

@@ -3,20 +3,22 @@ import client from '../../services/mongodb'
 
 export default function handler(req, res) {
   return new Promise((resolve, reject)=>{
-  const {filter = {}, order = '', collection } = req.query
+  const {filter = null, order = '', collection } = req.query
+
   const {method} = req
   client.connect(async err => {
     const collectionRawData = client.db("betUniversity").collection(collection);
     switch (method) {
       case 'GET':
-        const Filter = JSON.parse(filter)
-        const collectionData = await collectionRawData.find(Filter.id?{_id: ObjectId(Filter.id)}: Filter).toArray()
+        const Filter = filter ? filter : {}
+        console.log(new Object(Filter))
+        const collectionData = await collectionRawData.find(Filter.id?{_id: ObjectId(Filter.id)}: new Object(Filter)).toArray()
+
         res.status(200).json(collectionData)
         resolve()
         break
       case 'POST':
         const postResponse = await collectionRawData.insertOne(req.body)
-        console.log(postResponse)
         res.status(200).json(postResponse)
         resolve()
         break
