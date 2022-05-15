@@ -56,6 +56,10 @@ export default function Home() {
 			});
 	}
 
+	function Logout() {
+		setLogged(false);
+	}
+
 	function getData() {
 		if (!window.localStorage.getItem('supabase.auth.token')) {
 			Login();
@@ -173,6 +177,7 @@ export default function Home() {
 							))}
 						</div>
 					</main>
+					<button onClick={Logout}>Logout...</button>
 				</>
 			) : (
 				<button onClick={Login}>Login...</button>
