@@ -1,22 +1,24 @@
 {
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@supabase/supabase-js": "^1.35.2",
-    "axios": "^0.27.2",
-    "dotenv": "^16.0.0",
-    "mongodb": "^4.5.0",
-    "next": "12.1.4",
-    "react": "18.0.0",
-    "react-dom": "18.0.0"
-  },
-  "devDependencies": {
-    "eslint": "8.12.0",
-    "eslint-config-next": "12.1.4"
-  }
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next eslint . --ext .ts,.tsx --fix",
+		"format": "npx prettier --write ."
+	},
+	"dependencies": {
+		"@supabase/supabase-js": "^1.35.2",
+		"axios": "^0.27.2",
+		"dotenv": "^16.0.0",
+		"mongodb": "^4.5.0",
+		"next": "12.1.4",
+		"react": "18.0.0",
+		"react-dom": "18.0.0",
+		"styled-components": "^5.2.1"
+	},
+	"devDependencies": {
+		"eslint": "8.12.0",
+		"eslint-config-next": "12.1.4"
+	}
 }
