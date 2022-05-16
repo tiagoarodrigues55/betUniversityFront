@@ -13,6 +13,6 @@ export const users = {
 
 function _delete(id) {
 	// filter out deleted register and save
-	registers = registers.filter((x) => x.id.toString() !== id.toString());
-	saveData();
+	var registers = registers.filter((x) => x.id.toString() !== id.toString());
+	// saveData();
 }

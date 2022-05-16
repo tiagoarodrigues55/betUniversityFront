@@ -1,8 +1,13 @@
+import { NextApiRequest, NextApiResponse } from 'next';
+
 import axios from 'axios';
 import 'dotenv/config';
-import getOdds from '../../utils/getOdds';
+import { getOdds } from '../../utils/getOdds';
 
-export default async function createEvent(req, res) {
+export default async function createEvent(
+	req: NextApiRequest,
+	res: NextApiResponse
+) {
 	const { name, teams, modality } = req.body;
 	const newEvent = {
 		name,

@@ -1,8 +1,13 @@
+import { NextApiRequest, NextApiResponse } from 'next';
+
 import axios from 'axios';
 import 'dotenv/config';
-import updateOdds from '../../utils/updateOdds';
+import { updateOdds } from '../../utils/updateOdds';
 
-export default async function updateEvent(req, res) {
+export default async function updateEvent(
+	req: NextApiRequest,
+	res: NextApiResponse
+) {
 	const { odds, bet, bet_value, event_id } = req.body;
 	const event = await axios.get(
 		process.env.HOST + `/api/events?filter={"id": "${event_id}"}`

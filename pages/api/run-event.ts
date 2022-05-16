@@ -1,7 +1,9 @@
+import { NextApiRequest, NextApiResponse } from 'next';
+
 import axios from 'axios';
 import 'dotenv/config';
 
-export default async function runEvent(req, res) {
+export default async function runEvent(req: NextApiRequest, res: NextApiResponse) {
 	const { event_id, winner } = req.body;
 	const bets = await axios.get(
 		process.env.HOST + `/api/bets?filter={"event_id": "${event_id}"}`

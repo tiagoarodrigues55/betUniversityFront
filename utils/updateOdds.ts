@@ -1,4 +1,4 @@
-function updateOdds(balance) {
+export const updateOdds = (balance: []) => {
 	const equilibriumConst = 10;
 	const marginHouse = 0.3;
 	const balanceListDuplicate = [...balance, ...balance];

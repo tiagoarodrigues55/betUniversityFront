@@ -1,7 +1,11 @@
+import { NextApiRequest, NextApiResponse } from 'next';
 import axios from 'axios';
 import 'dotenv/config';
 
-export default async function createBet(req, res) {
+export default async function createBet(
+	req: NextApiRequest,
+	res: NextApiResponse
+) {
 	const { user_id, event_id, modality, odds, bet, bet_value, offer } = req.body;
 	const newBet = {
 		user_id,
