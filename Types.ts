@@ -1,4 +1,4 @@
-interface Bet {
+export interface Bet {
   user_id: string, // id do usuário
   event_id: string, // id do evento
   modality: string, // modalidade
@@ -9,7 +9,8 @@ interface Bet {
   status: string, // status (open, closed, pending)
 }
 
-interface Event {
+export interface Event {
+  event_id: string, // id do evento
   name: string, // Nome do evento (Final do Futebol GV X MAC)
   teams: string[], // [nome do time 1, nome do time 2]
   odds: number[], // odds atuais [odd do time 1, odd do time 2, odd do empate]
@@ -20,7 +21,8 @@ interface Event {
   debts: number[], // Total a ser pago por opção ([0, 0, 0])
 }
 
-interface User {
+export interface User {
+  user_id?: string, // id do evento
   email: string, // email
   password: string, // Senha
   favorite_team: string, // Faculdade que estuda/torce

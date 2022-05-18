@@ -10,7 +10,7 @@ export default async function createUser(req: NextApiRequest,
 		password,
 		favorite_team,
 		total_bet: 0,
-		wallet: 0,
+		wallet: 100,
 		score: 0,
 	};
 
