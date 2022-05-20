@@ -11,6 +11,6 @@ export const updateOdds = (balance: []) => {
 		newOdds.push(Number(odd.toFixed(2)));
 	});
 	return newOdds;
-}
+};
 
 module.exports = updateOdds;

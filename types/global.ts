@@ -1,4 +1,4 @@
 export interface OddsTypes {
- teams: string,
- modality: 'Futebol' | 'Handebol'
+	teams: string;
+	modality: 'Futebol' | 'Handebol';
 }

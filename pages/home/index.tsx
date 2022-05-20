@@ -126,12 +126,15 @@ export default function Login() {
 	};
 
 	const Logout = () => {
+		window.localStorage.removeItem('supabase.auth.token');
+		window.localStorage.removeItem('user');
+
 		Router.push('/');
 	};
 
 	return (
 		<div className={styles.container}>
-			<button onClick={Logout}>Login...</button>
+			<button onClick={Logout}>Logout...</button>
 			User: {user?.wallet}
 			<main className={styles.main}>
 				{selectedCard ? (
