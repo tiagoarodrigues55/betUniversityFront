@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css';
 import Link from 'next/link';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import baseUrl from '../services/baseUrl.js';
+import baseUrl from '../../services/baseUrl.js';
 
 export default function Bets({ filter }) {
 	console.log(filter);
