@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,200;0,400;0,600;0,700;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
-$green-water: #E98AAF;
+$green-water: #e98aaf;
 $orange: #ff9900;
-$dark-purple: #A65F7C;
-$primary-purple: #FF9FC5;
+$dark-purple: #a65f7c;
+$primary-purple: #ff9fc5;
 
-$purple: #BC6D8D;
+$purple: #bc6d8d;
 
 $family-sans-serif: 'Montserrat', 'Helvetica Neue', 'Helvetica', 'Arial',
 	sans-serif;
@@ -27,6 +27,25 @@ h4,
 h5,
 h6 {
 	font-weight: 500;
+}
+
+.group {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+input,
+select {
+	border: 1px solid rgba(10, 10, 10, 0.1);
+	border-radius: 4px;
+	padding: 14px 20px;
+	font-size: 0.85rem;
+	width: 300px;
+}
+
+input:focus,
+select:focus {
+	outline: none;
 }
 
 .hidden {
