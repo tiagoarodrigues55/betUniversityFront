@@ -1,6 +1,8 @@
 import { ObjectId } from 'mongodb';
 import client from '../../services/mongodb';
 
+import { create } from '../../services/registers-repo';
+
 export default function handler(req, res) {
 	return new Promise((resolve, reject) => {
 		const { filter = null, order = '', collection } = req.query;

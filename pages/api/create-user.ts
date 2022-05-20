@@ -1,12 +1,15 @@
-import { NextApiRequest, NextApiResponse } from 'next'
-import axios from 'axios';
-import 'dotenv/config';
+import { NextApiRequest, NextApiResponse } from 'next';
 
-export default async function createUser(req: NextApiRequest,
-	res: NextApiResponse) {
-	const { email, password, favorite_team } = req.body;
+import { supabase } from '../../services/supabaseClient';
+
+export default async function createUser(
+	req: NextApiRequest,
+	res?: NextApiResponse
+) {
+	const { email, name, password, favorite_team } = req.body;
 	const newUser = {
 		email,
+		name,
 		password,
 		favorite_team,
 		total_bet: 0,
@@ -14,8 +17,31 @@ export default async function createUser(req: NextApiRequest,
 		score: 0,
 	};
 
-	axios.post(process.env.HOST + '/api/users', newUser).then((prevRes) => {
-		console.log(prevRes);
-		res.json(prevRes.data);
-	});
+	const findUser = await supabase
+		.from('users')
+		.select('*')
+		.eq('email', email)
+		.single();
+
+	if (findUser.body.password === undefined || findUser.body.password === null)
+		return res
+			.status(200)
+			.json({ status: 'Bora criar seu cadastro', isUser: false });
+
+	if (findUser.status !== 200) {
+		const createUser = await supabase.from('users').insert(newUser);
+
+		if (createUser.status !== 200) {
+			return res.status(200).json({ status: 'Cadastro criado com sucesso' });
+		} else {
+			return res.status(200).json({
+				status: 'Ocorreu algum erro inesperado, tente novamente mais tarde',
+			});
+		}
+	} else {
+		findUser.body.password = undefined;
+		return res
+			.status(200)
+			.json({ status: 'Bora apostar!', user: findUser.body });
+	}
 }

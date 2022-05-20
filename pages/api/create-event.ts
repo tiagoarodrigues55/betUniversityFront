@@ -21,6 +21,6 @@ export default async function createEvent(
 	};
 	axios.post(process.env.HOST + '/api/events', newEvent).then((prevRes) => {
 		console.log(prevRes);
-		res.json(prevRes.data);
+		return res.json(prevRes.data);
 	});
 }
