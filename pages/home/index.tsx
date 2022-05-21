@@ -27,6 +27,7 @@ import { FaFutbol } from 'react-icons/fa';
 import { MdSportsHandball } from 'react-icons/md';
 import { GiPartyPopper } from 'react-icons/gi';
 import { BsCalendarEvent } from 'react-icons/bs';
+import { EmblaCarousel } from '../../components/Carousel';
 
 interface Card {
 	name: string;
@@ -150,6 +151,8 @@ export default function Login() {
 								</CardDiv>
 							</TwoCardsSecond>
 						</CardsSection>
+
+						<EmblaCarousel />
 					</ContainerTemplateStyled>
 				</ContainerStyled>
 
