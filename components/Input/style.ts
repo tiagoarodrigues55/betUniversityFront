@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const PasswordDivStyled = styled.div`
 	position: absolute;
-	bottom: 6px;
-	right: 0px;
+	bottom: 5px;
+	right: 12px;
 `;
 
 export const ContainerStyled = styled.div`
