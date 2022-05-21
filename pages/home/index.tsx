@@ -74,38 +74,8 @@ export default function Login() {
 	]);
 
 	useEffect(() => {
-		getData();
+		// getData();
 	}, []);
-
-	const getData = () => {
-		if (!window.localStorage.getItem('supabase.auth.token')) {
-			Router.push('/');
-		}
-
-		axios.get('/api/events').then((res) => {
-			setEvents(res.data);
-		});
-
-		const supabaseSession = JSON.parse(
-			window.localStorage.getItem('supabase.auth.token')
-		);
-
-		console.log(supabaseSession.currentSession.user.email);
-
-		const user = supabaseSession.currentSession.user;
-
-		axios
-			.get(`/api/users?filter={"email": ${user.email}}`)
-			.then((res) => {
-				console.log(res);
-				setUsers(res.data[0]);
-			})
-			.catch((err) => console.log(err));
-		// axios.get(`/api/users?filter={"id":"6227760eaa2b6113c552d91a"}`).then(res=>{
-		//   console.log(res)
-		//   setUsers(res.data[0])
-		// }).catch(err=>console.log(err))
-	};
 
 	const bet = (card, odd) => {
 		const newUser = user;
