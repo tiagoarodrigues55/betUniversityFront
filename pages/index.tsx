@@ -63,6 +63,8 @@ export default function Login() {
 			window.localStorage.getItem('supabase.auth.token')
 		);
 
+		if (!supabaseSession) return;
+
 		const userSupabase = supabaseSession?.currentSession.user.user_metadata;
 
 		if (userSupabase?.email_verified) {
@@ -92,7 +94,7 @@ export default function Login() {
 						return Router.push('/signup');
 					});
 				} else {
-					setData(data.body?.user);
+					setData(data.user);
 					return Router.push('/home');
 				}
 			}

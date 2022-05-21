@@ -17,6 +17,7 @@ interface IAuthContextData {
 	isLoadingUser: boolean;
 	getUser: () => any;
 	setData: (response?: any) => void;
+	removeData: () => void;
 }
 
 const AuthContext = createContext({} as IAuthContextData);
@@ -37,6 +38,7 @@ function AuthProvider({ children }: AuthProviderProps) {
 
 	const setData = async (response: any) => {
 		window.localStorage.setItem('user', JSON.stringify(response));
+		setUser(response);
 	};
 
 	const getUser = () => {
@@ -45,8 +47,14 @@ function AuthProvider({ children }: AuthProviderProps) {
 		return user;
 	};
 
+	const removeData = () => {
+		return window.localStorage.removeItem('item');
+	};
+
 	return (
-		<AuthContext.Provider value={{ user, isLoadingUser, setData, getUser }}>
+		<AuthContext.Provider
+			value={{ user, isLoadingUser, removeData, setData, getUser }}
+		>
 			{children}
 		</AuthContext.Provider>
 	);

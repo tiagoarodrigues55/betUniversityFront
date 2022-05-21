@@ -23,7 +23,6 @@ export default async function createUser(
 				.status(200)
 				.json({ status: 'Bora criar seu cadastro', isUser: false });
 		} else {
-			console.log(findUser.body)
 			findUser.body.password = undefined;
 			return res
 				.status(200)
@@ -44,6 +43,7 @@ export default async function createUser(
 			});
 		} else {
 			findUser.body.password = undefined;
+			findUser.body.id = undefined;
 			return res.status(200).json({ status: 'Bem vindo', user: findUser.body, isUser: true });
 		}
 	}

@@ -1,11 +1,14 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,200;0,400;0,600;0,700;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import '~bulma/bulma';
 
 $green-water: #e98aaf;
 $orange: #ff9900;
 $dark-purple: #a65f7c;
 $primary-purple: #ff9fc5;
+
+$gradient: linear-gradient(90deg, $dark-purple 0%, $primary-purple 100%);
 
 $purple: #bc6d8d;
 
@@ -41,7 +44,6 @@ select {
 	padding: 14px 20px;
 	font-size: 0.85rem;
 	width: 100%;
-	margin-left: -1.05rem;
 }
 
 input:focus,
@@ -53,6 +55,13 @@ select:focus {
 	display: none;
 }
 
+.has-text-purple {
+	color: $primary-purple;
+}
+
+.has-background-purple {
+	background: $primary-purple;
+}
 .has-text-weight-bold {
 	font-weight: 700 !important;
 }
@@ -76,4 +85,14 @@ select:focus {
 
 .width-80 {
 	width: 80%;
+}
+
+@media (min-width: 2000px) {
+	#navLinks {
+		justify-content: flex-start !important;
+	}
+
+	.navbar > .container {
+		justify-content: center !important;
+	}
 }

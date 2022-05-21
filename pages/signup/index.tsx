@@ -118,7 +118,7 @@ export default function Login() {
 					icon: 'success',
 					confirmButtonText: 'Entendi',
 				}).then(() => {
-					setData(data.body?.user);
+					setData(data.user);
 					return Router.push('/home');
 				});
 			} else {
@@ -142,9 +142,7 @@ export default function Login() {
 			<button onClick={loginSocial}>Login...</button>
 			<MainStyled onSubmit={handleSubmit(createUser)}>
 				{/* <IMGStyled src={Logo} alt="Logo VirtusPay" /> */}
-				<TitleStyled>
-					Entre ou crie <br /> uma conta
-				</TitleStyled>
+				<TitleStyled>Crie uma conta</TitleStyled>
 				<div style={{ width: '320px' }}>
 					<Input
 						control={control}
