@@ -10,7 +10,7 @@ export interface Bet {
 }
 
 export interface Event {
-	event_id: string; // id do evento
+	id: string; // id do evento
 	name: string; // Nome do evento (Final do Futebol GV X MAC)
 	teams: string[]; // [nome do time 1, nome do time 2]
 	odds: number[]; // odds atuais [odd do time 1, odd do time 2, odd do empate]
@@ -22,7 +22,7 @@ export interface Event {
 }
 
 export interface User {
-	user_id?: Record<string, unknown>; // id do evento
+	id: Record<string, unknown>; // id do evento
 	name: string; // id do evento
 	email: string; // email
 	password: string; // Senha
