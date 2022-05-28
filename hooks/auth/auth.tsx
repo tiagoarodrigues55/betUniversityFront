@@ -29,7 +29,7 @@ function AuthProvider({ children }: AuthProviderProps) {
 	useEffect(() => {
 		const userFromLocalStorage = window.localStorage.getItem('user');
 		if (userFromLocalStorage) {
-			const userJson = JSON.parse(JSON.stringify(userFromLocalStorage)) as User;
+			const userJson = JSON.parse(userFromLocalStorage) as User;
 			setUser(userJson);
 		}
 
