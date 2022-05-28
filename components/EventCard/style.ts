@@ -23,11 +23,13 @@ export const RowDivStyled = styled.div`
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
+
+	margin-left: 3rem;
+	width: 100%;
 `;
 
 export const ColumnDivStyled = styled.div`
 	display: flex;
-	justify-content: space-between;
 	flex-direction: column;
 	margin-bottom: 10rem;
 `;

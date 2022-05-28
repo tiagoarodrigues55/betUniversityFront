@@ -108,15 +108,11 @@ export default function Login() {
 							</TwoCardsSecond>
 						</CardsSection>
 
-						<EmblaCarousel />
+						<RowDivStyled>
+							<EventCard />
+						</RowDivStyled>
 					</ContainerTemplateStyled>
 				</ContainerStyled>
-
-				<main className={styles.main}>
-					<RowDivStyled>
-						<EventCard />
-					</RowDivStyled>
-				</main>
 			</ContainerReturnStyled>
 		</div>
 	);

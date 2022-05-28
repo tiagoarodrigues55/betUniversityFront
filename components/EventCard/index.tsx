@@ -52,14 +52,15 @@ export const EventCard = () => {
 
 	const [events, setEvents] = useState<Event[]>();
 
-	const [selectedCard, setSelectedCard] = useState<Card>(null);
+	const [selectedCard, setSelectedCard] = useState<Card>();
 
 	const [selectedOdd, setSelectedOdd] = useState<number>();
 
 	const [betValue, setBetValue] = useState(0);
 
 	const [emblaRef] = useEmblaCarousel({
-		slidesToScroll: 2,
+		inViewThreshold: 2,
+		align: 'start',
 	});
 
 	const {
@@ -114,87 +115,82 @@ export const EventCard = () => {
 	};
 
 	return (
-		<ColumnDivStyled>
-			<RowDivStyled>
-				{events?.map((event: Event, index: any) => (
-					<div className="embla" ref={emblaRef}>
-						<div className="embla__container">
-							<div className="embla__slide__inner">
-								<Container className="embla__slide" key={index}>
-									<RowDivStyled>
-										{event.modality === 'Futebol' ? (
-											<FaFutbol size={10} className="mt-1 ml-3 is-flex" />
-										) : (
-											<MdSportsHandball
-												size={30}
-												className="mt-1 ml-3 is-flex"
-											/>
-										)}
-										<Title>{event.name}</Title>
-										<Title></Title>
-									</RowDivStyled>
+		<ColumnDivStyled className="embla" ref={emblaRef}>
+			<RowDivStyled className="embla__viewport">
+				<RowDivStyled className="embla__container">
+					{events?.map((event: Event, index: number) => {
+						return (
+							<Container className="embla__slide" key={index}>
+								<RowDivStyled>
+									{event.modality === 'Futebol' ? (
+										<FaFutbol size={10} className="mt-1 ml-3 is-flex" />
+									) : (
+										<MdSportsHandball size={30} className="mt-1 ml-3 is-flex" />
+									)}
+									<Title>{event.name}</Title>
+									<Title></Title>
+								</RowDivStyled>
 
-									<TeamName>{`1: ${event.teams[0]}`}</TeamName>
-									<TeamName>{`2: ${event.teams[1]}`}</TeamName>
-									<ButtonsDivStyled key={event.id}>
-										<ButtonDivStyled>
-											<p>Time 1</p>
-											<button
-												onClick={() => {
-													setSelectedCard({
-														name: event.name,
-														teams: event.teams[0],
-														id: event.id,
-														modality: event.modality,
-														odds: event.odds,
-													});
-													setSelectedOdd(event.odds[0]);
-												}}
-											>
-												{event.odds[0]}
-											</button>{' '}
-										</ButtonDivStyled>
+								<TeamName>{`1: ${event.teams[0]}`}</TeamName>
+								<TeamName>{`2: ${event.teams[1]}`}</TeamName>
+								<ButtonsDivStyled key={event.id}>
+									<ButtonDivStyled>
+										<p>Time 1</p>
+										<button
+											onClick={() => {
+												setSelectedCard({
+													name: event.name,
+													teams: event.teams[0],
+													id: event.id,
+													modality: event.modality,
+													odds: event.odds,
+												});
+												setSelectedOdd(event.odds[0]);
+											}}
+										>
+											{event.odds[0]}
+										</button>{' '}
+									</ButtonDivStyled>
 
-										<ButtonDivStyled>
-											<p>Empate</p>
-											<button
-												onClick={() => {
-													setSelectedCard({
-														name: event.name,
-														teams: 'Empate',
-														id: event.id,
-														modality: event.modality,
-														odds: event.odds,
-													});
-													setSelectedOdd(event.odds[2]);
-												}}
-											>
-												{event.odds[2]}
-											</button>
-										</ButtonDivStyled>
-										<ButtonDivStyled>
-											<p>Time 2</p>
-											<button
-												onClick={() => {
-													setSelectedCard({
-														name: event.name,
-														teams: event.teams[1],
-														id: event.id,
-														modality: event.modality,
-														odds: event.odds,
-													});
-													setSelectedOdd(event.odds[1]);
-												}}
-											>
-												{event.odds[1]}
-											</button>
-										</ButtonDivStyled>
-									</ButtonsDivStyled>
-								</Container>
-							</div>
-						</div>
-					</div>
-				))}
+									<ButtonDivStyled>
+										<p>Empate</p>
+										<button
+											onClick={() => {
+												setSelectedCard({
+													name: event.name,
+													teams: 'Empate',
+													id: event.id,
+													modality: event.modality,
+													odds: event.odds,
+												});
+												setSelectedOdd(event.odds[2]);
+											}}
+										>
+											{event.odds[2]}
+										</button>
+									</ButtonDivStyled>
+									<ButtonDivStyled>
+										<p>Time 2</p>
+										<button
+											onClick={() => {
+												setSelectedCard({
+													name: event.name,
+													teams: event.teams[1],
+													id: event.id,
+													modality: event.modality,
+													odds: event.odds,
+												});
+												setSelectedOdd(event.odds[1]);
+											}}
+										>
+											{event.odds[1]}
+										</button>
+									</ButtonDivStyled>
+								</ButtonsDivStyled>
+							</Container>
+						);
+					})}
+				</RowDivStyled>
 			</RowDivStyled>
 			{selectedCard ? (
 				<div>

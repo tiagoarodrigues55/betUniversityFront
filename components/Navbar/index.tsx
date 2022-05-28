@@ -10,7 +10,7 @@ import { IoMdClose } from 'react-icons/io';
 
 import { BackgroundDiv, DrawerDivStyled } from './style';
 
-import GoogleIcon from '../../assets/googleIcon.png';
+import UniBet from '../../assets/UniBet.png';
 
 import { useAuth } from '../../hooks/auth/auth';
 
@@ -49,7 +49,7 @@ export const Navbar = ({ title, link }: INavbar) => {
 										Router.push('/taker');
 									}}
 								>
-									<Image src={GoogleIcon} alt="logo" width={50} height={50} />
+									<Image src={UniBet} alt="logo" width={150} height={75} />
 								</a>
 
 								<a
@@ -121,7 +121,7 @@ export const Navbar = ({ title, link }: INavbar) => {
 
 			<nav className="is-hidden-desktop has-background-white py-6 is-flex is-flex-direction-row is-align-items-center is-justify-content-space-around px-2">
 				<Link href="/taker">
-					<Image src={GoogleIcon} alt="logo" width={50} height={50} />
+					<Image src={UniBet} alt="logo" width={140} height={50} />
 				</Link>
 
 				<FiMenu onClick={triggerMenu} className="has-text-purple is-size-3" />
