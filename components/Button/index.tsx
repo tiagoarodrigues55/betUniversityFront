@@ -1,4 +1,3 @@
-import { ReactFragment } from 'react';
 import { ButtonStyled } from './styles';
 
 export interface ButtonProps {
@@ -20,7 +19,7 @@ export interface ButtonProps {
 	onMouseDown?: () => void;
 }
 
-export function Button<ReactFragment>({
+export function Button({
 	padding,
 	width,
 	color,
