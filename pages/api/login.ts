@@ -29,7 +29,19 @@ export default async function createUser(
 				.json({ status: 'Bora apostar!', user: findUser.body, isUser: true });
 		}
 	} else {
-		const findUser = await supabase
+		const hasEmail = await supabase
+			.from('users')
+			.select('*')
+			.eq('email', email)
+			.single();
+
+		if (hasEmail.status !== 200) {
+			return res.status(200).json({
+				status: 'Bora fazer seu cadastro',
+				isUser: false,
+			});
+		} else {
+			const findUser = await supabase
 			.from('users')
 			.select('*')
 			.eq('email', email)
@@ -38,13 +50,14 @@ export default async function createUser(
 
 		if (findUser.status !== 200) {
 			return res.status(200).json({
-				status: 'Bora fazer seu cadastro',
-				isUser: false,
+				status: 'Dados inválidos',
+				isUser: true,
+				error: true,
 			});
-		} else {
+		}else {
 			findUser.body.password = undefined;
-			findUser.body.id = undefined;
 			return res.status(200).json({ status: 'Bem vindo', user: findUser.body, isUser: true });
 		}
 	}
+}
 }

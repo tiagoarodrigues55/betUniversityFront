@@ -11,6 +11,7 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import Swal from 'sweetalert2';
 
 import GoogleIcon from '../assets/googleIcon.png';
+import Logo from '../assets/UniBet.png';
 
 import { supabase } from '../services/supabaseClient';
 import { useAuth } from '../hooks/auth/auth';
@@ -138,8 +139,16 @@ export default function Login() {
 					return Router.push('/signup');
 				});
 			} else {
-				setData(data.body?.user);
-				return Router.push('/home');
+				if (!data.error) {
+					setData(data.user);
+					return Router.push('/home');
+				} else {
+					Swal.fire({
+						text: 'Dados inválidos',
+						icon: 'error',
+						confirmButtonText: 'Entendi',
+					});
+				}
 			}
 		}
 	};
@@ -151,10 +160,8 @@ export default function Login() {
 	return (
 		<>
 			<MainStyled onSubmit={handleSubmit(login)}>
-				{/* <IMGStyled src={Logo} alt="Logo" /> */}
-				<TitleStyled>
-					Entre ou crie <br /> uma conta
-				</TitleStyled>
+				<Image src={Logo} alt="Logo" className="mt-5" />
+				<TitleStyled>Entre na sua conta</TitleStyled>
 				<div style={{ width: '320px' }}>
 					<Input
 						control={control}
@@ -189,6 +196,7 @@ export default function Login() {
 				<div style={{ marginTop: '1rem' }}>
 					<Image
 						src={GoogleIcon}
+						className="is-clickable"
 						alt="Picture of the author"
 						width={50}
 						height={50}
