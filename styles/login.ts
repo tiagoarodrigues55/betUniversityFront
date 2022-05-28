@@ -16,7 +16,7 @@ export const IMGStyled = styled.img`
 
 export const TitleStyled = styled.h1`
 	font-family: 'Montserrat';
-	margin: 2rem auto 1rem auto;
+	margin: 2rem auto 0.7rem auto;
 	font-weight: 500;
 	font-size: 24px;
 	text-align: center;
