@@ -2,7 +2,6 @@ import { InputHTMLAttributes } from 'react';
 
 import InputMask from 'react-input-mask';
 
-import '../Input/style.css';
 import { ContainerStyled, GroupStyled } from '../Input/style';
 
 export interface InputProps extends InputHTMLAttributes<any> {

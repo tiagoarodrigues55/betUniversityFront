@@ -4,7 +4,6 @@ import { Control, Controller } from 'react-hook-form';
 
 import CurrencyInput from 'react-currency-input';
 
-import '../Input/style.css';
 import {
 	ContainerStyled,
 	GroupStyled,
