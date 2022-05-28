@@ -13,7 +13,7 @@ export default async function createUser(
 		password,
 		favorite_team,
 		total_bet: 0,
-		wallet: 100,
+		wallet: 100.50,
 		score: 0,
 	};
 
