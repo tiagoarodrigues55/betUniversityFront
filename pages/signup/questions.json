@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "type": "select",
+    "text": "Em qual faculdade você estuda?",
+    "name": "team"
+  },
+  {
+    "id": 1,
+    "type": "text",
+    "text": "Qual o seu instagram?",
+    "name": "insta"
+  },
+  {
+    "id": 2,
+    "type": "number",
+    "text": "Quanto dinheiro você apostaria no {evento}?",
+    "name": "expectedBet"
+  }
+]

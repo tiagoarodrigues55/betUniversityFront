@@ -27,41 +27,25 @@ import { Button } from '../../components/Button';
 import { InputPassword } from '../../components/InputPassword';
 import { Input } from '../../components/Input';
 import Link from 'next/link';
+import questions from './questions.json';
+import universities from './universidades.json';
+import CreatableSelect from 'react-select';
+import { ActionMeta, OnChangeValue } from 'react-select';
+import LoadingScreen from '../../components/LoadingScreen';
 
-const signUpSchema = Yup.object().shape({
-	email: Yup.string()
-		.trim()
-		.email('Digite seu email')
-		.required('Digite seu email'),
-	password: Yup.string()
-		.required('Informe sua senha atual')
-		.min(8, 'Informe sua senha atual')
-		.matches(/([a-zA-Z])/, 'Informe sua senha atual')
-		.matches(/([0-9])/, 'Informe sua senha atual'),
-	name: Yup.string()
-		.required('Nome é obrigatório')
-		.trim()
-		.matches(
-			/^([a-zA-ZÀ-ú]{2,}[ ])+([a-zA-ZÀ-ú]{1,})+(?: [a-zA-Z]+){0,4}$/,
-			'Digite nome e sobrenome, números são proibidos!'
-		)
-		.nullable(),
-	team: Yup.string()
-		.required('Nome do Time é obrigatório')
-		.trim()
-		.min(3, 'Digite um nome válido')
-		.nullable(),
-});
 
 interface SignUp {
 	email: string;
 	password: string;
 	name: string;
 	team: string;
+	expectedBet: number;
 }
 export default function Login() {
 	const [logged, setLogged] = useState(false);
-	const [signUpForm, setSignUpForm] = useState(false);
+	const [question, setQuestion] = useState(questions[0]);
+	const event = "Integramix"
+	const [loading, setLoading] = useState(false);
 
 	const { setData, user } = useAuth();
 
@@ -70,10 +54,24 @@ export default function Login() {
 		handleSubmit,
 		setValue,
 		formState: { errors },
-	} = useForm({ resolver: yupResolver(signUpSchema) });
+		getValues
+	} = useForm();
 
 	useEffect(() => {
 		setDatas();
+		if (user.forms_progress >= questions.length - 1) {
+			Swal.fire({
+				text: 'Você já preencheu todas as perguntas do formulário',
+				icon: 'success',
+				confirmButtonText: 'Ir para o Feed',
+			}).then(() => {
+				setLoading(true)
+				return Router.push('/feed');
+			})
+			return
+		}
+		setQuestion(questions[user.forms_progress + 1 || 0])
+
 	}, [user]);
 
 	const setDatas = async () => {
@@ -98,99 +96,83 @@ export default function Login() {
 		const payload = {
 			email: form.email,
 			name: form.name,
-			password: form.password,
-			team: form.team,
-			wallet: 100,
+			favorite_team: form.team,
+			wallet: user.wallet,
+			forms_progress: question.id,
+			expected_bet: form.expectedBet
 		};
-
-		const { status, data } = await axios.post('/api/create-user', payload);
-
-		if (status !== 200) {
-			Swal.fire({
-				text: 'Erro inesperado, tente novamente mais tarde',
-				icon: 'error',
-				confirmButtonText: 'Entendi',
-			});
-		} else {
-			if (!data.isUser) {
-				return Swal.fire({
-					text: 'Conta criada com sucesso',
-					icon: 'success',
-					confirmButtonText: 'Entendi',
-				}).then(() => {
-					setData(data.user);
-					return Router.push('/home');
-				});
-			} else {
-				return Swal.fire({
-					text: 'E-mail já cadastrado',
-					icon: 'warning',
-					confirmButtonText: 'Entendi',
-				}).then(() => {
-					return Router.push('/');
-				});
-			}
-		}
+		const { status, data } = user.forms_progress && user.forms_progress > 0 ? (
+			await axios.post('/api/create-user', payload)
+		) : (
+			await axios.post('/api/create-user', payload)
+		)
+		return Router.push('/feed')
 	};
 
 	const loginIfEnterPressed = (e: any, form?: SignUp) => {
 		if (e.keyCode === 13 && form) createUser(form);
 	};
 
-	return (
-		<div>
-			<button onClick={loginSocial}>Login...</button>
-			<MainStyled onSubmit={handleSubmit(createUser)}>
-				{/* <IMGStyled src={Logo} alt="Logo VirtusPay" /> */}
-				<TitleStyled>Crie uma conta</TitleStyled>
-				<div style={{ width: '320px' }}>
-					<Input
-						control={control}
-						id="email"
-						name="email"
-						type="email"
-						placeholder="Digite seu e-mail"
-						error={errors.email && errors.email.message}
-					/>
+	function nextQuestion() {
+		if (getValues(question.name)) {
+			setQuestion(questions[question.id + 1])
+			user.wallet += 10
+		}
+	}
 
-					<InputPassword
-						isControlled={true}
-						control={control}
-						onKeyPress={loginIfEnterPressed}
-						type="password"
-						placeholder="Digite sua senha"
-						name="password"
-						error={errors.password && errors.password.message}
-					/>
-					<Input
-						control={control}
-						id="name"
-						name="name"
-						type="name"
-						placeholder="Digite seu nome"
-						error={errors.name && errors.name.message}
-					/>
-					<Input
-						control={control}
-						id="team"
-						name="team"
-						type="team"
-						placeholder="Digite seu time favorito"
-						error={errors.team && errors.team.message}
-					/>
-				</div>
-				<Link href="/">
-					<LinkStyled>Já possuo cadastro</LinkStyled>
-				</Link>
-				<Button
-					type="submit"
-					border="none"
-					width="300px"
-					text="Entrar"
-					textColor="#fff"
-					dataTestId="loginButton"
-				/>
-			</MainStyled>
-		</div>
+	return (
+		<>
+			{
+				!loading ? (
+					<div>
+						<button onClick={loginSocial}>Login...</button>
+						<MainStyled onSubmit={handleSubmit(createUser)}>
+							{
+								question.type !== "select" ? (
+									<Input
+										name={question.name}
+										control={control}
+										type={question.type}
+										placeholder={question.text.replace('{evento}', event)}
+										error={errors.team && errors.team.message}
+									/>
+								) : (
+									<CreatableSelect
+										className="select"
+										isClearable
+										onChange={(newValue) => setValue('team', newValue.value)}
+										options={universities.map(uni => ({ value: String(uni.Estado), label: String(uni.Estado) }))}
+									/>
+								)
+							}
+							<Button
+								type="submit"
+								border="none"
+								width="300px"
+								text="Apostar agora"
+								textColor="#fff"
+								dataTestId="loginButton"
+							/>
+							{
+								questions[question.id + 1] ? (
+									<Button
+										border="none"
+										width="300px"
+										text="Ganhar mais 10 pontos"
+										textColor="#fff"
+										dataTestId="loginButton"
+										onClick={() => {
+											nextQuestion()
+										}}
+									/>
+								) : null
+							}
+						</MainStyled>
+					</div>
+				) : (
+					<LoadingScreen />
+				)
+			}
+		</>
 	);
 }

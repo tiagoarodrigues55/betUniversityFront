@@ -24,7 +24,7 @@ import { Event } from '../../Types';
 import { MdSportsHandball } from 'react-icons/md';
 import { FaFutbol } from 'react-icons/fa';
 import useEmblaCarousel from 'embla-carousel-react';
-import { useAuth } from '../../hooks/auth/auth';
+import { useAuth, getUser } from '../../hooks/auth/auth';
 import { InputControlledCurrency } from '../InputControlledCurrency';
 import { moneyMask, undoMoneyMask } from '../../utils/masks';
 import { Button } from '../Button';
@@ -49,6 +49,7 @@ export const BetSchema = Yup.object().shape({
 
 export const EventCard = () => {
 	const { setData, user } = useAuth();
+	const [User, setUser] = useState(user)
 
 	const [events, setEvents] = useState<Event[]>();
 
@@ -56,7 +57,7 @@ export const EventCard = () => {
 
 	const [selectedOdd, setSelectedOdd] = useState<number>();
 
-	const [betValue, setBetValue] = useState(0);
+	const [expectedReturn, setExpectedReturn] = useState('00,00');
 
 	const [emblaRef] = useEmblaCarousel({
 		inViewThreshold: 2,
@@ -70,6 +71,10 @@ export const EventCard = () => {
 		getValues,
 	} = useForm({ resolver: yupResolver(BetSchema) });
 
+	useEffect(() => {
+		setUser(user)
+	}, [user])
+
 	useLayoutEffect(() => {
 		getEvents();
 	}, []);
@@ -77,14 +82,16 @@ export const EventCard = () => {
 	const getEvents = async () => {
 		const { status, data } = await axios.get('/api/get-event');
 
-		console.log(data);
 		setEvents(data.events);
 	};
+
+	function useExternalValue() {
+		return undoMoneyMask(getValues('bet')) ? false : true
+	}
 
 	const bet = async (card, odd) => {
 		const bet = getValues('bet');
 		const betValue = Number(undoMoneyMask(bet));
-		console.log(user.wallet, betValue);
 		if (user.wallet >= betValue) {
 			const payload = {
 				user_id: user.id,
@@ -98,7 +105,10 @@ export const EventCard = () => {
 			};
 
 			const { status, data } = await axios.post('/api/create-bet', payload);
-
+			User.wallet -= betValue
+			setData(User)
+			setUser(getUser())
+			getEvents()
 			return Swal.fire({
 				text: 'Boa sorte!',
 				title: 'Proposta criada com sucesso',
@@ -113,6 +123,10 @@ export const EventCard = () => {
 			});
 		}
 	};
+	function onChange(value) {
+		// setBetValue(Number(undoMoneyMask(value)))
+		setExpectedReturn((Number(selectedOdd) * Number(undoMoneyMask(value))).toFixed(2))
+	}
 
 	return (
 		<ColumnDivStyled className="embla" ref={emblaRef}>
@@ -145,7 +159,7 @@ export const EventCard = () => {
 													modality: event.modality,
 													odds: event.odds,
 												});
-												setSelectedOdd(event.odds[0]);
+												setSelectedOdd(0);
 											}}
 										>
 											{event.odds[0]}
@@ -163,7 +177,7 @@ export const EventCard = () => {
 													modality: event.modality,
 													odds: event.odds,
 												});
-												setSelectedOdd(event.odds[2]);
+												setSelectedOdd(2);
 											}}
 										>
 											{event.odds[2]}
@@ -180,7 +194,7 @@ export const EventCard = () => {
 													modality: event.modality,
 													odds: event.odds,
 												});
-												setSelectedOdd(event.odds[1]);
+												setSelectedOdd(1);
 											}}
 										>
 											{event.odds[1]}
@@ -207,19 +221,19 @@ export const EventCard = () => {
 						precision="2"
 						decimalSeparator=","
 						thousandSeparator="."
+						onChange={onChange}
 						prefix="R$"
 						error={errors.salary && errors.salary.message}
 					/>
 					<p>
 						Retorno esperado: R$
-						{(
-							Number(selectedOdd) * Number(undoMoneyMask(getValues('bet')))
-						).toFixed(2)}
+						{expectedReturn}
 					</p>
 					<Button
 						onClick={() => bet(selectedCard, selectedOdd)}
 						text={'Apostar'}
 					/>
+					Saldo: {User.wallet.toFixed(2)}
 				</div>
 			) : null}
 		</ColumnDivStyled>

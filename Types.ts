@@ -30,4 +30,6 @@ export interface User {
 	total_bet: number; // Total apostado
 	wallet: number; // Saldo na carteira
 	score: number; // Pontos
+	forms_progress: number; // Respostas respondidas
+	expectedBet: number; // Quanto o usuário falou que apostaria
 }

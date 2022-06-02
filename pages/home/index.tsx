@@ -22,6 +22,7 @@ import {
 import GoogleIcon from '../../assets/googleIcon.png';
 import Link from 'next/link';
 import { Card } from '../../components/ModalityCard';
+import Router from 'next/router';
 
 import { FaFutbol } from 'react-icons/fa';
 import { MdSportsHandball } from 'react-icons/md';
@@ -38,7 +39,6 @@ interface Card {
 
 export default function Login() {
 	const { setData, user } = useAuth();
-
 	const [selectedCard, setSelectedCard] = useState<Card>({
 		name: '',
 		teams: [''],
@@ -51,6 +51,10 @@ export default function Login() {
 
 	useEffect(() => {
 		// getData();
+
+		if (!user.id) {
+			Router.push('/')
+		}
 	}, []);
 
 	const bet = (card, odd) => {
@@ -67,7 +71,7 @@ export default function Login() {
 				bet_value: betValue,
 				offer: false,
 			})
-			.then((res) => {});
+			.then((res) => { });
 	};
 
 	return (

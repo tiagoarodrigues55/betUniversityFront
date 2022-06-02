@@ -32,7 +32,7 @@ export const updateUser = async (params: User) => {
 	const response = await supabase
 		.from('Users')
 		.update(params)
-		.match(params.user_id);
+		.match(params.id);
 
 	return response;
 };

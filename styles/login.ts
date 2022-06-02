@@ -7,6 +7,9 @@ export const MainStyled = styled.form`
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	.select {
+		width: 300px;
+	}
 `;
 
 export const IMGStyled = styled.img`

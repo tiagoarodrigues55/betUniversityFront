@@ -29,6 +29,7 @@ import { Button } from '../components/Button';
 import { InputPassword } from '../components/InputPassword';
 import { Input } from '../components/Input';
 import Link from 'next/link';
+import LoadingScreen from '../components/LoadingScreen';
 
 const loginSchema = Yup.object().shape({
 	email: Yup.string()
@@ -48,6 +49,7 @@ interface Login {
 
 export default function Login() {
 	const { setData, user } = useAuth();
+	const [loading, setLoading] = useState(false);
 
 	const {
 		control,
@@ -55,15 +57,24 @@ export default function Login() {
 		formState: { errors },
 	} = useForm({ resolver: yupResolver(loginSchema) });
 
+
 	useEffect(() => {
-		setLoginSocialData();
-	}, []);
+		// if (user) {
+		// 	// Router.push('/feed');
+		// } else {
+		const supabaseSession = JSON.parse(
+			window.localStorage.getItem('supabase.auth.token')
+		);
+		if (supabaseSession) {
+			setLoginSocialData()
+		}
+		// }
+	}, [])
 
 	const setLoginSocialData = async () => {
 		const supabaseSession = JSON.parse(
 			window.localStorage.getItem('supabase.auth.token')
 		);
-
 		if (!supabaseSession) return;
 
 		const userSupabase = supabaseSession?.currentSession.user.user_metadata;
@@ -75,9 +86,9 @@ export default function Login() {
 				wallet: 100,
 				isGoogle: true,
 			};
-
+			setLoading(true);
 			const { status, data } = await axios.post('/api/login', payload);
-
+			console.log(data)
 			if (status !== 200) {
 				Swal.fire({
 					text: 'Erro inesperado, tente novamente mais tarde',
@@ -86,17 +97,12 @@ export default function Login() {
 				});
 			} else {
 				if (!data.isUser) {
-					Swal.fire({
-						text: 'E-mail ainda não cadastrado',
-						icon: 'warning',
-						confirmButtonText: 'Criar cadastro',
-					}).then(() => {
-						setData({ email: userSupabase.email });
-						return Router.push('/signup');
-					});
+					console.log("não chegou o user")
+					return Router.push('/forms')
 				} else {
 					setData(data.user);
-					return Router.push('/home');
+					console.log('Chegou o user')
+					return Router.push('/feed');
 				}
 			}
 		}
@@ -107,7 +113,7 @@ export default function Login() {
 			.signIn({
 				provider: 'google',
 			})
-			.then(async () => {
+			.then(async (res) => {
 				setLoginSocialData();
 			});
 	};
@@ -159,53 +165,25 @@ export default function Login() {
 
 	return (
 		<>
-			<MainStyled onSubmit={handleSubmit(login)}>
-				<Image src={Logo} alt="Logo" className="mt-5" />
-				<TitleStyled>Entre na sua conta</TitleStyled>
-				<div style={{ width: '320px' }}>
-					<Input
-						control={control}
-						id="email"
-						name="email"
-						type="email"
-						placeholder="Digite seu e-mail"
-						error={errors.email && errors.email.message}
-					/>
-
-					<InputPassword
-						isControlled={true}
-						control={control}
-						onKeyPress={loginIfEnterPressed}
-						type="password"
-						placeholder="Digite sua senha"
-						name="password"
-						error={errors.password && errors.password.message}
-					/>
-				</div>
-				<Link href="/signup">
-					<LinkStyled>Ainda não possuo cadastro</LinkStyled>
-				</Link>
-				<Button
-					type="submit"
-					border="none"
-					width="300px"
-					text="Entrar"
-					textColor="#fff"
-					dataTestId="loginButton"
-				/>
-				<div style={{ marginTop: '1rem' }}>
-					<Image
-						src={GoogleIcon}
-						className="is-clickable"
-						alt="Picture of the author"
-						width={50}
-						height={50}
+			{!loading ? (
+				<MainStyled onSubmit={handleSubmit(login)}>
+					<Image src={Logo} alt="Logo" className="mt-5" />
+					<TitleStyled>Entre na sua conta</TitleStyled>
+					<Button
+						type="submit"
+						border="none"
+						width="300px"
+						text="Entrar"
+						textColor="#fff"
+						dataTestId="loginButton"
 						onClick={() => {
 							loginSocial();
 						}}
 					/>
-				</div>
-			</MainStyled>
+				</MainStyled>
+			) : (
+				<LoadingScreen />
+			)}
 		</>
 	);
 }

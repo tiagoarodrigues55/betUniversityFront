@@ -1,0 +1,7062 @@
+[
+  {
+    "Faculdade": "ACADEMIA DA FORÇA AÉREA",
+    "Estado": "AFA"
+  },
+  {
+    "Faculdade": "ACADEMIA DA POLÍCIA CIVIL DO ESTADO DA BAHIA",
+    "Estado": "ACADEPOL"
+  },
+  {
+    "Faculdade": "ACADEMIA DE POLÍCIA MILITAR DO BARRO BRANCO",
+    "Estado": "APMBB"
+  },
+  {
+    "Faculdade": "ACADEMIA DE POLÍCIA MILITAR DOM JOÃO VI",
+    "Estado": "APMDJVI"
+  },
+  {
+    "Faculdade": "ACADEMIA DE POLÍCIA MILITAR",
+    "Estado": "APM"
+  },
+  {
+    "Faculdade": "ACADEMIA MILITAR DE AGULHAS NEGRAS",
+    "Estado": "AMAN"
+  },
+  {
+    "Faculdade": "ANHANGUERA EDUCACIONAL S.A.",
+    "Estado": "UNIANHANGUERA"
+  },
+  {
+    "Faculdade": "ANHANGUERA EDUCACIONAL",
+    "Estado": "AESA"
+  },
+  {
+    "Faculdade": "ASSOCIAÇÃO CATARINENSE DE ENSINO",
+    "Estado": "ACE"
+  },
+  {
+    "Faculdade": "ASSOCIAÇÃO DE ENSINO SUPERIOR DO PIAUÍ",
+    "Estado": "AESPI"
+  },
+  {
+    "Faculdade": "ASSOCIAÇÃO SUL MINEIRA DE EDUCAÇÃO E CULTURA",
+    "Estado": "ASMEC"
+  },
+  {
+    "Faculdade": "ASSOCIAÇÃO VILHENENSE DE EDUCAÇÃO E CULTURA",
+    "Estado": "AVEC"
+  },
+  {
+    "Faculdade": "AVM - FACULDADE INTEGRADA",
+    "Estado": "IAVM"
+  },
+  {
+    "Faculdade": "BUSINESS SCHOOL SÃO PAULO",
+    "Estado": "BSP"
+  },
+  {
+    "Faculdade": "CATÓLICA NOSSA SENHORA DAS NEVES",
+    "Estado": "Faculdade"
+  },
+  {
+    "Faculdade": "CENTRO DE EDUCAÇÃO DA AMAZÔNIA",
+    "Estado": "CEAMA"
+  },
+  {
+    "Faculdade": "CENTRO DE EDUCAÇÃO SUPERIOR BARNABITA",
+    "Estado": "CESB"
+  },
+  {
+    "Faculdade": "CENTRO DE EDUCAÇÃO TECNOLÓGICO",
+    "Estado": "CET"
+  },
+  {
+    "Faculdade": "CENTRO DE ENSINO SUPERIOR ARCANJO MIKAEL DE ARAPIRACA",
+    "Estado": "CESAMA"
+  },
+  {
+    "Faculdade": "CENTRO DE ENSINO SUPERIOR CENECISTA DE FARROUPILHA",
+    "Estado": "CESF"
+  },
+  {
+    "Faculdade": "CENTRO DE ENSINO SUPERIOR DE ARCOVERDE",
+    "Estado": "CESA"
+  },
+  {
+    "Faculdade": "CENTRO DE ENSINO SUPERIOR DE CATALÃO 1",
+    "Estado": "CESUC"
+  },
+  {
+    "Faculdade": "CENTRO DE ENSINO SUPERIOR DE CONSELHEIRO LAFAIETE",
+    "Estado": "CES-CL"
+  },
+  {
+    "Faculdade": "CENTRO DE ENSINO SUPERIOR DE ITABIRA",
+    "Estado": "CENSI"
+  },
+  {
+    "Faculdade": "CENTRO DE ENSINO SUPERIOR DE JUIZ DE FORA",
+    "Estado": "CES/JF"
+  },
+  {
+    "Faculdade": "CENTRO DE ENSINO SUPERIOR DE UBERABA",
+    "Estado": "CESUBE"
+  },
+  {
+    "Faculdade": "CENTRO DE ENSINO SUPERIOR DE VITÓRIA",
+    "Estado": "CESV"
+  },
+  {
+    "Faculdade": "CENTRO DE ENSINO SUPERIOR DO AMAPÁ",
+    "Estado": "CEAP"
+  },
+  {
+    "Faculdade": "CENTRO DE ENSINO SUPERIOR DO VALE DO PARNAÍBA",
+    "Estado": "CESVALE"
+  },
+  {
+    "Faculdade": "CENTRO DE ENSINO SUPERIOR DO VALE DO SÃO FRANCISCO",
+    "Estado": "CESVASF"
+  },
+  {
+    "Faculdade": "CENTRO DE ENSINO SUPERIOR DOS CAMPOS GERAIS",
+    "Estado": "CESCAGE"
+  },
+  {
+    "Faculdade": "CENTRO DE ENSINO UNIFICADO DE TERESINA",
+    "Estado": "CEUT"
+  },
+  {
+    "Faculdade": "CENTRO DE ESTUDOS SUPERIORES APRENDIZ",
+    "Estado": "CESA"
+  },
+  {
+    "Faculdade": "CENTRO DE ESTUDOS SUPERIORES DE MACEIÓ",
+    "Estado": "CESMAC"
+  },
+  {
+    "Faculdade": "CENTRO DE INSTRUÇÃO ALMIRANTE BRAZ DE AGUIAR",
+    "Estado": "CIABA"
+  },
+  {
+    "Faculdade": "CENTRO DE INSTRUÇÃO ALMIRANTE GRAÇA ARANHA",
+    "Estado": "CIAGA"
+  },
+  {
+    "Faculdade": "CENTRO EDUCACIONAL CONCEIÇÃO NUNES",
+    "Estado": "CECON"
+  },
+  {
+    "Faculdade": "CENTRO FEDERAL DE EDUCAÇÃO TECNOLÓGICA CELSO SUCKOW DA FONSECA",
+    "Estado": "CEFET/RJ"
+  },
+  {
+    "Faculdade": "CENTRO FEDERAL DE EDUCAÇÃO TECNOLÓGICA DE MINAS GERAIS",
+    "Estado": "CEFETMG"
+  },
+  {
+    "Faculdade": "CENTRO SUPERIOR DE ENSINO E PESQUISA DE MACHADO",
+    "Estado": "CESEP"
+  },
+  {
+    "Faculdade": "CENTRO TÉCNICO-EDUCACIONAL SUPERIOR DO OESTE PARANAENSE",
+    "Estado": "CTESOP"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERISTÁRIO DA FACULDADE ESTÁCIO DE SÁ DE BELO HORIZONTE",
+    "Estado": "FESBH"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO - CATÓLICA DE SANTA CATARINA EM JARAGUÁ DO SUL",
+    "Estado": "Católica em Jaraguá"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO ADVENTISTA DE SÃO PAULO",
+    "Estado": "UNASP"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO ADVENTISTA DE SÃO PAULO",
+    "Estado": "UNASP"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO AMPARENSE",
+    "Estado": "UNIFIA"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO ANHANGUERA DE NITERÓI",
+    "Estado": "UNIAN"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO ANHANGUERA DE SÃO PAULO",
+    "Estado": "UNIBERO"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO ANHANGÜERA",
+    "Estado": "UNIFIAN"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO ANTÔNIO EUFRÁSIO DE TOLEDO DE PRESIDENTE PRUDENTE",
+    "Estado": "FIAETPP"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO ASSUNÇÃO",
+    "Estado": "UNIFAI"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO AUGUSTO MOTTA",
+    "Estado": "UNISUAM"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO BARÃO DE MAUÁ",
+    "Estado": "CBM"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO BELAS ARTES DE SÃO PAULO",
+    "Estado": "FEBASP"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO CAMPOS DE ANDRADE",
+    "Estado": "UNIANDRADE"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO CARIOCA",
+    "Estado": "UNICARIOCA"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO CATÓLICO SALESIANO AUXILIUM",
+    "Estado": "UNISALESIANO"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO CELSO LISBOA",
+    "Estado": "UCL"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO CENTRAL PAULISTA",
+    "Estado": "UNICEP"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO CLARETIANO",
+    "Estado": "CEUCLAR"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO CURITIBA",
+    "Estado": "UNICURITIBA"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO CÂNDIDO RONDON",
+    "Estado": "UNIRONDON"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DA CIDADE DO RIO DE JANEIRO",
+    "Estado": "UNIVERCIDADE"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DA FUNDAÇÃO EDUCACIONAL DE BARRETOS",
+    "Estado": "UNIFEB"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DA FUNDAÇÃO EDUCACIONAL INACIANA PE SABÓIA DE MEDEIROS",
+    "Estado": "FEI"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DA GRANDE DOURADOS",
+    "Estado": "UNIGRAN"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DAS FACULDADES ASSOCIADAS DE ENSINO",
+    "Estado": "UNIFAE"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DAS FACULDADES METROPOLITANAS UNIDAS",
+    "Estado": "FMU"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE ANÁPOLIS",
+    "Estado": "UNIEVANGÉLICA"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE ARARAQUARA",
+    "Estado": "UNIARA"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE ARARAS - DR. EDMUNDO ULSON",
+    "Estado": "UNAR"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE BARRA MANSA",
+    "Estado": "UBM"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE BELFORD ROXO",
+    "Estado": "UNIABEU"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE BELO HORIZONTE",
+    "Estado": "UNIBH"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE BRASÍLIA",
+    "Estado": "CEUB"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE BRUSQUE",
+    "Estado": "UNIFEBE"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE CAMPO GRANDE",
+    "Estado": "UNAES"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE CARATINGA",
+    "Estado": "UNEC"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE DESENVOLVIMENTO DO CENTRO OESTE",
+    "Estado": "UNIDESC"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE ENSINO SUPERIOR DO AMAZONAS",
+    "Estado": "Ciesa"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE FORMIGA",
+    "Estado": "UNIFORMG"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE FRANCA",
+    "Estado": "UniFACEF"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE ITAJUBÁ",
+    "Estado": "UNIVERSITAS"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE JARAGUÁ DO SUL",
+    "Estado": "UNERJ"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE JOÃO PESSOA",
+    "Estado": "UNIPE"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE LAVRAS",
+    "Estado": "UNILAVRAS"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE MANDAGUARI - UNIMAN",
+    "Estado": "FAFIMAN"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE MARINGÁ",
+    "Estado": "CESUMAR"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE MINEIROS",
+    "Estado": "UNIFIMES"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE PATOS DE MINAS",
+    "Estado": "UNIPAM"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE RIO PRETO",
+    "Estado": "UNIRP"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE SETE LAGOAS MONSENHOR MESSIAS",
+    "Estado": "UNIFEMM"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE UNIÃO DA VITÓRIA",
+    "Estado": "UNIUV"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE VOLTA REDONDA",
+    "Estado": "UNIFOA"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE VOTUPORANGA",
+    "Estado": "UNIFEV"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DE VÁRZEA GRANDE",
+    "Estado": "UNIVAG"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DINÂMICA DAS CATARATAS",
+    "Estado": "UDC"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DO CERRADO  PATROCÍNIO",
+    "Estado": "UNICERP"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DO DISTRITO FEDERAL",
+    "Estado": "UDF"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DO ESPÍRITO SANTO",
+    "Estado": "UNESC"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DO INSTITUTO MAUÁ DE TECNOLOGIA",
+    "Estado": "CEUN-IMT"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DO LESTE DE MINAS GERAIS",
+    "Estado": "UNILESTE/MG"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DO MARANHÃO",
+    "Estado": "UNICEUMA"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DO NORTE PAULISTA",
+    "Estado": "UNORP"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DO NORTE",
+    "Estado": "Uninorte"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DO PARÁ",
+    "Estado": "CESUPA"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DO PLANALTO DE ARAXÁ",
+    "Estado": "UNIARAXÁ"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DO TRIÂNGULO",
+    "Estado": "UNITRI"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO DO VALE DO IPOJUCA",
+    "Estado": "UNIVIP"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO ESTÁCIO DA BAHIA",
+    "Estado": "ESTÁCIO FIB"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO ESTÁCIO DE SÁ DE SANTA CATARINA",
+    "Estado": "FESSC"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO ESTÁCIO RADIAL DE SÃO PAULO - ESTÁCIO UNIRADIAL",
+    "Estado": "ESTÁCIO UNIRADIAL"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO EURO-AMERICANO",
+    "Estado": "UNIEURO"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO EURÍPEDES DE MARÍLIA",
+    "Estado": "UNIVEM"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO FILADÉLFIA",
+    "Estado": "UNIFIL"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO FLUMINENSE",
+    "Estado": "UNIFLU"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO FRANCISCANO",
+    "Estado": "UNIFRA"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO FUNDAÇÃO DE ENSINO OCTÁVIO BASTOS - FEOB",
+    "Estado": "UNIFEOB"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO FUNDAÇÃO INSTITUTO DE ENSINO PARA OSASCO",
+    "Estado": "UNIFIEO"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO FUNDAÇÃO SANTO ANDRÉ",
+    "Estado": "CUFSA"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO GERALDO DI BIASE",
+    "Estado": "UGB"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO HERMINIO OMETTO",
+    "Estado": "UNIARARAS"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO HERMÍNIO DA SILVEIRA",
+    "Estado": "UNI IBMR"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO INTERNACIONAL",
+    "Estado": "UNINTER"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO JORGE AMADO",
+    "Estado": "UNIJORGE"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO LA SALLE",
+    "Estado": "UNILASALLE"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO LEONARDO DA VINCI",
+    "Estado": "UNIASSELVI"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO LUTERANO DE JIPARANÁ",
+    "Estado": "CEULJI/ULBRA"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO LUTERANO DE PALMAS",
+    "Estado": "CEULP/ULBRA"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO LUTERANO DE SANTARÉM",
+    "Estado": "CEULS"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO MAURICIO DE NASSAU",
+    "Estado": "UNINASSAU"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO METODISTA IZABELA HENDRIX",
+    "Estado": "CEUNIH"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO METODISTA",
+    "Estado": "IPA"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO METROPOLITANO DE SÃO PAULO",
+    "Estado": "UNIMESP"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO MOACYR SREDER BASTOS",
+    "Estado": "UNIMSB"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO MONTE SERRAT",
+    "Estado": "UNIMONTE"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO MOURA LACERDA",
+    "Estado": "CUML"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO NEWTON PAIVA",
+    "Estado": "NEWTON PAIVA"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO NILTON LINS",
+    "Estado": "UNINILTONLINS"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO NOSSA SENHORA DO PATROCÍNIO",
+    "Estado": "CEUNSP"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO PADRE ANCHIETA",
+    "Estado": "UNIANCHIETA"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO PARA O DESENVOLVIMENTO DO ALTO VALE DO ITAJAÍ",
+    "Estado": "UNIDAVI"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO PLANALTO DO DISTRITO FEDERAL",
+    "Estado": "UNIPLAN"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO RITTER DOS REIS",
+    "Estado": "UNIRITTER"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO SALESIANO DE SÃO PAULO",
+    "Estado": "UNISAL"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO SANT'ANNA",
+    "Estado": "UNISANT'ANNA"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO SERRA DOS ÓRGÃOS",
+    "Estado": "UNIFESO"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO SÃO CAMILO",
+    "Estado": "CUSC"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO SÃO CAMILO",
+    "Estado": "CUSC"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO TIRADENTES",
+    "Estado": "FITS"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO UNA",
+    "Estado": "UNA"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO UNIRG",
+    "Estado": "UnirG"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO UNIVATES",
+    "Estado": "UNIVATES"
+  },
+  {
+    "Faculdade": "CENTRO UNIVERSITÁRIO ÍTALO-BRASILEIRO",
+    "Estado": "UNIÍTALO"
+  },
+  {
+    "Faculdade": "CHRISTUS FACULDADE DO PIAUÍ",
+    "Estado": "CHRISFAPI"
+  },
+  {
+    "Faculdade": "CLARETIANO REDE DE EDUCAÇÃO",
+    "Estado": "CLARETIANO"
+  },
+  {
+    "Faculdade": "CONSERVATÓRIO BRASILEIRO DE MÚSICA - CENTRO UNIVERSITÁRIO",
+    "Estado": "CBM/CEU"
+  },
+  {
+    "Faculdade": "ESCOLA BAHIANA DE MEDICINA E SAÚDE PÚBLICA",
+    "Estado": "EBMSP"
+  },
+  {
+    "Faculdade": "ESCOLA BRASILEIRA DE ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS",
+    "Estado": "EBAPE"
+  },
+  {
+    "Faculdade": "ESCOLA BRASILEIRA DE ECONOMIA E FINANÇAS",
+    "Estado": "EBEF"
+  },
+  {
+    "Faculdade": "ESCOLA DA CIDADE - FACULDADE DE ARQUITETURA E URBANISMO",
+    "Estado": "ESCOLA DA CIDADE"
+  },
+  {
+    "Faculdade": "ESCOLA DE ADMINISTRAÇÃO DE EMPRESAS DE SÃO PAULO",
+    "Estado": "FGV-EAESP"
+  },
+  {
+    "Faculdade": "ESCOLA DE ADMINISTRAÇÃO DO EXÉRCITO",
+    "Estado": "ESAEX"
+  },
+  {
+    "Faculdade": "ESCOLA DE DIREITO DE SÃO PAULO",
+    "Estado": "DIREITO GV"
+  },
+  {
+    "Faculdade": "ESCOLA DE DIREITO DO RIO DE JANEIRO",
+    "Estado": "DIREITO RIO"
+  },
+  {
+    "Faculdade": "ESCOLA DE ECONOMIA DE SÃO PAULO",
+    "Estado": "EESP"
+  },
+  {
+    "Faculdade": "ESCOLA DE EDUCAÇÃO FÍSICA DE ASSIS",
+    "Estado": "EEFA"
+  },
+  {
+    "Faculdade": "ESCOLA DE ENFERMAGEM WENCESLAU BRAZ",
+    "Estado": "EEWB"
+  },
+  {
+    "Faculdade": "ESCOLA DE ENGENHARIA DE PIRACICABA",
+    "Estado": "EEP/FUMEP"
+  },
+  {
+    "Faculdade": "ESCOLA DE ENGENHARIA ELETROMECÂNICA DA BAHIA",
+    "Estado": "ESEEMB"
+  },
+  {
+    "Faculdade": "ESCOLA DE ENGENHARIA KENNEDY",
+    "Estado": "EEK"
+  },
+  {
+    "Faculdade": "ESCOLA DE ENSINO SUPERIOR ANÍSIO TEIXEIRA",
+    "Estado": "CESAT"
+  },
+  {
+    "Faculdade": "ESCOLA DE ESCTUDOS SUPERIORES DE VIÇOSA",
+    "Estado": "ESUV"
+  },
+  {
+    "Faculdade": "ESCOLA DE GOVERNO PROFESSOR PAULO NEVES DE CARVALHO",
+    "Estado": "EG"
+  },
+  {
+    "Faculdade": "ESCOLA DE MÚSICA E BELAS ARTES DO PARANÁ",
+    "Estado": "EMBAP"
+  },
+  {
+    "Faculdade": "ESCOLA NACIONAL DE CIÊNCIAS ESTATÍSTICAS",
+    "Estado": "ENCE"
+  },
+  {
+    "Faculdade": "ESCOLA NAVAL",
+    "Estado": "EN"
+  },
+  {
+    "Faculdade": "ESCOLA PERNAMBUCANA DE SAÚDE",
+    "Estado": "FBVIMIP"
+  },
+  {
+    "Faculdade": "ESCOLA POLITÉCNICA DE PERNAMBUCO",
+    "Estado": "POLI"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR ASSOCIADA DE GOIÂNIA",
+    "Estado": "ESUP"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR BATISTA DO AMAZONAS",
+    "Estado": "Esbam"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR DA AMAZÔNIA",
+    "Estado": "ESAMAZ"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR DE ADMINISTRAÇÃO E GESTÃO",
+    "Estado": "ESAGS"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR DE CIÊNCIAS DA SANTA CASA DE MISERICÓRDIA DE VITÓRIA",
+    "Estado": "EMESCAM"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR DE CIÊNCIAS DA SAÚDE",
+    "Estado": "ESCS"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR DE CRICIÚMA - ESUCRI",
+    "Estado": "ESUCRI"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR DE CRUZEIRO PREFEITO HAMILTON VIEIRA MENDES",
+    "Estado": "ESEFIC"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR DE EDUCAÇÃO FÍSICA DE JUNDIAÍ",
+    "Estado": "ESEFJ"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR DE EDUCAÇÃO FÍSICA",
+    "Estado": "ESEF"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR DE ENGENHARIA E GESTÃO DE SÃO PAULO - ESEG",
+    "Estado": "ESEG"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR DE ENSINO HELENA ANTIPOFF",
+    "Estado": "ESEHA"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR DE ESTUDOS EMPRESARIAIS E INFORMÁTICA",
+    "Estado": "ESEEI"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR DE GESTÃO COMERCIAL E MARKETING",
+    "Estado": "ESIC"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR DE HOTELARIA CASTELLI",
+    "Estado": "CASTELLI"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR DE MARKETING",
+    "Estado": "ESM"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR DE MÚSICA E ARTES DO RIO GRANDE DO SUL",
+    "Estado": "ESMARGS"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR DE PROPAGANDA E MARKETING",
+    "Estado": "ESPM"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR DE RELAÇÕES PÚBLICAS",
+    "Estado": "Esurp"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR DE SAÚDE DE ARCOVERDE",
+    "Estado": "ESSA"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR DE SECRETARIADO DE PERNAMBUCO",
+    "Estado": "ESUSPE"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR DE TECNOLOGIA E EDUCAÇÃO DE PORTO FERREIRA",
+    "Estado": "ESPF"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR DE TECNOLOGIA E EDUCAÇÃO DE RIO CLARO",
+    "Estado": "ESRC"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR DOM HELDER CÂMARA",
+    "Estado": "ESDHC"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR EM MEIO AMBIENTE",
+    "Estado": "ESMA"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR MADRE CELESTE",
+    "Estado": "ESMAC"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR NACIONAL DE SEGUROS",
+    "Estado": "ESNS"
+  },
+  {
+    "Faculdade": "ESCOLA SUPERIOR SÃO FRANCISCO DE ASSIS",
+    "Estado": "ESFA"
+  },
+  {
+    "Faculdade": "ESCOLA TÉCNICA E SUPERIOR MACHADO DE ASSIS  SANTA ROSA",
+    "Estado": "FEMA"
+  },
+  {
+    "Faculdade": "ESTÁCIO DE SÁ  FACULDADE DO PARÁ",
+    "Estado": "ESTÁCIO FAP"
+  },
+  {
+    "Faculdade": "ESTÁCIO FATERN - FACULDADE ESTÁCIO DO RIO GRANDE DO NORTE",
+    "Estado": "ESTÁCIO FATERN"
+  },
+  {
+    "Faculdade": "FACISA-UNAI FACULDADE DE CIÊNCIAS DA SAÚDE DE UNAÍ",
+    "Estado": "FACISA-UNAI"
+  },
+  {
+    "Faculdade": "FACULDADE 7 DE SETEMBRO",
+    "Estado": "Fa7"
+  },
+  {
+    "Faculdade": "FACULDADE ADELMAR ROSADO",
+    "Estado": "FAR"
+  },
+  {
+    "Faculdade": "FACULDADE ADVENTISTA DA BAHIA",
+    "Estado": "FADBA"
+  },
+  {
+    "Faculdade": "FACULDADE ADVENTISTA DE HORTOLÂNDIA",
+    "Estado": "FAH"
+  },
+  {
+    "Faculdade": "FACULDADE ADVENTISTA PARANAENSE",
+    "Estado": "IAP"
+  },
+  {
+    "Faculdade": "FACULDADE AFIRMATIVO",
+    "Estado": "FAFI"
+  },
+  {
+    "Faculdade": "FACULDADE AIEC",
+    "Estado": "AIEC / FAAB"
+  },
+  {
+    "Faculdade": "FACULDADE ALAGOANA DE ADMINISTRAÇÃO",
+    "Estado": "FAA"
+  },
+  {
+    "Faculdade": "FACULDADE ALBERT EINSTEIN",
+    "Estado": "FALBE"
+  },
+  {
+    "Faculdade": "FACULDADE ALDETE MARIA ALVES",
+    "Estado": "FAMA"
+  },
+  {
+    "Faculdade": "FACULDADE ALFA BRASIL",
+    "Estado": "FAAB"
+  },
+  {
+    "Faculdade": "FACULDADE ALFACASTELO",
+    "Estado": "FCGB"
+  },
+  {
+    "Faculdade": "FACULDADE ALFREDO NASSER",
+    "Estado": "FAN"
+  },
+  {
+    "Faculdade": "FACULDADE ALIANÇA",
+    "Estado": "ALIANÇA"
+  },
+  {
+    "Faculdade": "FACULDADE ALMEIDA RODRIGUES",
+    "Estado": "FAR"
+  },
+  {
+    "Faculdade": "FACULDADE ALVES FARIA",
+    "Estado": "ALFA"
+  },
+  {
+    "Faculdade": "FACULDADE ALVORADA DE EDUCAÇÃO FÍSICA E DESPORTO",
+    "Estado": "FAEFD"
+  },
+  {
+    "Faculdade": "FACULDADE ALVORADA DE TECNOLOGIA E EDUCAÇÃO DE MARINGÁ",
+    "Estado": "FACULDADE ALVORADA"
+  },
+  {
+    "Faculdade": "FACULDADE AMADEUS",
+    "Estado": "FAMA"
+  },
+  {
+    "Faculdade": "FACULDADE AMEC TRABUCO",
+    "Estado": "AMAEC"
+  },
+  {
+    "Faculdade": "FACULDADE ANCHIETA DE ENSINO SUPERIOR DO PARANÁ",
+    "Estado": "FAESP"
+  },
+  {
+    "Faculdade": "FACULDADE ANCHIETA DO RECIFE",
+    "Estado": "FAR"
+  },
+  {
+    "Faculdade": "FACULDADE ANCHIETA",
+    "Estado": "IGABC"
+  },
+  {
+    "Faculdade": "FACULDADE ANGLICANA DE ERECHIM",
+    "Estado": "FAE"
+  },
+  {
+    "Faculdade": "FACULDADE ANGLO-AMERICANO DE JOÃO PESSOA",
+    "Estado": "FAAJP"
+  },
+  {
+    "Faculdade": "FACULDADE ANGLO-AMERICANO",
+    "Estado": "FAA"
+  },
+  {
+    "Faculdade": "FACULDADE ANGLOAMERICANO DE CAXIAS DO SUL",
+    "Estado": "FAACS"
+  },
+  {
+    "Faculdade": "FACULDADE ANHANGUERA DE ANÁPOLIS",
+    "Estado": "FAA"
+  },
+  {
+    "Faculdade": "FACULDADE ANHANGUERA DE BRASÍLIA",
+    "Estado": "FAB"
+  },
+  {
+    "Faculdade": "FACULDADE ANHANGUERA DE CASCAVEL",
+    "Estado": "FACIAP"
+  },
+  {
+    "Faculdade": "FACULDADE ANHANGUERA DE CAXIAS DO SUL",
+    "Estado": "FACS"
+  },
+  {
+    "Faculdade": "FACULDADE ANHANGUERA DE CIÊNCIAS E TECNOLOGIA DE BRASÍLIA",
+    "Estado": "FACITEB"
+  },
+  {
+    "Faculdade": "FACULDADE ANHANGUERA DE CUIABÁ",
+    "Estado": "FAC"
+  },
+  {
+    "Faculdade": "FACULDADE ANHANGUERA DE EDUCAÇÃO CIÊNCIAS E TECNOLOGIA DE SOROCABA",
+    "Estado": "FAECTS"
+  },
+  {
+    "Faculdade": "FACULDADE ANHANGUERA DE GUARULHOS",
+    "Estado": "FIT"
+  },
+  {
+    "Faculdade": "FACULDADE ANHANGUERA DE NEGÓCIOS E TECNOLOGIAS DA INFORMAÇÃO",
+    "Estado": "FACNET"
+  },
+  {
+    "Faculdade": "FACULDADE ANHANGUERA DE OSASCO",
+    "Estado": "FIZO"
+  },
+  {
+    "Faculdade": "FACULDADE ANHANGUERA DE SERTÃOZINHO",
+    "Estado": "FASERT"
+  },
+  {
+    "Faculdade": "FACULDADE ANHANGUERA DE SUMARÉ",
+    "Estado": "FACSUMARÉ"
+  },
+  {
+    "Faculdade": "FACULDADE ANHANGUERA DE SÃO BERNARDO",
+    "Estado": "FASBC"
+  },
+  {
+    "Faculdade": "FACULDADE ANHANGUERA DE SÃO CAETANO",
+    "Estado": "Fasc"
+  },
+  {
+    "Faculdade": "FACULDADE ANHANGUERA DE TABOÃO DA SERRA",
+    "Estado": "FATS"
+  },
+  {
+    "Faculdade": "FACULDADE ANHANGUERA DE TAGUATINGA",
+    "Estado": "FAST"
+  },
+  {
+    "Faculdade": "FACULDADE ANHANGUERA DE TECNOLOGIA DE JUNDUAÍ",
+    "Estado": "FATJ"
+  },
+  {
+    "Faculdade": "FACULDADE ANHANGUERA DE VALPARAÍSO",
+    "Estado": "FAV"
+  },
+  {
+    "Faculdade": "FACULDADE ANHANGUERA JARAGUÁ DO SUL",
+    "Estado": "FATEJA"
+  },
+  {
+    "Faculdade": "FACULDADE ANHANGÜERA DE DOURADOS",
+    "Estado": "FAD"
+  },
+  {
+    "Faculdade": "FACULDADE ANHANGÜERA DE SOROCABA",
+    "Estado": "FSO"
+  },
+  {
+    "Faculdade": "FACULDADE ANTONIO MENEGHETTI",
+    "Estado": "FAM"
+  },
+  {
+    "Faculdade": "FACULDADE ANÍSIO TEIXEIRA DE FEIRA DE SANTANA",
+    "Estado": "FAT"
+  },
+  {
+    "Faculdade": "FACULDADE APOGEU",
+    "Estado": "APOGEU"
+  },
+  {
+    "Faculdade": "FACULDADE ARAGUAIA",
+    "Estado": "FARA"
+  },
+  {
+    "Faculdade": "FACULDADE ARNALDO HORÁCIO FERREIRA",
+    "Estado": "FAAHF"
+  },
+  {
+    "Faculdade": "FACULDADE ARQUIDIOCESANA DE CURVELO",
+    "Estado": "FAC"
+  },
+  {
+    "Faculdade": "FACULDADE ARTHUR SÁ EARP NETO",
+    "Estado": "FASE"
+  },
+  {
+    "Faculdade": "FACULDADE ARTHUR THOMAS",
+    "Estado": "CESA"
+  },
+  {
+    "Faculdade": "FACULDADE ASA DE BRUMADINHO",
+    "Estado": "IECEMB - FAB"
+  },
+  {
+    "Faculdade": "FACULDADE ASCES",
+    "Estado": "ASCES"
+  },
+  {
+    "Faculdade": "FACULDADE ASSIS GURGACZ",
+    "Estado": "FAG"
+  },
+  {
+    "Faculdade": "FACULDADE ASSOCIADA BRASIL",
+    "Estado": "FAB"
+  },
+  {
+    "Faculdade": "FACULDADE ASTORGA",
+    "Estado": "FAAST"
+  },
+  {
+    "Faculdade": "FACULDADE ATENAS MARANHENSE",
+    "Estado": "FAMA"
+  },
+  {
+    "Faculdade": "FACULDADE ATENEU",
+    "Estado": "FATE"
+  },
+  {
+    "Faculdade": "FACULDADE ATLÂNTICO",
+    "Estado": "ATLANTICO"
+  },
+  {
+    "Faculdade": "FACULDADE ATUAL",
+    "Estado": "FAAT"
+  },
+  {
+    "Faculdade": "FACULDADE AUTÔNOMA DE DIREITO",
+    "Estado": "FADISP"
+  },
+  {
+    "Faculdade": "FACULDADE AVANTIS",
+    "Estado": "AVANTIS"
+  },
+  {
+    "Faculdade": "FACULDADE AVEC DE VILHENA",
+    "Estado": "AVEC"
+  },
+  {
+    "Faculdade": "FACULDADE AÇÃO",
+    "Estado": "FCTVALE"
+  },
+  {
+    "Faculdade": "FACULDADE BAIANA DE CIÊNCIAS CONTÁBEIS",
+    "Estado": "FABAC"
+  },
+  {
+    "Faculdade": "FACULDADE BAIANA DE DIREITO",
+    "Estado": "FBD"
+  },
+  {
+    "Faculdade": "FACULDADE BARDDAL DE ARTES APLICADAS",
+    "Estado": "FB-AA"
+  },
+  {
+    "Faculdade": "FACULDADE BARDDAL",
+    "Estado": "FB-SI"
+  },
+  {
+    "Faculdade": "FACULDADE BARRETOS",
+    "Estado": "FB"
+  },
+  {
+    "Faculdade": "FACULDADE BARÃO DO RIO BRANCO",
+    "Estado": "FAB"
+  },
+  {
+    "Faculdade": "FACULDADE BATISTA BRASILEIRA",
+    "Estado": "FBB"
+  },
+  {
+    "Faculdade": "FACULDADE BATISTA BRASILEIRA",
+    "Estado": "FBB"
+  },
+  {
+    "Faculdade": "FACULDADE BATISTA DE MINAS GERAIS",
+    "Estado": "FBMG"
+  },
+  {
+    "Faculdade": "FACULDADE BATISTA DE VITORIA",
+    "Estado": "FABAVI"
+  },
+  {
+    "Faculdade": "FACULDADE BATISTA DO RIO DE JANEIRO",
+    "Estado": "FABAT"
+  },
+  {
+    "Faculdade": "FACULDADE BERTIOGA",
+    "Estado": "FABE"
+  },
+  {
+    "Faculdade": "FACULDADE BETIM",
+    "Estado": "FABE"
+  },
+  {
+    "Faculdade": "FACULDADE BEZERRA DE ARAÚJO",
+    "Estado": "FABA"
+  },
+  {
+    "Faculdade": "FACULDADE BIRIGUI",
+    "Estado": "FABI"
+  },
+  {
+    "Faculdade": "FACULDADE BOA VIAGEM",
+    "Estado": "FBV"
+  },
+  {
+    "Faculdade": "FACULDADE BOAS NOVAS DE CIÊNCIAS TEOLÓGICAS SOCIAIS E BIOTECNOLÓGICAS",
+    "Estado": "FBNCTSB"
+  },
+  {
+    "Faculdade": "FACULDADE BORGES DE MENDONÇA",
+    "Estado": "FBM"
+  },
+  {
+    "Faculdade": "FACULDADE BRASIL CENTRAL",
+    "Estado": "FBC"
+  },
+  {
+    "Faculdade": "FACULDADE BRASIL NORTE",
+    "Estado": "FABRAN"
+  },
+  {
+    "Faculdade": "FACULDADE BRASILEIRA DE EDUCAÇÃO E CULTURA",
+    "Estado": "FABEC BRASIL"
+  },
+  {
+    "Faculdade": "FACULDADE BRASILEIRA",
+    "Estado": "MULTIVIX VITÓRIA"
+  },
+  {
+    "Faculdade": "FACULDADE BRASILEIRA",
+    "Estado": "UNIVIX"
+  },
+  {
+    "Faculdade": "FACULDADE BRASÍLIA DE SÃO PAULO",
+    "Estado": "FABRASP"
+  },
+  {
+    "Faculdade": "FACULDADE BÉTHENCOURT DA SILVA",
+    "Estado": "FABES"
+  },
+  {
+    "Faculdade": "FACULDADE CALAFIORI",
+    "Estado": "CALAFIORI"
+  },
+  {
+    "Faculdade": "FACULDADE CAMAQÜENSE DE CIÊNCIAS CONTÁBEIS E ADMINISTRATIVAS",
+    "Estado": "FACCCA"
+  },
+  {
+    "Faculdade": "FACULDADE CAMBURY",
+    "Estado": "CAMBURY"
+  },
+  {
+    "Faculdade": "FACULDADE CAMPO GRANDE",
+    "Estado": "FCG"
+  },
+  {
+    "Faculdade": "FACULDADE CAMPO REAL",
+    "Estado": "CAMPO REAL"
+  },
+  {
+    "Faculdade": "FACULDADE CAMPOS ELÍSEOS",
+    "Estado": "FCE"
+  },
+  {
+    "Faculdade": "FACULDADE CANDIDO MENDES DE VITÓRIA",
+    "Estado": "FCMV"
+  },
+  {
+    "Faculdade": "FACULDADE CAPIVARI",
+    "Estado": "FUCAP"
+  },
+  {
+    "Faculdade": "FACULDADE CAPIXABA DA SERRA",
+    "Estado": "MULTIVIX SERRA"
+  },
+  {
+    "Faculdade": "FACULDADE CAPIXABA DE NOVA VENÉCIA",
+    "Estado": "MULTIVIX NOVA VENÉCI"
+  },
+  {
+    "Faculdade": "FACULDADE CARLOS DRUMMOND DE ANDRADE",
+    "Estado": "FCDA"
+  },
+  {
+    "Faculdade": "FACULDADE CASA BRANCA",
+    "Estado": "FACAB"
+  },
+  {
+    "Faculdade": "FACULDADE CASA DO ESTUDANTE",
+    "Estado": "FACE"
+  },
+  {
+    "Faculdade": "FACULDADE CASTELO BRANCO",
+    "Estado": "FCB"
+  },
+  {
+    "Faculdade": "FACULDADE CASTRO ALVES",
+    "Estado": "FCA"
+  },
+  {
+    "Faculdade": "FACULDADE CATUAÍ",
+    "Estado": "ICES"
+  },
+  {
+    "Faculdade": "FACULDADE CATÓLICA DE ANÁPOLIS",
+    "Estado": "Fac"
+  },
+  {
+    "Faculdade": "FACULDADE CATÓLICA DE CIÊNCIAS ECONÔMICAS DA BAHIA",
+    "Estado": "FACCEBA"
+  },
+  {
+    "Faculdade": "FACULDADE CATÓLICA DE FORTALEZA",
+    "Estado": "FCF"
+  },
+  {
+    "Faculdade": "FACULDADE CATÓLICA DE POUSO ALEGRE",
+    "Estado": "FACAPA"
+  },
+  {
+    "Faculdade": "FACULDADE CATÓLICA DE RONDONIA",
+    "Estado": "FCR"
+  },
+  {
+    "Faculdade": "FACULDADE CATÓLICA DE UBERLÂNDIA",
+    "Estado": "FCU"
+  },
+  {
+    "Faculdade": "FACULDADE CATÓLICA DO CEARÁ",
+    "Estado": "FCC"
+  },
+  {
+    "Faculdade": "FACULDADE CATÓLICA DO TOCANTINS",
+    "Estado": "FACTO"
+  },
+  {
+    "Faculdade": "FACULDADE CATÓLICA DOM ORIONE",
+    "Estado": "FACDO"
+  },
+  {
+    "Faculdade": "FACULDADE CATÓLICA RAINHA DA PAZ DE ARAPUTANGA",
+    "Estado": "FCARP"
+  },
+  {
+    "Faculdade": "FACULDADE CATÓLICA RAINHA DO SERTÃO",
+    "Estado": "FCRS"
+  },
+  {
+    "Faculdade": "FACULDADE CATÓLICA SANTA TERESINHA",
+    "Estado": "FCST"
+  },
+  {
+    "Faculdade": "FACULDADE CCAA",
+    "Estado": "FAC CCAA"
+  },
+  {
+    "Faculdade": "FACULDADE CECAP DO LAGO NORTE",
+    "Estado": "CECAP"
+  },
+  {
+    "Faculdade": "FACULDADE CENECISTA DE BENTO GONÇALVES",
+    "Estado": "FACEBG"
+  },
+  {
+    "Faculdade": "FACULDADE CENECISTA DE CAMPO LARGO",
+    "Estado": "FACECLA"
+  },
+  {
+    "Faculdade": "FACULDADE CENECISTA DE ITABORAÍ",
+    "Estado": "FACNEC"
+  },
+  {
+    "Faculdade": "FACULDADE CENECISTA DE JOINVILLE - FACE",
+    "Estado": "FCJ"
+  },
+  {
+    "Faculdade": "FACULDADE CENECISTA DE NOVA PETRÓPOLIS",
+    "Estado": "FACENP"
+  },
+  {
+    "Faculdade": "FACULDADE CENECISTA DE OSÓRIO",
+    "Estado": "FACOS"
+  },
+  {
+    "Faculdade": "FACULDADE CENECISTA DE RIO DAS OSTRAS",
+    "Estado": "FCRO"
+  },
+  {
+    "Faculdade": "FACULDADE CENECISTA DE RONDONÓPOLIS",
+    "Estado": "FACER"
+  },
+  {
+    "Faculdade": "FACULDADE CENECISTA DE SETE LAGOAS",
+    "Estado": "FCSL"
+  },
+  {
+    "Faculdade": "FACULDADE CENECISTA DE SINOP",
+    "Estado": "FACENOP"
+  },
+  {
+    "Faculdade": "FACULDADE CENECISTA DE VARGINHA",
+    "Estado": "FACECA"
+  },
+  {
+    "Faculdade": "FACULDADE CENECISTA DE VILA VELHA",
+    "Estado": "FACEVV"
+  },
+  {
+    "Faculdade": "FACULDADE CENECISTA ILHA DO GOVERNADOR",
+    "Estado": "FACIG"
+  },
+  {
+    "Faculdade": "FACULDADE CENECISTA NOSSA SENHORA DOS ANJOS",
+    "Estado": "FACENSA"
+  },
+  {
+    "Faculdade": "FACULDADE CENTRAL DE CRISTALINA",
+    "Estado": "FACEC"
+  },
+  {
+    "Faculdade": "FACULDADE CENTRO OESTE",
+    "Estado": "FACEOPAR"
+  },
+  {
+    "Faculdade": "FACULDADE CENTRO PAULISTA",
+    "Estado": "CESI"
+  },
+  {
+    "Faculdade": "FACULDADE CESMAC DO SERTÃO",
+    "Estado": "CESMAC Sertão"
+  },
+  {
+    "Faculdade": "FACULDADE CHRISTUS",
+    "Estado": "UNICHRISTUS"
+  },
+  {
+    "Faculdade": "FACULDADE CIDADE DE COROMANDEL",
+    "Estado": "FCC"
+  },
+  {
+    "Faculdade": "FACULDADE CIDADE DE JOÃO PINHEIRO",
+    "Estado": "FCJP"
+  },
+  {
+    "Faculdade": "FACULDADE CIDADE DE PATOS DE MINAS",
+    "Estado": "FPM"
+  },
+  {
+    "Faculdade": "FACULDADE CIDADE DO SALVADOR",
+    "Estado": "FCS"
+  },
+  {
+    "Faculdade": "FACULDADE CIDADE LUZ",
+    "Estado": "FACILUZ"
+  },
+  {
+    "Faculdade": "FACULDADE CIDADE VERDE",
+    "Estado": "FCV"
+  },
+  {
+    "Faculdade": "FACULDADE CIÊNCIAS DA VIDA",
+    "Estado": "FCV"
+  },
+  {
+    "Faculdade": "FACULDADE CONCÓRDIA",
+    "Estado": "FACC"
+  },
+  {
+    "Faculdade": "FACULDADE CORPORATIVA CESPI",
+    "Estado": "FACESPI"
+  },
+  {
+    "Faculdade": "FACULDADE COTEMIG",
+    "Estado": "COTEMIG"
+  },
+  {
+    "Faculdade": "FACULDADE CRISTO REI",
+    "Estado": "FACCREI"
+  },
+  {
+    "Faculdade": "FACULDADE CRUZ AZUL",
+    "Estado": "FACRAZ"
+  },
+  {
+    "Faculdade": "FACULDADE CUIABÁ",
+    "Estado": "FAUC"
+  },
+  {
+    "Faculdade": "FACULDADE CÁSPER LÍBERO",
+    "Estado": "FCL"
+  },
+  {
+    "Faculdade": "FACULDADE CÂMARA CASCUDO",
+    "Estado": "FCC"
+  },
+  {
+    "Faculdade": "FACULDADE CÂNDIDO RONDON - FCR",
+    "Estado": "FCR"
+  },
+  {
+    "Faculdade": "FACULDADE DA ALDEIA DE CARAPICUÍBA",
+    "Estado": "FALC"
+  },
+  {
+    "Faculdade": "FACULDADE DA ALTA PAULISTA",
+    "Estado": "FAP"
+  },
+  {
+    "Faculdade": "FACULDADE DA AMAZÔNIA OCIDENTAL",
+    "Estado": "FAAO"
+  },
+  {
+    "Faculdade": "FACULDADE DA AMAZÔNIA",
+    "Estado": "FAMA"
+  },
+  {
+    "Faculdade": "FACULDADE DA CIDADE DE MACEIÓ",
+    "Estado": "FACIMA"
+  },
+  {
+    "Faculdade": "FACULDADE DA CIDADE DE SANTA LUZIA",
+    "Estado": "FACSAL"
+  },
+  {
+    "Faculdade": "FACULDADE DA ESCADA",
+    "Estado": "FAESC"
+  },
+  {
+    "Faculdade": "FACULDADE DA REGIÃO DOS LAGOS",
+    "Estado": "FERLAGOS"
+  },
+  {
+    "Faculdade": "FACULDADE DA REGIÃO SERRANA",
+    "Estado": "FARESE"
+  },
+  {
+    "Faculdade": "FACULDADE DA SAÚDE E ECOLOGIA HUMANA",
+    "Estado": "FASEH"
+  },
+  {
+    "Faculdade": "FACULDADE DA SERRA GAÚCHA",
+    "Estado": "FSG"
+  },
+  {
+    "Faculdade": "FACULDADE DA SERRA",
+    "Estado": "FASE"
+  },
+  {
+    "Faculdade": "FACULDADE DA SEUNE",
+    "Estado": "SEUNE"
+  },
+  {
+    "Faculdade": "FACULDADE DAMAS DA INSTRUÇÃO CRISTÃ",
+    "Estado": "FADIC"
+  },
+  {
+    "Faculdade": "FACULDADE DAMÁSIO",
+    "Estado": "FD"
+  },
+  {
+    "Faculdade": "FACULDADE DARCY RIBEIRO",
+    "Estado": "FADR"
+  },
+  {
+    "Faculdade": "FACULDADE DAS AMÉRICAS",
+    "Estado": "FAM"
+  },
+  {
+    "Faculdade": "FACULDADE DAS ATIVIDADES EMPRESARIAIS DE TERESINA",
+    "Estado": "FAETE"
+  },
+  {
+    "Faculdade": "FACULDADE DAS ÁGUAS EMENDADAS - FAE",
+    "Estado": "FAE"
+  },
+  {
+    "Faculdade": "FACULDADE DE ADMINISTRAÇÃO CIÊNCIAS ECON E CONTÁBEIS DE GUARATINGUETÁ",
+    "Estado": "FACEAG"
+  },
+  {
+    "Faculdade": "FACULDADE DE ADMINISTRAÇÃO CIÊNCIAS EDUCAÇÃO E LETRAS",
+    "Estado": "FACEL"
+  },
+  {
+    "Faculdade": "FACULDADE DE ADMINISTRAÇÃO DA ASSOCIAÇÃO BRASILIENSE DE EDUCAÇÃO",
+    "Estado": "FABE"
+  },
+  {
+    "Faculdade": "FACULDADE DE ADMINISTRAÇÃO DA FESPSP",
+    "Estado": "FADFESPSP"
+  },
+  {
+    "Faculdade": "FACULDADE DE ADMINISTRAÇÃO DA FUNDAÇÃO ARMANDO ALVARES PENTEADO",
+    "Estado": "FAE-FAAP"
+  },
+  {
+    "Faculdade": "FACULDADE DE ADMINISTRAÇÃO DE CAMPO BELO",
+    "Estado": "FACAMP"
+  },
+  {
+    "Faculdade": "FACULDADE DE ADMINISTRAÇÃO DE CATAGUASES",
+    "Estado": "UNIPACAT"
+  },
+  {
+    "Faculdade": "FACULDADE DE ADMINISTRAÇÃO DE CHAPADÃO DO SUL",
+    "Estado": "FACHASUL"
+  },
+  {
+    "Faculdade": "FACULDADE DE ADMINISTRAÇÃO DE GOVERNADOR VALADARES",
+    "Estado": "FAGV"
+  },
+  {
+    "Faculdade": "FACULDADE DE ADMINISTRAÇÃO DE ITABIRITO",
+    "Estado": "FAI"
+  },
+  {
+    "Faculdade": "FACULDADE DE ADMINISTRAÇÃO DE NOVA ANDRADINA - FANOVA",
+    "Estado": "FANOVA"
+  },
+  {
+    "Faculdade": "FACULDADE DE ADMINISTRAÇÃO DE PASSOS",
+    "Estado": "FAP"
+  },
+  {
+    "Faculdade": "FACULDADE DE ADMINISTRAÇÃO DE SANTA CRUZ DO RIO PARDO",
+    "Estado": "FASC"
+  },
+  {
+    "Faculdade": "FACULDADE DE ADMINISTRAÇÃO DE SÃO JOSÉ DO RIO PRETO",
+    "Estado": "FACMIL"
+  },
+  {
+    "Faculdade": "FACULDADE DE ADMINISTRAÇÃO DE TERESINA",
+    "Estado": "FAT"
+  },
+  {
+    "Faculdade": "FACULDADE DE ADMINISTRAÇÃO E ARTES DE LIMEIRA",
+    "Estado": "FAAL"
+  },
+  {
+    "Faculdade": "FACULDADE DE ADMINISTRAÇÃO E CIÊNCIAS CONTÁBEIS DE SÃO ROQUE",
+    "Estado": "FACCSR"
+  },
+  {
+    "Faculdade": "FACULDADE DE ADMINISTRAÇÃO E INFORMÁTICA PAULISTA",
+    "Estado": "FIAP"
+  },
+  {
+    "Faculdade": "FACULDADE DE ADMINISTRAÇÃO E NEGÓCIOS DE SERGIPE",
+    "Estado": "FANESE"
+  },
+  {
+    "Faculdade": "FACULDADE DE AGRONEGÓCIO PARAÍSO DO NORTE",
+    "Estado": "FAPAN"
+  },
+  {
+    "Faculdade": "FACULDADE DE AGRONOMIA E ENGENHARIA FLORESTAL DE GARÇA",
+    "Estado": "FAEF"
+  },
+  {
+    "Faculdade": "FACULDADE DE AGUDOS",
+    "Estado": "FAAG"
+  },
+  {
+    "Faculdade": "FACULDADE DE ALMENARA",
+    "Estado": "ALFA"
+  },
+  {
+    "Faculdade": "FACULDADE DE ALTA FLORESTA",
+    "Estado": "FAF"
+  },
+  {
+    "Faculdade": "FACULDADE DE AMAMBAI",
+    "Estado": "FIAMA"
+  },
+  {
+    "Faculdade": "FACULDADE DE AMERICANA",
+    "Estado": "FAM"
+  },
+  {
+    "Faculdade": "FACULDADE DE AMPÉRE",
+    "Estado": "FAMPER"
+  },
+  {
+    "Faculdade": "FACULDADE DE APUCARANA",
+    "Estado": "FAP"
+  },
+  {
+    "Faculdade": "FACULDADE DE ARACAJU",
+    "Estado": "FACAR"
+  },
+  {
+    "Faculdade": "FACULDADE DE ARACRUZ",
+    "Estado": "FAACZ"
+  },
+  {
+    "Faculdade": "FACULDADE DE ARARAQUARA",
+    "Estado": "FARA"
+  },
+  {
+    "Faculdade": "FACULDADE DE ARQUITETURA E URBANISMO DE PERNAMBUCO",
+    "Estado": "FAUPE"
+  },
+  {
+    "Faculdade": "FACULDADE DE ARTES CIÊNCIAS E TECNOLOGIAS",
+    "Estado": "FACET"
+  },
+  {
+    "Faculdade": "FACULDADE DE ARTES DO PARANÁ",
+    "Estado": "FAP"
+  },
+  {
+    "Faculdade": "FACULDADE DE ARUJÁ",
+    "Estado": "FAR"
+  },
+  {
+    "Faculdade": "FACULDADE DE AURIFLAMA",
+    "Estado": "FAU"
+  },
+  {
+    "Faculdade": "FACULDADE DE BALSAS",
+    "Estado": "UNIBALSAS"
+  },
+  {
+    "Faculdade": "FACULDADE DE BELFORD ROXO",
+    "Estado": "FABEL"
+  },
+  {
+    "Faculdade": "FACULDADE DE BELÉM",
+    "Estado": "FABEL"
+  },
+  {
+    "Faculdade": "FACULDADE DE CAFELÂNDIA",
+    "Estado": "FAC"
+  },
+  {
+    "Faculdade": "FACULDADE DE CALDAS NOVAS",
+    "Estado": "UNICALDAS"
+  },
+  {
+    "Faculdade": "FACULDADE DE CAMPINA GRANDE DO SUL",
+    "Estado": "FACSUL"
+  },
+  {
+    "Faculdade": "FACULDADE DE CAMPO LIMPO PAULISTA",
+    "Estado": "FACCAMP"
+  },
+  {
+    "Faculdade": "FACULDADE DE CARIACICA",
+    "Estado": "FAC DE CARIACICA"
+  },
+  {
+    "Faculdade": "FACULDADE DE CASTANHAL",
+    "Estado": "FCAT"
+  },
+  {
+    "Faculdade": "FACULDADE DE CASTELO",
+    "Estado": "FACASTELO"
+  },
+  {
+    "Faculdade": "FACULDADE DE CERES",
+    "Estado": "FACERES"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIENCIAS HUMANAS E SOCIAIS DE SERRA TALHADA",
+    "Estado": "FACHUSST"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIA E EDUCAÇÃO DO CAPARAÓ",
+    "Estado": "FACEC"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIA E TECNOLOGIA DE CARUARU",
+    "Estado": "FACITEC"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIA E TECNOLOGIA DO PLANALTO CENTRAL",
+    "Estado": "FACIPLAC"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIA E TECNOLOGIA",
+    "Estado": "ÁREA1"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS AGRÁRIAS DE ANDRADINA",
+    "Estado": "FCAA"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS AGRÁRIAS DE ARARIPINA",
+    "Estado": "FACIAGRA"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS AGRÁRIAS E DA SAÚDE",
+    "Estado": "FAS"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS AGRÁRIAS E EXATAS DE PRIMAVERA DO LESTE",
+    "Estado": "FCAE"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS APLICADAS DOUTOR LEÃO SAMPAIO",
+    "Estado": "Fals"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS APLICADAS E SOCIAIS DE PETROLINA",
+    "Estado": "FACAPE"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS BIOMÉDICAS DE CACOAL",
+    "Estado": "FACIMED"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS BIOMÉDICAS DO ESPÍRITO SANTO",
+    "Estado": "PIO XII - BIO"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS CONTABEIS DE DIVINÓPOLIS",
+    "Estado": "FACED"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS CONTÁBEIS DE ITAPETININGA",
+    "Estado": "FCCI"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS CONTÁBEIS DE NOVA ANDRADINA - FACINAN",
+    "Estado": "FACINAN"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS CONTÁBEIS DE RECIFE",
+    "Estado": "FACCOR"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS CONTÁBEIS E ADMINISTRATIVAS DE CACHOEIRO DO ITAPEMIRIM",
+    "Estado": "FACCACI"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS CONTÁBEIS E DE ADMINISTRAÇÃO DO VALE DO JURUENA",
+    "Estado": "AJES"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS CONTÁBEIS LUIZ MENDES",
+    "Estado": "LUMEN FACULDADES"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS CULTURA E EXTENSÃO DO RN",
+    "Estado": "Facex"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS DA ADMINISTRAÇÃO DE GARANHUNS",
+    "Estado": "FAGA"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS DA ADMINISTRAÇÃO DE PERNAMBUCO",
+    "Estado": "FCAP"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS DA ADMINISTRAÇÃO DO LIMOEIRO",
+    "Estado": "FACAL"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS DA BAHIA",
+    "Estado": "FACIBA"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS DA SAÚDE ARCHIMEDES THEODORO",
+    "Estado": "FAC - SAUDE ARTHE"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS DA SAÚDE DE BARRETOS DR. PAULO PRATA",
+    "Estado": "FCSB"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS DA SAÚDE DE CAMPOS GERAIS",
+    "Estado": "FACICA"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS DE GUARULHOS",
+    "Estado": "FACIG"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS DE RUBIATABA",
+    "Estado": "FACER"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS DE TIMBAÚBA",
+    "Estado": "FACET"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS DE WENCESLAU BRAZ",
+    "Estado": "FACIBRA"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS DO TOCANTINS",
+    "Estado": "FACIT"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS E CULTURA DA BAHIA",
+    "Estado": "FCCB"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS E CULTURA DE CAJAZEIRAS",
+    "Estado": "FCCC"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS E EDUCAÇÃO SENA AIRES",
+    "Estado": "FACESA"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS E LETRAS DE BRAGANÇA PAULISTA",
+    "Estado": "FESB"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS E SAÚDE DE SERRA TALHADA",
+    "Estado": "FACISST"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS E TECNOLOGIA DE BIRIGUI",
+    "Estado": "FATEB"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS E TECNOLOGIA DE UNAÍ",
+    "Estado": "FACTU"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS E TECNOLOGIA DO MARANHÃO",
+    "Estado": "FACEMA"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS ECONÔMICAS ADMINISTRATIVAS E CONTÁBEIS DE DIVINÓPOLIS",
+    "Estado": "FACED"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS ECONÔMICAS ADMINISTRATIVAS E DA COMPUTAÇÃO DOM BOSCO",
+    "Estado": "FCEACDB"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS ECONÔMICAS DA REGIÃO CARBONÍFERA",
+    "Estado": "FACIERC"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS ECONÔMICAS DO TRIÂNGULO MINEIRO",
+    "Estado": "FCETM"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS ECONÔMICAS E ADMINISTRATIVAS SANTA RITA DE CÁSSIA",
+    "Estado": "FACEAS"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS ECONÔMICAS",
+    "Estado": "FACAMP"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS EDUCACIONAIS DE CAPIM GROSSO",
+    "Estado": "FCG"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS EDUCACIONAIS E SISTEMAS INTEGRADOS",
+    "Estado": "FACESI"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS EDUCAÇÃO E TECNOLOGIA DE GARANHUNS",
+    "Estado": "FACETEG"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS EDUCAÇÃO E TEOLOGIA DO NORTE DO BRASIL",
+    "Estado": "FACETEN"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS EMPRESARIAIS",
+    "Estado": "FACEMP"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS EXATAS E HUMANAS DA CAMPANHA",
+    "Estado": "FCCP"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS EXATAS E TECNOLÓGICAS SANTO AGOSTINHO - FACET",
+    "Estado": "FACET"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS GERENCIAIS ALVES FORTES",
+    "Estado": "FACE - ALFOR"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS GERENCIAIS BARÃO DE JUNDIAÍ",
+    "Estado": "FCG"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS GERENCIAIS DA BAHIA",
+    "Estado": "UNICENID"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS GERENCIAIS DE MANHUAÇU",
+    "Estado": "FACIG"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS GERENCIAIS DE SÃO GOTARDO",
+    "Estado": "CESG"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS GERENCIAIS E EMPREENDEDORISMO - FACIGE",
+    "Estado": "FACIGE"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS GERENCIAIS PADRE ARNALDO JANSSEN",
+    "Estado": "FAJANSSEN"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS HUMANAS DE CRUZEIRO",
+    "Estado": "FACIC"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS HUMANAS DE OLINDA",
+    "Estado": "FACHO"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS HUMANAS DE PERNAMBUCO",
+    "Estado": "FCHPE"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS HUMANAS DO SERTÃO CENTRAL",
+    "Estado": "FACHUSC"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS HUMANAS DO VALE DO RIO GRANDE",
+    "Estado": "FCHVRG"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS HUMANAS E BIOLÓGICAS E DA SAÚDE",
+    "Estado": "FCHBS"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS HUMANAS E EXATAS DO SERTÃO DO SÃO FRANCISCO",
+    "Estado": "FACESF"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS HUMANAS E SOCIAIS APLICADAS DO CABO DE SANTO AGOSTINHO",
+    "Estado": "FACHUCA"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS HUMANAS E SOCIAIS DE ARARIPINA",
+    "Estado": "FACISA"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS HUMANAS E SOCIAIS DE IGARASSU",
+    "Estado": "FACIG"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS HUMANAS ECONÔMICAS E DA SAÚDE DE ARAGUAÍNA",
+    "Estado": "FAHESA / ITPAC"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS HUMANAS ESUDA",
+    "Estado": "FCHE"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS HUMANAS EXATAS E LETRAS DE RONDÔNIA",
+    "Estado": "FARO"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS JURÍDICAS DE ALAGOAS",
+    "Estado": "FCJAL"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS JURÍDICAS DE PARAÍSO DO TOCANTINS",
+    "Estado": "FCJP"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS JURÍDICAS DE SANTOS DUMONT",
+    "Estado": "FCJSD"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS JURÍDICAS E GERENCIAIS DE GARÇA",
+    "Estado": "FAEG"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS JURÍDICAS E SOCIAIS APLICADAS DE PRIMAVERA DO LESTE",
+    "Estado": "FCJSA"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS JURÍDICAS E SOCIAIS APLICADAS DO ARAGUAIA",
+    "Estado": "FACULDADES CATHEDRAL"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS JURÍDICAS E SOCIAIS DE MACEIÓ",
+    "Estado": "FAMA"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS JURÍDICAS PROFESSOR ALBERTO DEODATO",
+    "Estado": "FCJPAD"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS MÉDICAS DA SANTA CASA SÃO PAULO",
+    "Estado": "FCMSCSP"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS MÉDICAS DE CAMPINA GRANDE",
+    "Estado": "FCM"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS MÉDICAS DE MINAS GERAIS",
+    "Estado": "FCMMG"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS MÉDICAS DE PERNAMBUCO",
+    "Estado": "FCM"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS MÉDICAS E DA SAÚDE DE JUIZ DE FORA",
+    "Estado": "FCMS/JF"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS MÉDICAS E PARAMÉDICAS FLUMINENSE",
+    "Estado": "SEFLU"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS SAÚDE EXATAS E JURÍDICAS DE TERESINA",
+    "Estado": "FACULDADE CEUT"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS SOCIAIS APLICADAS DO SUL DE MINAS",
+    "Estado": "FACESM"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS SOCIAIS APLICADAS DO VALE DO SÃO LOURENÇO",
+    "Estado": "EDUVALE"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS SOCIAIS APLICADAS E DE TECNOLOGIAS DE AGUA BOA",
+    "Estado": "FACESA"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS SOCIAIS APLICADAS",
+    "Estado": "FACISA"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS SOCIAIS DE FLORIANÓPOLIS",
+    "Estado": "FCSF"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS SOCIAIS DE GUARANTÃ DO NORTE",
+    "Estado": "FCSGN"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS SOCIAIS DOS PALMARES",
+    "Estado": "FACIP"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS SOCIAIS E AGRÁRIAS DE ITAPEVA",
+    "Estado": "FAIT"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS SOCIAIS E HUMANAS SOBRAL PINTO",
+    "Estado": "FAIESP"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS SOCIAIS E TECNOLÓGICAS",
+    "Estado": "FACITEC"
+  },
+  {
+    "Faculdade": "FACULDADE DE CIÊNCIAS TECNOLÓGICAS DE FORTALEZA",
+    "Estado": "FCTFOR"
+  },
+  {
+    "Faculdade": "FACULDADE DE COLIDER",
+    "Estado": "FACIDER"
+  },
+  {
+    "Faculdade": "FACULDADE DE COMPUTAÇÃO DE MONTES CLAROS",
+    "Estado": "FACOMP"
+  },
+  {
+    "Faculdade": "FACULDADE DE COMPUTAÇÃO E INFORMÁTICA DA FUNDAÇÃO ARMANDO ALVARES PENTEADO",
+    "Estado": "FCI-FAAP"
+  },
+  {
+    "Faculdade": "FACULDADE DE COMUNICAÇÃO E MARKETING DA - FUNDAÇÃO ARMANDO ÁLVARES PENTEADO",
+    "Estado": "FACOM-FAAP"
+  },
+  {
+    "Faculdade": "FACULDADE DE COMUNICAÇÃO E TURISMO DE OLINDA",
+    "Estado": "FACOTTUR"
+  },
+  {
+    "Faculdade": "FACULDADE DE COMUNICAÇÃO PITÁGORAS UNIDADE GUARAPARI",
+    "Estado": "PIT GUARAPARI"
+  },
+  {
+    "Faculdade": "FACULDADE DE COMUNICAÇÃO SOCIAL DE PASSOS",
+    "Estado": "FACOMP"
+  },
+  {
+    "Faculdade": "FACULDADE DE DESENVOLVIMENTO DO RIO GRANDE DO SUL",
+    "Estado": "FADERGS"
+  },
+  {
+    "Faculdade": "FACULDADE DE DESENVOLVIMENTO E INTEGRAÇÃO REGIONAL",
+    "Estado": "FADIRE"
+  },
+  {
+    "Faculdade": "FACULDADE DE DESENVOLVIMENTO SUSTENTÁVEL DE CRUZEIRO DO SUL",
+    "Estado": "IEVAL"
+  },
+  {
+    "Faculdade": "FACULDADE DE DIREITO DE CACHOEIRO DO ITAPEMIRIM",
+    "Estado": "FDCI"
+  },
+  {
+    "Faculdade": "FACULDADE DE DIREITO DE CARUARU",
+    "Estado": "FADICA"
+  },
+  {
+    "Faculdade": "FACULDADE DE DIREITO DE CONSELHEIRO LAFAIETE",
+    "Estado": "FDCL"
+  },
+  {
+    "Faculdade": "FACULDADE DE DIREITO DE FRANCA",
+    "Estado": "FDF"
+  },
+  {
+    "Faculdade": "FACULDADE DE DIREITO DE GARANHUNS",
+    "Estado": "FDG"
+  },
+  {
+    "Faculdade": "FACULDADE DE DIREITO DE IPATINGA",
+    "Estado": "FADIPA"
+  },
+  {
+    "Faculdade": "FACULDADE DE DIREITO DE ITÚ",
+    "Estado": "FADITU"
+  },
+  {
+    "Faculdade": "FACULDADE DE DIREITO DE SANTA MARIA",
+    "Estado": "FADISMA"
+  },
+  {
+    "Faculdade": "FACULDADE DE DIREITO DE SOROCABA",
+    "Estado": "FADI"
+  },
+  {
+    "Faculdade": "FACULDADE DE DIREITO DE SÃO BERNARDO DO CAMPO",
+    "Estado": "FDSBC"
+  },
+  {
+    "Faculdade": "FACULDADE DE DIREITO DE TANGARÁ DA SERRA",
+    "Estado": "UNIC"
+  },
+  {
+    "Faculdade": "FACULDADE DE DIREITO DE VARGINHA - FADIVA",
+    "Estado": "FADIVA"
+  },
+  {
+    "Faculdade": "FACULDADE DE DIREITO DO SUL DE MINAS",
+    "Estado": "FDSM"
+  },
+  {
+    "Faculdade": "FACULDADE DE DIREITO DO VALE DO RIO DOCE",
+    "Estado": "FADIVALE"
+  },
+  {
+    "Faculdade": "FACULDADE DE DIREITO E CIÊNCIAS SOCIAIS DO LESTE DE MINAS - FADILESTE",
+    "Estado": "FADILESTE"
+  },
+  {
+    "Faculdade": "FACULDADE DE DIREITO FRANCISCO BELTRÃO",
+    "Estado": "CESUL"
+  },
+  {
+    "Faculdade": "FACULDADE DE DIREITO MILTON CAMPOS",
+    "Estado": "FDMC"
+  },
+  {
+    "Faculdade": "FACULDADE DE DIREITO PADRE ARNALDO JANSSEN",
+    "Estado": "FAJANSSEN"
+  },
+  {
+    "Faculdade": "FACULDADE DE DIREITO UNIDADE GUARAPARI",
+    "Estado": "FADIG"
+  },
+  {
+    "Faculdade": "FACULDADE DE DUQUE DE CAXIAS",
+    "Estado": "FDC"
+  },
+  {
+    "Faculdade": "FACULDADE DE ECONOMIA E FINANÇAS DO RIO DE JANEIRO",
+    "Estado": "FEFRJ"
+  },
+  {
+    "Faculdade": "FACULDADE DE ECONOMIA E FINANÇAS IBMEC",
+    "Estado": "FACULDADES IBMEC"
+  },
+  {
+    "Faculdade": "FACULDADE DE ECONOMIA E PROCESSAMENTO DE DADOS DE FOZ DO IGUAÇU",
+    "Estado": "FEPI"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO ADMINISTRAÇÃO E TECNOLOGIA DE IBAITI",
+    "Estado": "FEATI"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO CIÊNCIAS E ARTES DOM BOSCO DE MONTE APRAZÍVEL",
+    "Estado": "FAECA DOM BOSCO"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO CIÊNCIAS E LETRAS DE PARAÍSO",
+    "Estado": "FECIPAR"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO DE ASSIS",
+    "Estado": "FAEDA"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO DE BACABAL - FEBAC",
+    "Estado": "FEBAC"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO DE BOM DESPACHO",
+    "Estado": "FACEB"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO DE COLORADO DO OESTE",
+    "Estado": "FAEC"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO DE COSTA RICA",
+    "Estado": "FECRA"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO DE GUARATINGUETÁ",
+    "Estado": "FACEG"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO DE JARU",
+    "Estado": "UNICENTRO"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO DE NOVA ANDRADINA",
+    "Estado": "FENA"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO DE PORTO VELHO",
+    "Estado": "UNIRON"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO E CIÊNCIAS GERENCIAIS DE SÃO PAULO",
+    "Estado": "FECG-SP"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO E CIÊNCIAS HUMANAS DE ANICUNS",
+    "Estado": "FECHA"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO E CULTURA DE VILHENA",
+    "Estado": "FAEV/UNESC"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO E ESTUDOS SOCIAIS DE GOVERNADOR VALADARES",
+    "Estado": "FUNEES G. Valadares"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO E ESTUDOS SOCIAIS DE UBERLÂNDIA",
+    "Estado": "FUNEES Uberlândia"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO E MEIO AMBIENTE",
+    "Estado": "FAEMA"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO FÍSICA DA ASSOCIAÇÃO CRISTÃ DE MOÇOS DE SOROCABA",
+    "Estado": "FEFISO"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO FÍSICA DE BARRA BONITA",
+    "Estado": "FAEFI"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO REGIONAL SERRANA",
+    "Estado": "FUNPAC"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO SUPERIOR DE TIMBAÚBA",
+    "Estado": "FAEST"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO SUPERIOR DO PARANÁ",
+    "Estado": "FESPPR"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO SÃO FRANCISCO",
+    "Estado": "FAESF"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO SÃO LUÍS",
+    "Estado": "FESL"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO TECNOLÓGICA DO ESTADO DO RIO DE JANEIRO",
+    "Estado": "FAETERJ PARACAMBI"
+  },
+  {
+    "Faculdade": "FACULDADE DE EDUCAÇÃO",
+    "Estado": "ISECUB"
+  },
+  {
+    "Faculdade": "FACULDADE DE ENFERMAGEM DE BELO JARDIM",
+    "Estado": "FAEB"
+  },
+  {
+    "Faculdade": "FACULDADE DE ENFERMAGEM DE PASSOS",
+    "Estado": "FAENPA"
+  },
+  {
+    "Faculdade": "FACULDADE DE ENFERMAGEM E MEDICINA NOVA ESPERANÇA DE MOSSORÓ",
+    "Estado": "Facene"
+  },
+  {
+    "Faculdade": "FACULDADE DE ENFERMAGEM LUIZA DE MARILLAC",
+    "Estado": "FELM"
+  },
+  {
+    "Faculdade": "FACULDADE DE ENFERMAGEM NOSSA SENHORA DAS GRAÇAS",
+    "Estado": "FENSG"
+  },
+  {
+    "Faculdade": "FACULDADE DE ENFERMAGEM NOVA ESPERANÇA",
+    "Estado": "FACENE"
+  },
+  {
+    "Faculdade": "FACULDADE DE ENFERMAGEM SÃO VICENTE DE PAULA",
+    "Estado": "FESVIP"
+  },
+  {
+    "Faculdade": "FACULDADE DE ENGENHARIA DE MINAS GERAIS",
+    "Estado": "FEMG"
+  },
+  {
+    "Faculdade": "FACULDADE DE ENGENHARIA DE PASSOS",
+    "Estado": "FEP"
+  },
+  {
+    "Faculdade": "FACULDADE DE ENGENHARIA DE RESENDE",
+    "Estado": "FER"
+  },
+  {
+    "Faculdade": "FACULDADE DE ENGENHARIA DE SOROCABA",
+    "Estado": "FACENS"
+  },
+  {
+    "Faculdade": "FACULDADE DE ENGENHARIA SOUZA MARQUES",
+    "Estado": "FESM"
+  },
+  {
+    "Faculdade": "FACULDADE DE ENGENHARIA SÃO PAULO",
+    "Estado": "FESP"
+  },
+  {
+    "Faculdade": "FACULDADE DE ENSINO E CULTURA DO CEARÁ",
+    "Estado": "FAECE"
+  },
+  {
+    "Faculdade": "FACULDADE DE ENSINO SUPERIOR DA AMAZÔNIA",
+    "Estado": "FESAM"
+  },
+  {
+    "Faculdade": "FACULDADE DE ENSINO SUPERIOR DA CIDADE DE FEIRA DE SANTANA",
+    "Estado": "FAESF/UNEF"
+  },
+  {
+    "Faculdade": "FACULDADE DE ENSINO SUPERIOR DA PARAÍBA",
+    "Estado": "FESP"
+  },
+  {
+    "Faculdade": "FACULDADE DE ENSINO SUPERIOR DE FLORIANO",
+    "Estado": "FAESF"
+  },
+  {
+    "Faculdade": "FACULDADE DE ENSINO SUPERIOR DE MARECHAL CÂNDIDO RONDON",
+    "Estado": "ISEPE RONDON"
+  },
+  {
+    "Faculdade": "FACULDADE DE ENSINO SUPERIOR DE SÃO MIGUEL DO IGUAÇU",
+    "Estado": "FAESI"
+  },
+  {
+    "Faculdade": "FACULDADE DE ENSINO SUPERIOR DO INTERIOR PAULISTA",
+    "Estado": "FAIP"
+  },
+  {
+    "Faculdade": "FACULDADE DE ENSINO SUPERIOR E FORMAÇÃO INTEGRAL",
+    "Estado": "FAEF"
+  },
+  {
+    "Faculdade": "FACULDADE DE ENSINO SUPERIOR SANTA BARBARA",
+    "Estado": "FAESB"
+  },
+  {
+    "Faculdade": "FACULDADE DE ENSINO TECNOLÓGICO DO ESTADO DO PARÁ",
+    "Estado": "FACETE"
+  },
+  {
+    "Faculdade": "FACULDADE DE ESTUDOS ADMINISTRATIVOS DE MINAS GERAIS",
+    "Estado": "FEAD"
+  },
+  {
+    "Faculdade": "FACULDADE DE ESTUDOS AVANÇADOS DO PARÁ",
+    "Estado": "FEAPA"
+  },
+  {
+    "Faculdade": "FACULDADE DE ESTUDOS SOCIAIS APLICADOS DE VIANA",
+    "Estado": "FESAV"
+  },
+  {
+    "Faculdade": "FACULDADE DE ESTUDOS SOCIAIS DO ESPÍRITO SANTO",
+    "Estado": "PIO XII"
+  },
+  {
+    "Faculdade": "FACULDADE DE ESTUDOS SUPERIORES DE MINAS GERAIS",
+    "Estado": "FEAD"
+  },
+  {
+    "Faculdade": "FACULDADE DE EXCELÊNCIA DO RIO GRANDE DO NORTE",
+    "Estado": "Fatern Gama Filho"
+  },
+  {
+    "Faculdade": "FACULDADE DE FILOSOFIA CIÊNCIAS E LETRAS DE ALEGRE",
+    "Estado": "FAFIA"
+  },
+  {
+    "Faculdade": "FACULDADE DE FILOSOFIA CIÊNCIAS E LETRAS DE CARUARU",
+    "Estado": "FAFICA"
+  },
+  {
+    "Faculdade": "FACULDADE DE FILOSOFIA CIÊNCIAS E LETRAS DE IBITINGA",
+    "Estado": "FAIBI"
+  },
+  {
+    "Faculdade": "FACULDADE DE FILOSOFIA CIÊNCIAS E LETRAS DE SÃO JOSÉ DO RIO PARDO",
+    "Estado": "FFCL"
+  },
+  {
+    "Faculdade": "FACULDADE DE FILOSOFIA CIÊNCIAS E LETRAS NOSSA SENHORA APARECIDA",
+    "Estado": "FNSA"
+  },
+  {
+    "Faculdade": "FACULDADE DE FILOSOFIA CIÊNCIAS E LETRAS SOUZA MARQUES",
+    "Estado": "FFCLSM"
+  },
+  {
+    "Faculdade": "FACULDADE DE FILOSOFIA DE PASSOS",
+    "Estado": "FAFIPA"
+  },
+  {
+    "Faculdade": "FACULDADE DE FILOSOFIA E CIÊNCIAS HUMANAS DE GOIATUBA",
+    "Estado": "FAFICH"
+  },
+  {
+    "Faculdade": "FACULDADE DE FILOSOFIA E TEOLOGIA PAULO VI",
+    "Estado": "FFTP"
+  },
+  {
+    "Faculdade": "FACULDADE DE FILOSOFIA SANTA DOROTEIA",
+    "Estado": "FFSD"
+  },
+  {
+    "Faculdade": "FACULDADE DE FORMAÇÃO DE PROFESSORES DA MATA SUL",
+    "Estado": "FAMASUL"
+  },
+  {
+    "Faculdade": "FACULDADE DE FORMAÇÃO DE PROFESSORES DE AFOGADOS DA INGAZEIRA",
+    "Estado": "FAFOPAI"
+  },
+  {
+    "Faculdade": "FACULDADE DE FORMAÇÃO DE PROFESSORES DE ARARIPINA",
+    "Estado": "FAFOPA"
+  },
+  {
+    "Faculdade": "FACULDADE DE FORMAÇÃO DE PROFESSORES DE BELO JARDIM",
+    "Estado": "FABEJA"
+  },
+  {
+    "Faculdade": "FACULDADE DE FORMAÇÃO DE PROFESSORES DE GOIANA",
+    "Estado": "FFPG"
+  },
+  {
+    "Faculdade": "FACULDADE DE FORMAÇÃO DE PROFESSORES DE NAZARÉ DA MATA",
+    "Estado": "FFPNM"
+  },
+  {
+    "Faculdade": "FACULDADE DE FORMAÇÃO DE PROFESSORES DE PETROLINA",
+    "Estado": "Faculdade de Formação de Professores de Petrolina"
+  },
+  {
+    "Faculdade": "FACULDADE DE FORMAÇÃO DE PROFESSORES DE SERRA TALHADA",
+    "Estado": "FAFOPST"
+  },
+  {
+    "Faculdade": "FACULDADE DE FORTALEZA",
+    "Estado": "FAFOR"
+  },
+  {
+    "Faculdade": "FACULDADE DE GETÚLIO VARGAS",
+    "Estado": "FACULDADE IDEAU"
+  },
+  {
+    "Faculdade": "FACULDADE DE GOIÂNIA - UNIDADE 1",
+    "Estado": "FAG"
+  },
+  {
+    "Faculdade": "FACULDADE DE GUANAMBI",
+    "Estado": "FG"
+  },
+  {
+    "Faculdade": "FACULDADE DE ILHA SOLTEIRA",
+    "Estado": "FAISA"
+  },
+  {
+    "Faculdade": "FACULDADE DE IMPERATRIZ",
+    "Estado": "FACIMP"
+  },
+  {
+    "Faculdade": "FACULDADE DE INFORMÁTICA DE OURO PRETO DO OESTE",
+    "Estado": "FIOURO"
+  },
+  {
+    "Faculdade": "FACULDADE DE INFORMÁTICA DE PASSOS",
+    "Estado": "FIP"
+  },
+  {
+    "Faculdade": "FACULDADE DE INFORMÁTICA DO RECIFE",
+    "Estado": "FACIR"
+  },
+  {
+    "Faculdade": "FACULDADE DE INFORMÁTICA LEMOS DE CASTRO",
+    "Estado": "FILC"
+  },
+  {
+    "Faculdade": "FACULDADE DE INHUMAS - FAC-MAIS",
+    "Estado": "FACMAIS"
+  },
+  {
+    "Faculdade": "FACULDADE DE INTEGRAÇÃO DO SERTÃO",
+    "Estado": "FIS"
+  },
+  {
+    "Faculdade": "FACULDADE DE IPORÁ",
+    "Estado": "FAI"
+  },
+  {
+    "Faculdade": "FACULDADE DE ITAITUBA",
+    "Estado": "FAI"
+  },
+  {
+    "Faculdade": "FACULDADE DE ITAPECERICA DA SERRA",
+    "Estado": "FIT"
+  },
+  {
+    "Faculdade": "FACULDADE DE ITAPIRANGA",
+    "Estado": "SEI/FAI"
+  },
+  {
+    "Faculdade": "FACULDADE DE ITÁPOLIS - FACITA",
+    "Estado": "FACITA"
+  },
+  {
+    "Faculdade": "FACULDADE DE JABOTICABAL",
+    "Estado": "FAJAB"
+  },
+  {
+    "Faculdade": "FACULDADE DE JAGUARIÚNA",
+    "Estado": "FAJ"
+  },
+  {
+    "Faculdade": "FACULDADE DE JANDAIA DO SUL",
+    "Estado": "FAFIJAN"
+  },
+  {
+    "Faculdade": "FACULDADE DE JOSÉ BONIFÁCIO",
+    "Estado": "FJB"
+  },
+  {
+    "Faculdade": "FACULDADE DE JUAZEIRO DO NORTE",
+    "Estado": "FJN"
+  },
+  {
+    "Faculdade": "FACULDADE DE JUNQUEIRÓPOLIS",
+    "Estado": "ISEJ"
+  },
+  {
+    "Faculdade": "FACULDADE DE JUSSARA",
+    "Estado": "FAJ"
+  },
+  {
+    "Faculdade": "FACULDADE DE MACAPÁ",
+    "Estado": "FAMA"
+  },
+  {
+    "Faculdade": "FACULDADE DE MEDICINA DE BARBACENA",
+    "Estado": "FUNJOB"
+  },
+  {
+    "Faculdade": "FACULDADE DE MEDICINA DE CAMPOS",
+    "Estado": "FMC"
+  },
+  {
+    "Faculdade": "FACULDADE DE MEDICINA DE ITAJUBÁ",
+    "Estado": "FMIT"
+  },
+  {
+    "Faculdade": "FACULDADE DE MEDICINA DE JUAZEIRO DO NORTE",
+    "Estado": "FMJ"
+  },
+  {
+    "Faculdade": "FACULDADE DE MEDICINA DE JUNDIAÍ",
+    "Estado": "FMJ"
+  },
+  {
+    "Faculdade": "FACULDADE DE MEDICINA DE MARÍLIA",
+    "Estado": "FAMEMA"
+  },
+  {
+    "Faculdade": "FACULDADE DE MEDICINA DE PETRÓPOLIS",
+    "Estado": "FMP"
+  },
+  {
+    "Faculdade": "FACULDADE DE MEDICINA DE SÃO JOSÉ DO RIO PRETO",
+    "Estado": "FAMERP"
+  },
+  {
+    "Faculdade": "FACULDADE DE MEDICINA DO ABC",
+    "Estado": "FMABC"
+  },
+  {
+    "Faculdade": "FACULDADE DE MINAS",
+    "Estado": "FAMINAS"
+  },
+  {
+    "Faculdade": "FACULDADE DE MIRANDÓPOLIS",
+    "Estado": "FAM"
+  },
+  {
+    "Faculdade": "FACULDADE DE MODA DE PASSOS",
+    "Estado": "FAMOPA"
+  },
+  {
+    "Faculdade": "FACULDADE DE MONTE ALTO",
+    "Estado": "FMA"
+  },
+  {
+    "Faculdade": "FACULDADE DE MÚSICA DO ESPÍRITO SANTO",
+    "Estado": "FAMES"
+  },
+  {
+    "Faculdade": "FACULDADE DE NANUQUE",
+    "Estado": "FANAN"
+  },
+  {
+    "Faculdade": "FACULDADE DE NATAL",
+    "Estado": "FAL"
+  },
+  {
+    "Faculdade": "FACULDADE DE NOVA SERRANA",
+    "Estado": "FANS"
+  },
+  {
+    "Faculdade": "FACULDADE DE NUTRIÇÃO DA FUNDAÇÃO DE ENSINO SUPERIOR DE PASSOS",
+    "Estado": "FANUTRI"
+  },
+  {
+    "Faculdade": "FACULDADE DE ODONTOLOGIA DE CARUARU",
+    "Estado": "FOC"
+  },
+  {
+    "Faculdade": "FACULDADE DE ODONTOLOGIA DE MANAUS",
+    "Estado": "Fom"
+  },
+  {
+    "Faculdade": "FACULDADE DE ODONTOLOGIA DE PERNAMBUCO",
+    "Estado": "FOP"
+  },
+  {
+    "Faculdade": "FACULDADE DE ODONTOLOGIA DO RECIFE",
+    "Estado": "FOR"
+  },
+  {
+    "Faculdade": "FACULDADE DE ODONTOLOGIA E CENTRO DE PESQUISAS ODONTOLÓGICAS SÃO LEOPOLDO MANDIC",
+    "Estado": "SLMANDIC"
+  },
+  {
+    "Faculdade": "FACULDADE DE OLINDA",
+    "Estado": "FOCCA"
+  },
+  {
+    "Faculdade": "FACULDADE DE ORLÂNDIA",
+    "Estado": "FAO"
+  },
+  {
+    "Faculdade": "FACULDADE DE PALMAS",
+    "Estado": "FAPAL"
+  },
+  {
+    "Faculdade": "FACULDADE DE PATO BRANCO",
+    "Estado": "FADEP"
+  },
+  {
+    "Faculdade": "FACULDADE DE PAULÍNIA",
+    "Estado": "FACP"
+  },
+  {
+    "Faculdade": "FACULDADE DE PEDAGOGIA",
+    "Estado": "ANAEC"
+  },
+  {
+    "Faculdade": "FACULDADE DE PIMENTA BUENO",
+    "Estado": "FAP"
+  },
+  {
+    "Faculdade": "FACULDADE DE PINDAMONHANGABA",
+    "Estado": "FAPI"
+  },
+  {
+    "Faculdade": "FACULDADE DE PONTA PORÃ",
+    "Estado": "FAP"
+  },
+  {
+    "Faculdade": "FACULDADE DE PORTO VELHO",
+    "Estado": "FIP"
+  },
+  {
+    "Faculdade": "FACULDADE DE PRESIDENTE EPITÁCIO - FAPE",
+    "Estado": "FAPE"
+  },
+  {
+    "Faculdade": "FACULDADE DE PRESIDENTE VENCESLAU",
+    "Estado": "FAPREV"
+  },
+  {
+    "Faculdade": "FACULDADE DE PRIMAVERA",
+    "Estado": "CESPRI"
+  },
+  {
+    "Faculdade": "FACULDADE DE QUATRO MARCOS",
+    "Estado": "FQM"
+  },
+  {
+    "Faculdade": "FACULDADE DE REABILITAÇÃO DA ASCE",
+    "Estado": "FRASCE"
+  },
+  {
+    "Faculdade": "FACULDADE DE REALEZA",
+    "Estado": "CESREAL"
+  },
+  {
+    "Faculdade": "FACULDADE DE RIBEIRÃO PRETO",
+    "Estado": "AFARP"
+  },
+  {
+    "Faculdade": "FACULDADE DE ROLIM DE MOURA",
+    "Estado": "FAROL"
+  },
+  {
+    "Faculdade": "FACULDADE DE RONDÔNIA",
+    "Estado": "FARO"
+  },
+  {
+    "Faculdade": "FACULDADE DE ROSEIRA",
+    "Estado": "FARO"
+  },
+  {
+    "Faculdade": "FACULDADE DE SABARÁ",
+    "Estado": "SOECS"
+  },
+  {
+    "Faculdade": "FACULDADE DE SAÚDE CIÊNCIAS HUMANAS E TECNOLÓGICAS DO PIAUÍ",
+    "Estado": "Novafapi"
+  },
+  {
+    "Faculdade": "FACULDADE DE SAÚDE DE SÃO PAULO",
+    "Estado": "FASSP"
+  },
+  {
+    "Faculdade": "FACULDADE DE SAÚDE E DESENVOLVIMENTO HUMANO SANTO AGOSTINHO",
+    "Estado": "FS"
+  },
+  {
+    "Faculdade": "FACULDADE DE SAÚDE IBITURUNA",
+    "Estado": "FASI"
+  },
+  {
+    "Faculdade": "FACULDADE DE SERGIPE",
+    "Estado": "FaSe"
+  },
+  {
+    "Faculdade": "FACULDADE DE SERVIÇO SOCIAL DE PASSOS",
+    "Estado": "FASESP"
+  },
+  {
+    "Faculdade": "FACULDADE DE SORRISO",
+    "Estado": "FAIS"
+  },
+  {
+    "Faculdade": "FACULDADE DE SÃO BENTO DO RIO DE JANEIRO",
+    "Estado": "FSB/RJ"
+  },
+  {
+    "Faculdade": "FACULDADE DE SÃO JOSÉ DOS CAMPOS",
+    "Estado": "BILAC"
+  },
+  {
+    "Faculdade": "FACULDADE DE SÃO LOURENÇO",
+    "Estado": "FASAMA"
+  },
+  {
+    "Faculdade": "FACULDADE DE SÃO ROQUE",
+    "Estado": "FAEV"
+  },
+  {
+    "Faculdade": "FACULDADE DE SÃO VICENTE",
+    "Estado": "FSV"
+  },
+  {
+    "Faculdade": "FACULDADE DE TALENTOS HUMANOS",
+    "Estado": "FACTHUS"
+  },
+  {
+    "Faculdade": "FACULDADE DE TAQUARITINGA",
+    "Estado": "FTGA"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA APOENA",
+    "Estado": "FTA"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA BANDEIRANTES",
+    "Estado": "BANDTEC"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA CENTEC",
+    "Estado": "CENTEC"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA DA PARAÍBA",
+    "Estado": "FATECPB"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA DE BOTUCATU",
+    "Estado": "FATEC BT"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA DE CARAPICUIBA",
+    "Estado": "FATEC"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA DE GUARATINGUETÁ",
+    "Estado": "FATEC GT"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA DE ITAPETININGA - PROF.ANTÔNIO BELIZANDRO BARBOSA REZENDE",
+    "Estado": "Fatec - Itapetininga"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA DE ITAQUAQUECETUBA",
+    "Estado": "Fatec Itaqua"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA DE JACAREÍ",
+    "Estado": "ETEP"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA DE JUNDIAÍ",
+    "Estado": "FATEC/JD"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA DE MINAS GERAIS",
+    "Estado": "FATEMG"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA DE MOGI DAS CRUZES",
+    "Estado": "FATEC-MC"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA DE PIRACICABA",
+    "Estado": "Fatec Piracicaba"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA DE PORTO ALEGRE",
+    "Estado": "FAQI"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA DE SÃO BERNARDO DO CAMPO",
+    "Estado": "FATEC-SB"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA DE SÃO JOSÉ DO RIO PRETO",
+    "Estado": "FATECRP"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA DE SÃO JOSÉ DOS CAMPOS",
+    "Estado": "ETEP"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA DE SÃO SEBASTIÃO",
+    "Estado": "Fatec SS"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA DE TAQUARITINGA",
+    "Estado": "FATEC/TQ"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA DE TATUÍ - PROF. WILSON ROBERTO RIBEIRO DE CAMARGO",
+    "Estado": "FATEC TATUÍ"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA DE VALENÇA",
+    "Estado": "FACTIVA"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA DO COMÉRCIO",
+    "Estado": "FATEC-COMERCIO"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA DO ESTADO DE SÃO PAULO",
+    "Estado": "FATEC"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA DO IPIRANGA",
+    "Estado": "FATECIPI"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA DO NORDESTE",
+    "Estado": "FATENE"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA DO PIAUÍ",
+    "Estado": "FATEPI"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA DR. THOMAZ NOVELINO",
+    "Estado": "FATEC Franca"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA E CIENCIAS DO NORTE DO PARANÁ",
+    "Estado": "FATECIE"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA E CIÊNCIAS DE PERNAMBUCO",
+    "Estado": "FATEC"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA E CIÊNCIAS",
+    "Estado": "FTC"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA E CIÊNCIAS",
+    "Estado": "FTCEAD"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA E GESTÃO",
+    "Estado": "FATEG"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA E NEGÓCIOS CARLOS DRUMMOND DE ANDRADE",
+    "Estado": "FTNCDA"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA EGÍDIO JOSÉ DA SILVA",
+    "Estado": "FATEGIDIO"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA EM HOTELARIA GASTRONOMIA E TURISMO DE SÃO PAULO",
+    "Estado": "HOTEC"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA EMPRESARIAL",
+    "Estado": "FTEBA"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA ESTUDANTE RAFAEL ALMEIDA CAMARINHA - MARILIA",
+    "Estado": "Fatec Marilia"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA EVOLUÇÃO",
+    "Estado": "FECET"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA FAMA",
+    "Estado": "FAMA"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA FRANCISCO MORATO",
+    "Estado": "FFRAMO"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA GESTÃO & MARKETING",
+    "Estado": "IBGM / FGM"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA IBRATEC",
+    "Estado": "UNIBRATEC"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA IBTA CAMPINAS",
+    "Estado": "IBTA"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA INESUL DO PARANÁ",
+    "Estado": "FIPAR"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA INFORMÁTICA",
+    "Estado": "FATI"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA INTENSIVA",
+    "Estado": "FATECI"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA INTERNACIONAL DE CURITIBA",
+    "Estado": "FATEC Internacional"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA LA SALLE - ESTRELA",
+    "Estado": "FACSALLE"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA LOURENÇO FILHO",
+    "Estado": "FATEC FLF"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA OSWALDO CRUZ",
+    "Estado": "FATEC OSWALDO CRUZ"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA PEDRO ROGÉRIO GARCIA",
+    "Estado": "FATTEP"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA PENTÁGONO",
+    "Estado": "FATEP"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA PROF. LUIZ ROSA",
+    "Estado": "FATEC Luiz Rosa"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA RUBENS LARA",
+    "Estado": "FATEC-BS"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA SAINT PASTOUS",
+    "Estado": "FSP"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA SENAC BLUMENAU",
+    "Estado": "SENAC"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA SENAC FLORIANÓPOLIS",
+    "Estado": "SENAC FLORIANÓPOLIS"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA SENAC SÃO MIGUEL DO OESTE",
+    "Estado": 5133
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA SENAI BELO HORIZONTE",
+    "Estado": "FATEC SENAI BH"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA SENAI CHAPECÓ",
+    "Estado": "SENAI"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA SENAI DE DESENVOLVIMENTO GERENCIAL",
+    "Estado": "FATESG"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA SENAI ROBERTO MANGE",
+    "Estado": "FATEC SENAI RM"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA SENAI ÍTALO BOLOGNA",
+    "Estado": "FATECIB"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA TECBRASIL",
+    "Estado": "FTEC"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA TECMED",
+    "Estado": "TECMED"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA TERMOMECANICA",
+    "Estado": "FTT"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA ZONA LESTE",
+    "Estado": "FATEC-ZL"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECNOLOGIA ÁLVARES DE AZEVEDO",
+    "Estado": "FAATESP"
+  },
+  {
+    "Faculdade": "FACULDADE DE TECONOLOGIA DA ZONA SUL",
+    "Estado": "FATEC ZONASUL"
+  },
+  {
+    "Faculdade": "FACULDADE DE TELÊMACO BORBA",
+    "Estado": "FATEB"
+  },
+  {
+    "Faculdade": "FACULDADE DE TEOLOGIA E CIÊNCIAS",
+    "Estado": "FATEC"
+  },
+  {
+    "Faculdade": "FACULDADE DE TEOLOGIA FILOSOFIA E CIÊNCIAS HUMANAS GAMALIEL",
+    "Estado": "FATEFIG"
+  },
+  {
+    "Faculdade": "FACULDADE DE TEOLOGIA INTEGRADA",
+    "Estado": "FATIN"
+  },
+  {
+    "Faculdade": "FACULDADE DE TUPI PAULISTA",
+    "Estado": "CESTUPI"
+  },
+  {
+    "Faculdade": "FACULDADE DE VINHEDO",
+    "Estado": "FV"
+  },
+  {
+    "Faculdade": "FACULDADE DE VIÇOSA",
+    "Estado": "FDV"
+  },
+  {
+    "Faculdade": "FACULDADE DECISION DE NEGÓCIOS",
+    "Estado": "FACULDADE DECISION"
+  },
+  {
+    "Faculdade": "FACULDADE DECISÃO",
+    "Estado": "FADE"
+  },
+  {
+    "Faculdade": "FACULDADE DEHONIANA",
+    "Estado": "DEHONIANA"
+  },
+  {
+    "Faculdade": "FACULDADE DEL REY",
+    "Estado": "FDR"
+  },
+  {
+    "Faculdade": "FACULDADE DELTA",
+    "Estado": "FACDELTA"
+  },
+  {
+    "Faculdade": "FACULDADE DIADEMA",
+    "Estado": "FAD"
+  },
+  {
+    "Faculdade": "FACULDADE DINÂMICA DO VALE DO PIRANGA",
+    "Estado": "FADIP"
+  },
+  {
+    "Faculdade": "FACULDADE DIOCESANA SÃO JOSÉ",
+    "Estado": "FADISI"
+  },
+  {
+    "Faculdade": "FACULDADE DIVINÓPOLIS",
+    "Estado": "FACED"
+  },
+  {
+    "Faculdade": "FACULDADE DO ACRE",
+    "Estado": "FAC"
+  },
+  {
+    "Faculdade": "FACULDADE DO AGRESTE DE PERNAMBUCO",
+    "Estado": "FAAPE"
+  },
+  {
+    "Faculdade": "FACULDADE DO AMAZONAS",
+    "Estado": "Iaes"
+  },
+  {
+    "Faculdade": "FACULDADE DO BAIXO PARNAÍBA",
+    "Estado": "FAP"
+  },
+  {
+    "Faculdade": "FACULDADE DO BICO DO PAPAGAIO",
+    "Estado": "FABIC"
+  },
+  {
+    "Faculdade": "FACULDADE DO CENTRO EDUCACIONAL MINEIRO - FACEM",
+    "Estado": "FACEM-BH"
+  },
+  {
+    "Faculdade": "FACULDADE DO CENTRO LESTE",
+    "Estado": "UCL"
+  },
+  {
+    "Faculdade": "FACULDADE DO CLUBE NÁUTICO MOGIANO",
+    "Estado": "FCNM"
+  },
+  {
+    "Faculdade": "FACULDADE DO DESCOBRIMENTO",
+    "Estado": "FACDESCO"
+  },
+  {
+    "Faculdade": "FACULDADE DO ESTADO DO MARANHÃO",
+    "Estado": "FACEM"
+  },
+  {
+    "Faculdade": "FACULDADE DO FUTURO",
+    "Estado": "FAF"
+  },
+  {
+    "Faculdade": "FACULDADE DO GUARUJÁ",
+    "Estado": "FAGU"
+  },
+  {
+    "Faculdade": "FACULDADE DO INSTITUTO BRASIL",
+    "Estado": "FIBRA"
+  },
+  {
+    "Faculdade": "FACULDADE DO INSTITUTO NACIONAL DE PÓS-GRADUAÇÃO DE SÃO JOSÉ DOS CAMPOS",
+    "Estado": "FACULDADE INPG - SJC"
+  },
+  {
+    "Faculdade": "FACULDADE DO LITORAL CATARINENSE",
+    "Estado": "FLC"
+  },
+  {
+    "Faculdade": "FACULDADE DO LITORAL PARANAENSE",
+    "Estado": "FLP"
+  },
+  {
+    "Faculdade": "FACULDADE DO LITORAL SUL PAULISTA",
+    "Estado": "FALS"
+  },
+  {
+    "Faculdade": "FACULDADE DO MEIO AMBIENTE E DE TECNOLOGIA DE NEGOCIOS",
+    "Estado": "FAMATEC"
+  },
+  {
+    "Faculdade": "FACULDADE DO NOROESTE DE MINAS",
+    "Estado": "FINOM"
+  },
+  {
+    "Faculdade": "FACULDADE DO NOROESTE PARANAENSE",
+    "Estado": "FANP"
+  },
+  {
+    "Faculdade": "FACULDADE DO NORTE GOIANO",
+    "Estado": "FNG"
+  },
+  {
+    "Faculdade": "FACULDADE DO NORTE NOVO DE APUCARANA",
+    "Estado": "FACNOPAR"
+  },
+  {
+    "Faculdade": "FACULDADE DO NORTE PIONEIRO",
+    "Estado": "FANORPI"
+  },
+  {
+    "Faculdade": "FACULDADE DO PANTANAL MATOGROSSENSE",
+    "Estado": "FAPAN"
+  },
+  {
+    "Faculdade": "FACULDADE DO SUDESTE GOIANO",
+    "Estado": "FASUG"
+  },
+  {
+    "Faculdade": "FACULDADE DO SUDESTE MINEIRO",
+    "Estado": "FACSUM"
+  },
+  {
+    "Faculdade": "FACULDADE DO SUL DA BAHIA",
+    "Estado": "FASB"
+  },
+  {
+    "Faculdade": "FACULDADE DO SUL",
+    "Estado": "FACSUL"
+  },
+  {
+    "Faculdade": "FACULDADE DO TAPAJÓS",
+    "Estado": "FAT"
+  },
+  {
+    "Faculdade": "FACULDADE DO TRABALHO",
+    "Estado": "FATRA"
+  },
+  {
+    "Faculdade": "FACULDADE DO VALE DO IPOJUCA",
+    "Estado": "FAVIP"
+  },
+  {
+    "Faculdade": "FACULDADE DO VALE DO ITAJAÍ MIRIM",
+    "Estado": "FAVIM"
+  },
+  {
+    "Faculdade": "FACULDADE DO VALE DO ITAPECURÚ",
+    "Estado": "FAI"
+  },
+  {
+    "Faculdade": "FACULDADE DOCTUM DE ADMINISTRAÇÃO DA SERRA",
+    "Estado": "DOCTUM"
+  },
+  {
+    "Faculdade": "FACULDADE DOCTUM DE ADMINISTRAÇÃO E EDUCAÇÃO DE VITÓRIA",
+    "Estado": "DOCTUM"
+  },
+  {
+    "Faculdade": "FACULDADE DOCTUM DE CARANGOLA",
+    "Estado": "DOCTUM"
+  },
+  {
+    "Faculdade": "FACULDADE DOCTUM DE DIREITO DA SERRA",
+    "Estado": "DOCTUM"
+  },
+  {
+    "Faculdade": "FACULDADE DOCTUM DE JOÃO MONLEVADE",
+    "Estado": "DOCTUM"
+  },
+  {
+    "Faculdade": "FACULDADE DOCTUM DE JUIZ DE FORA",
+    "Estado": "DOCTUM"
+  },
+  {
+    "Faculdade": "FACULDADE DOCTUM DE MANHUAÇU",
+    "Estado": "DOCTUM"
+  },
+  {
+    "Faculdade": "FACULDADE DOCTUM DE VILA VELHA",
+    "Estado": "DOCTUM"
+  },
+  {
+    "Faculdade": "FACULDADE DOCTUM DE VITÓRIA",
+    "Estado": "DOCTUM"
+  },
+  {
+    "Faculdade": "FACULDADE DOIS DE JULHO",
+    "Estado": "F2J"
+  },
+  {
+    "Faculdade": "FACULDADE DOM ALBERTO",
+    "Estado": "FDA"
+  },
+  {
+    "Faculdade": "FACULDADE DOM BOSCO",
+    "Estado": "FDB"
+  },
+  {
+    "Faculdade": "FACULDADE DOM LUIS DE ORLEANS E BRAGANÇA",
+    "Estado": "FARRP"
+  },
+  {
+    "Faculdade": "FACULDADE DOM PEDRO II DE TECNOLOGIA",
+    "Estado": "FAB"
+  },
+  {
+    "Faculdade": "FACULDADE DOM PEDRO II",
+    "Estado": "FDPII"
+  },
+  {
+    "Faculdade": "FACULDADE DOS CERRADOS PIAUIENSES",
+    "Estado": "FCP"
+  },
+  {
+    "Faculdade": "FACULDADE DOS GUARARAPES",
+    "Estado": "FG"
+  },
+  {
+    "Faculdade": "FACULDADE DOS IMIGRANTES - FAI",
+    "Estado": "FAI"
+  },
+  {
+    "Faculdade": "FACULDADE DOUTOR FRANCISCO MAEDA",
+    "Estado": "FAFRAM"
+  },
+  {
+    "Faculdade": "FACULDADE DOUTOR LEOCÁDIO JOSÉ CORREIA",
+    "Estado": "FALEC"
+  },
+  {
+    "Faculdade": "FACULDADE ECOAR",
+    "Estado": "FAECO"
+  },
+  {
+    "Faculdade": "FACULDADE EDUCACIONAL DA LAPA",
+    "Estado": "FAEL"
+  },
+  {
+    "Faculdade": "FACULDADE EDUCACIONAL DE ARAPOTI",
+    "Estado": "FATI"
+  },
+  {
+    "Faculdade": "FACULDADE EDUCACIONAL DE COLOMBO",
+    "Estado": "FAEC"
+  },
+  {
+    "Faculdade": "FACULDADE EDUCACIONAL DE CORNÉLIO PROCÓPIO",
+    "Estado": "FACED"
+  },
+  {
+    "Faculdade": "FACULDADE EDUCACIONAL DE DOIS VIZINHOS",
+    "Estado": "FAED"
+  },
+  {
+    "Faculdade": "FACULDADE EDUCACIONAL DE FRANCISCO BELTRÃO",
+    "Estado": "FEFB"
+  },
+  {
+    "Faculdade": "FACULDADE EDUCACIONAL DE MEDIANEIRA",
+    "Estado": "FACEMED"
+  },
+  {
+    "Faculdade": "FACULDADE EDUCACIONAL DE PONTA GROSSA",
+    "Estado": "UNIÃO"
+  },
+  {
+    "Faculdade": "FACULDADE EDUCAÇÃO FÍSICA DE PASSOS",
+    "Estado": "FADEF"
+  },
+  {
+    "Faculdade": "FACULDADE EDUVALE DE AVARÉ",
+    "Estado": "EDUVALE"
+  },
+  {
+    "Faculdade": "FACULDADE EMPRESARIAL DE CHAPECÓ",
+    "Estado": "FAEM"
+  },
+  {
+    "Faculdade": "FACULDADE ENIAC",
+    "Estado": "ENIAC"
+  },
+  {
+    "Faculdade": "FACULDADE ENTRE RIOS DO PIAUÍ",
+    "Estado": "FAERPI"
+  },
+  {
+    "Faculdade": "FACULDADE EQUIPE",
+    "Estado": "FAE"
+  },
+  {
+    "Faculdade": "FACULDADE ERNESTO RISCALI",
+    "Estado": "FAER"
+  },
+  {
+    "Faculdade": "FACULDADE ESAMC SANTOS",
+    "Estado": "ESAMC"
+  },
+  {
+    "Faculdade": "FACULDADE ESAMC SOROCABA",
+    "Estado": "ESAMC"
+  },
+  {
+    "Faculdade": "FACULDADE ESAMC UBERLÂNDIA",
+    "Estado": "ESAMC"
+  },
+  {
+    "Faculdade": "FACULDADE ESCOLA PAULISTA DE DIREITO",
+    "Estado": "FACEPD"
+  },
+  {
+    "Faculdade": "FACULDADE ESCRITOR OSMAN DA COSTA LINS",
+    "Estado": "FACOL"
+  },
+  {
+    "Faculdade": "FACULDADE ESPECIALIZADA NA ÁREA DE SAÚDE DO RIO GRANDE DO SUL",
+    "Estado": "FASURGS"
+  },
+  {
+    "Faculdade": "FACULDADE ESPÍRITO SANTENSE",
+    "Estado": "UNICAPE"
+  },
+  {
+    "Faculdade": "FACULDADE ESTADUAL DE CIÊNCIAS E LETRAS DE CAMPO MOURÃO",
+    "Estado": "FECILCAM"
+  },
+  {
+    "Faculdade": "FACULDADE ESTADUAL DE CIÊNCIAS ECONÔMICAS DE APUCARANA",
+    "Estado": "FECEA"
+  },
+  {
+    "Faculdade": "FACULDADE ESTADUAL DE FILOSOFIA CIÊNCIAS E LETRAS DE PARANAGUÁ",
+    "Estado": "FAFIPAR"
+  },
+  {
+    "Faculdade": "FACULDADE ESTADUAL DE FILOSOFIA CIÊNCIAS LETRAS UNIÃO DA VITÓRIA",
+    "Estado": "FAFIUV"
+  },
+  {
+    "Faculdade": "FACULDADE ESTAÇÃO",
+    "Estado": "FAEST"
+  },
+  {
+    "Faculdade": "FACULDADE ESTÁCIO COTIA",
+    "Estado": "Estácio FAAC"
+  },
+  {
+    "Faculdade": "FACULDADE ESTÁCIO DA AMAZÔNIA",
+    "Estado": "Estácio Atual"
+  },
+  {
+    "Faculdade": "FACULDADE ESTÁCIO DA PARAÍBA",
+    "Estado": "ESTÁCIO PARAÍBA"
+  },
+  {
+    "Faculdade": "FACULDADE ESTÁCIO DE ALAGOAS - ESTÁCIO FAL",
+    "Estado": "ESTÁCIO FAL"
+  },
+  {
+    "Faculdade": "FACULDADE ESTÁCIO DE CURITIBA",
+    "Estado": "ESTÁCIO CURITIBA"
+  },
+  {
+    "Faculdade": "FACULDADE ESTÁCIO DE SANTO ANDRÉ",
+    "Estado": "ESTÁCIO SANTO ANDRÉ"
+  },
+  {
+    "Faculdade": "FACULDADE ESTÁCIO DE SÁ DE CAMPO GRANDE",
+    "Estado": "FESCG"
+  },
+  {
+    "Faculdade": "FACULDADE ESTÁCIO DE SÁ DE GOIÁS",
+    "Estado": "FESGO"
+  },
+  {
+    "Faculdade": "FACULDADE ESTÁCIO DE SÁ DE JUIZ DE FORA",
+    "Estado": "FESJF"
+  },
+  {
+    "Faculdade": "FACULDADE ESTÁCIO DE SÁ DE OURINHOS",
+    "Estado": "FAESO"
+  },
+  {
+    "Faculdade": "FACULDADE ESTÁCIO DE SÁ DE VILA VELHA",
+    "Estado": "FESVV"
+  },
+  {
+    "Faculdade": "FACULDADE ESTÁCIO DE SÃO LUÍS",
+    "Estado": "ESTÁCIO SÃO LUÍS"
+  },
+  {
+    "Faculdade": "FACULDADE ESTÁCIO DO AMAPÁ - ESTÁCIO FAMAP",
+    "Estado": "ESTÁCIO FAMAP"
+  },
+  {
+    "Faculdade": "FACULDADE ESTÁCIO DO RECIFE - ESTÁCIO FIR",
+    "Estado": "Estácio FIR"
+  },
+  {
+    "Faculdade": "FACULDADE ESTÁCIO EURO- PANAMERICANA DE HUMANIDADES E TECNOLOGIAS - ESTÁCIO EUROPAN",
+    "Estado": "ESTÁCIO EUROPAN"
+  },
+  {
+    "Faculdade": "FACULDADE ESTÁCIO MONTESSORI DE IBIÚNA",
+    "Estado": "ESTÁCIO FMI"
+  },
+  {
+    "Faculdade": "FACULDADE EUCLIDES DA CUNHA",
+    "Estado": "FAEUC"
+  },
+  {
+    "Faculdade": "FACULDADE EUROPÉIA DE ADMINISTRAÇÃO E MARKETING",
+    "Estado": "FEPAM"
+  },
+  {
+    "Faculdade": "FACULDADE EVANGÉLICA DE SALVADOR",
+    "Estado": "FACESA"
+  },
+  {
+    "Faculdade": "FACULDADE EVANGÉLICA DO MEIO NORTE",
+    "Estado": "FAEME"
+  },
+  {
+    "Faculdade": "FACULDADE EVANGÉLICA DO PARANÁ",
+    "Estado": "FEPAR"
+  },
+  {
+    "Faculdade": "FACULDADE EVANGÉLICA DO PIAUI",
+    "Estado": "FAEPI"
+  },
+  {
+    "Faculdade": "FACULDADE EVOLUTIVO",
+    "Estado": "Face"
+  },
+  {
+    "Faculdade": "FACULDADE EVOLUÇÃO ALTO OESTE POTIGUAR",
+    "Estado": "FACEP"
+  },
+  {
+    "Faculdade": "FACULDADE EÇA DE QUEIROS",
+    "Estado": "FACEQ"
+  },
+  {
+    "Faculdade": "FACULDADE FACCAT",
+    "Estado": "FACCAT"
+  },
+  {
+    "Faculdade": "FACULDADE FACTUM",
+    "Estado": "Factum"
+  },
+  {
+    "Faculdade": "FACULDADE FAPAN",
+    "Estado": "FAPAN"
+  },
+  {
+    "Faculdade": "FACULDADE FARIAS BRITO",
+    "Estado": "FFB"
+  },
+  {
+    "Faculdade": "FACULDADE FASIPE",
+    "Estado": "FASIPE"
+  },
+  {
+    "Faculdade": "FACULDADE FERNÃO DIAS",
+    "Estado": "FAFE"
+  },
+  {
+    "Faculdade": "FACULDADE FILADÉLFIA",
+    "Estado": "FAFIL"
+  },
+  {
+    "Faculdade": "FACULDADE FLEMING",
+    "Estado": "SEF"
+  },
+  {
+    "Faculdade": "FACULDADE FOZ DO IGUAÇU",
+    "Estado": "FAFIG"
+  },
+  {
+    "Faculdade": "FACULDADE FRASSINETTI DO RECIFE",
+    "Estado": "FAFIRE"
+  },
+  {
+    "Faculdade": "FACULDADE FRUTAL",
+    "Estado": "FAF"
+  },
+  {
+    "Faculdade": "FACULDADE FUCAPE",
+    "Estado": "FUCAPE"
+  },
+  {
+    "Faculdade": "FACULDADE GAMA E SOUZA",
+    "Estado": "FGS"
+  },
+  {
+    "Faculdade": "FACULDADE GENNARI E PEARTREE",
+    "Estado": "FGP"
+  },
+  {
+    "Faculdade": "FACULDADE GEREMÁRIO DANTAS",
+    "Estado": "SFNSC"
+  },
+  {
+    "Faculdade": "FACULDADE GLOBAL DE UMUARAMA",
+    "Estado": "FGU"
+  },
+  {
+    "Faculdade": "FACULDADE GUARAPUAVA",
+    "Estado": "FG"
+  },
+  {
+    "Faculdade": "FACULDADE GUARAÍ",
+    "Estado": "FAG"
+  },
+  {
+    "Faculdade": "FACULDADE GUILHERME GUIMBALA",
+    "Estado": "FGG"
+  },
+  {
+    "Faculdade": "FACULDADE HERRERO",
+    "Estado": "FATEC"
+  },
+  {
+    "Faculdade": "FACULDADE HORIZONTES",
+    "Estado": "FH"
+  },
+  {
+    "Faculdade": "FACULDADE HÉLIO ROCHA",
+    "Estado": "FHR"
+  },
+  {
+    "Faculdade": "FACULDADE IBGEN - INSTITUTO BRASILEIRO DE GESTÃO DE NEGÓCIOS",
+    "Estado": "IBGEN"
+  },
+  {
+    "Faculdade": "FACULDADE IBGEN",
+    "Estado": "IBGEN"
+  },
+  {
+    "Faculdade": "FACULDADE ICESP",
+    "Estado": "ICESP"
+  },
+  {
+    "Faculdade": "FACULDADE IDEAL",
+    "Estado": "FACI"
+  },
+  {
+    "Faculdade": "FACULDADE IGUAÇU",
+    "Estado": "FI"
+  },
+  {
+    "Faculdade": "FACULDADE IMPACTA TECNOLOGIA",
+    "Estado": "FIT"
+  },
+  {
+    "Faculdade": "FACULDADE INDEPENDENTE DO NORDESTE",
+    "Estado": "FAINOR"
+  },
+  {
+    "Faculdade": "FACULDADE INED DE RIO CLARO",
+    "Estado": "CBTA"
+  },
+  {
+    "Faculdade": "FACULDADE INEDI",
+    "Estado": "CESUCA"
+  },
+  {
+    "Faculdade": "FACULDADE INESP - INSTITUTO NACIONAL DE ENSINO E PESQUISA",
+    "Estado": "INESP"
+  },
+  {
+    "Faculdade": "FACULDADE INTEGRADA BRASIL AMAZÔNIA",
+    "Estado": "FIBRA"
+  },
+  {
+    "Faculdade": "FACULDADE INTEGRADA DA GRANDE FORTALEZA",
+    "Estado": "FGF"
+  },
+  {
+    "Faculdade": "FACULDADE INTEGRADA DE ARAGUATINS",
+    "Estado": "FAIARA"
+  },
+  {
+    "Faculdade": "FACULDADE INTEGRADA DE ENSINO SUPERIOR DE COLINAS",
+    "Estado": "FIESC"
+  },
+  {
+    "Faculdade": "FACULDADE INTEGRADA DE PERNAMBUCO",
+    "Estado": "FACIPE"
+  },
+  {
+    "Faculdade": "FACULDADE INTEGRADA DE SANTA MARIA",
+    "Estado": "FISMA"
+  },
+  {
+    "Faculdade": "FACULDADE INTEGRADA DO CEARÁ",
+    "Estado": "Fic"
+  },
+  {
+    "Faculdade": "FACULDADE INTEGRADA DO RECIFE",
+    "Estado": "FIR"
+  },
+  {
+    "Faculdade": "FACULDADE INTEGRADA EUCLIDES FERNANDES",
+    "Estado": "FAJ"
+  },
+  {
+    "Faculdade": "FACULDADE INTEGRADA METROPOLITANA DE CAMPINAS",
+    "Estado": "METROCAMP"
+  },
+  {
+    "Faculdade": "FACULDADE INTEGRADA RIO BRANCO",
+    "Estado": "FIRB"
+  },
+  {
+    "Faculdade": "FACULDADE INTEGRADA TIRADENTES",
+    "Estado": "FITS"
+  },
+  {
+    "Faculdade": "FACULDADE INTEGRADO DE CAMPO MOURÃO",
+    "Estado": "CEI"
+  },
+  {
+    "Faculdade": "FACULDADE INTEGRAL CANTAREIRA",
+    "Estado": "F.I.C."
+  },
+  {
+    "Faculdade": "FACULDADE INTEGRAL DIFERENCIAL",
+    "Estado": "FACID"
+  },
+  {
+    "Faculdade": "FACULDADE INTEGRAÇÃO TIETE",
+    "Estado": "FIT"
+  },
+  {
+    "Faculdade": "FACULDADE INTERAMERICANA DE PORTO VELHO",
+    "Estado": "UNIRON"
+  },
+  {
+    "Faculdade": "FACULDADE INTERATIVA COC",
+    "Estado": "UniCOC"
+  },
+  {
+    "Faculdade": "FACULDADE INTERAÇÃO AMERICANA",
+    "Estado": "FIA"
+  },
+  {
+    "Faculdade": "FACULDADE INTERMUNICIPAL DO NOROESTE DO PARANÁ",
+    "Estado": "FACINOR"
+  },
+  {
+    "Faculdade": "FACULDADE INTERNACIONAL DA PARAÍBA",
+    "Estado": "FPB"
+  },
+  {
+    "Faculdade": "FACULDADE INTERNACIONAL DO DELTA",
+    "Estado": "INTA"
+  },
+  {
+    "Faculdade": "FACULDADE IPEMED DE CIÊNCIA MÉDICAS",
+    "Estado": "IPEMED"
+  },
+  {
+    "Faculdade": "FACULDADE IPIRANGA",
+    "Estado": "FACIP"
+  },
+  {
+    "Faculdade": "FACULDADE ISEIB DE BELO HORIZONTE",
+    "Estado": "FIBH"
+  },
+  {
+    "Faculdade": "FACULDADE ISRAELITA DE CIÊNCIAS DA SAÚDE EINSTEIN",
+    "Estado": "FICSAE"
+  },
+  {
+    "Faculdade": "FACULDADE ITABIRANA DE DESENVOLVIMENTO DAS CIÊNCIAS E TECNOLOGIAS",
+    "Estado": "FATEC"
+  },
+  {
+    "Faculdade": "FACULDADE ITABORAÍ",
+    "Estado": "OMNI"
+  },
+  {
+    "Faculdade": "FACULDADE ITANHAÉM",
+    "Estado": "FAITA"
+  },
+  {
+    "Faculdade": "FACULDADE ITEANA DE BOTUCATU",
+    "Estado": "FITB"
+  },
+  {
+    "Faculdade": "FACULDADE ITOP",
+    "Estado": "ITOP"
+  },
+  {
+    "Faculdade": "FACULDADE JAGUARIAÍVA",
+    "Estado": "FAJAR"
+  },
+  {
+    "Faculdade": "FACULDADE JANGADA",
+    "Estado": "FJ"
+  },
+  {
+    "Faculdade": "FACULDADE JAPI",
+    "Estado": "JAPI"
+  },
+  {
+    "Faculdade": "FACULDADE JESUÍTA DE FILOSOFIA E TEOLOGIA",
+    "Estado": "FAJE"
+  },
+  {
+    "Faculdade": "FACULDADE JK - ASA NORTE",
+    "Estado": "CENACAP"
+  },
+  {
+    "Faculdade": "FACULDADE JK - BRASÍLIA - UNIDADE PLANO PILOTO",
+    "Estado": "CENACAP"
+  },
+  {
+    "Faculdade": "FACULDADE JK - GUARÁ",
+    "Estado": "ESAMC BRASÍLIA"
+  },
+  {
+    "Faculdade": "FACULDADE JK SOBRADINHO",
+    "Estado": "FASEP"
+  },
+  {
+    "Faculdade": "FACULDADE JOAQUIM NABUCO",
+    "Estado": "FJN"
+  },
+  {
+    "Faculdade": "FACULDADE JOSÉ AUGUSTO VIEIRA",
+    "Estado": "FJAV"
+  },
+  {
+    "Faculdade": "FACULDADE JOSÉ LACERDA FILHO DE CIÊNCIAS APLICADAS",
+    "Estado": "FAJOLCA"
+  },
+  {
+    "Faculdade": "FACULDADE JUVÊNCIO TERRA",
+    "Estado": "FJT"
+  },
+  {
+    "Faculdade": "FACULDADE LA SALLE",
+    "Estado": "Unisalle"
+  },
+  {
+    "Faculdade": "FACULDADE LIONS",
+    "Estado": "FAC-LIONS"
+  },
+  {
+    "Faculdade": "FACULDADE LITERATUS",
+    "Estado": "Fal"
+  },
+  {
+    "Faculdade": "FACULDADE LS",
+    "Estado": "FACELS"
+  },
+  {
+    "Faculdade": "FACULDADE LUCIANO FEIJÃO",
+    "Estado": "FLF"
+  },
+  {
+    "Faculdade": "FACULDADE LUSOBRASILEIRA",
+    "Estado": "FALUB"
+  },
+  {
+    "Faculdade": "FACULDADE LUTERANA RUI BARBOSA",
+    "Estado": "FALURB"
+  },
+  {
+    "Faculdade": "FACULDADE LUTERANA SÃO MARCOS",
+    "Estado": "FALSM"
+  },
+  {
+    "Faculdade": "FACULDADE LÍDER",
+    "Estado": "FAL"
+  },
+  {
+    "Faculdade": "FACULDADE MACHADO DE ASSIS",
+    "Estado": "FAMA"
+  },
+  {
+    "Faculdade": "FACULDADE MACHADO SOBRINHO",
+    "Estado": "FMS"
+  },
+  {
+    "Faculdade": "FACULDADE MADRE TEREZA",
+    "Estado": "FAMAT"
+  },
+  {
+    "Faculdade": "FACULDADE MADRE THAIS",
+    "Estado": "FMT"
+  },
+  {
+    "Faculdade": "FACULDADE MARANHENSE SÃO JOSÉ DOS COCAIS",
+    "Estado": "FSJ"
+  },
+  {
+    "Faculdade": "FACULDADE MARECHAL RONDON",
+    "Estado": "FMR"
+  },
+  {
+    "Faculdade": "FACULDADE MARIA MILZA",
+    "Estado": "FAMAM"
+  },
+  {
+    "Faculdade": "FACULDADE MARINGÁ",
+    "Estado": "CESPAR"
+  },
+  {
+    "Faculdade": "FACULDADE MARIO SCHENBERG",
+    "Estado": "FMS"
+  },
+  {
+    "Faculdade": "FACULDADE MARISTA",
+    "Estado": "FMR"
+  },
+  {
+    "Faculdade": "FACULDADE MARTHA FALCÃO",
+    "Estado": "FMF"
+  },
+  {
+    "Faculdade": "FACULDADE MATER DEI",
+    "Estado": "FMD"
+  },
+  {
+    "Faculdade": "FACULDADE MAURÍCIO DE NASSAU DE CAMPINA GRANDE",
+    "Estado": "FMN CG"
+  },
+  {
+    "Faculdade": "FACULDADE MAURÍCIO DE NASSAU DE JOÃO PESSOA",
+    "Estado": "FMN JOÃO PESSOA"
+  },
+  {
+    "Faculdade": "FACULDADE MAURÍCIO DE NASSAU DE LAURO FREITAS",
+    "Estado": "FABAC"
+  },
+  {
+    "Faculdade": "FACULDADE MAURÍCIO DE NASSAU",
+    "Estado": "UNINASSAU"
+  },
+  {
+    "Faculdade": "FACULDADE MAUÁ DE BRASÍLIA",
+    "Estado": "MAUADF"
+  },
+  {
+    "Faculdade": "FACULDADE MAX PLANCK",
+    "Estado": "FMP"
+  },
+  {
+    "Faculdade": "FACULDADE MERCÚRIO",
+    "Estado": "FAMERC"
+  },
+  {
+    "Faculdade": "FACULDADE MERIDIONAL",
+    "Estado": "IMED"
+  },
+  {
+    "Faculdade": "FACULDADE META",
+    "Estado": "Fameta"
+  },
+  {
+    "Faculdade": "FACULDADE METODISTA DE CIÊNCIAS HUMANAS E EXATAS",
+    "Estado": "METODISTA"
+  },
+  {
+    "Faculdade": "FACULDADE METODISTA DE SANTA MARIA",
+    "Estado": "FAMES"
+  },
+  {
+    "Faculdade": "FACULDADE METODISTA GRANBERY",
+    "Estado": "FMG"
+  },
+  {
+    "Faculdade": "FACULDADE METROPOLITANA DA AMAZÔNIA",
+    "Estado": "FAMAZ"
+  },
+  {
+    "Faculdade": "FACULDADE METROPOLITANA DA GRANDE RECIFE",
+    "Estado": "UNESJ"
+  },
+  {
+    "Faculdade": "FACULDADE METROPOLITANA DE CAIEIRAS",
+    "Estado": "FMC"
+  },
+  {
+    "Faculdade": "FACULDADE METROPOLITANA DE CAMAÇARI",
+    "Estado": "FAMEC"
+  },
+  {
+    "Faculdade": "FACULDADE METROPOLITANA DE FORTALEZA",
+    "Estado": "Fametro"
+  },
+  {
+    "Faculdade": "FACULDADE METROPOLITANA DE GUARAMIRIM",
+    "Estado": "FAMEG"
+  },
+  {
+    "Faculdade": "FACULDADE METROPOLITANA DE MANAUS",
+    "Estado": "Fametro"
+  },
+  {
+    "Faculdade": "FACULDADE METROPOLITANA DE MARINGÁ",
+    "Estado": "UNIFAMMA"
+  },
+  {
+    "Faculdade": "FACULDADE METROPOLITANA DO PLANALTO NORTE",
+    "Estado": "FAMEPLAN"
+  },
+  {
+    "Faculdade": "FACULDADE METROPOLITANA LONDRINENSE",
+    "Estado": "FML"
+  },
+  {
+    "Faculdade": "FACULDADE METROPOLITANA",
+    "Estado": "UNNESA"
+  },
+  {
+    "Faculdade": "FACULDADE MINEIRENSE",
+    "Estado": "FAMA"
+  },
+  {
+    "Faculdade": "FACULDADE MODELO",
+    "Estado": "FACIMOD"
+  },
+  {
+    "Faculdade": "FACULDADE MOGIANA DO ESTADO DE SÃO PAULO",
+    "Estado": "FAMOESP"
+  },
+  {
+    "Faculdade": "FACULDADE MONTEIRO LOBATO",
+    "Estado": "FATO"
+  },
+  {
+    "Faculdade": "FACULDADE MONTES BELOS",
+    "Estado": "FMB"
+  },
+  {
+    "Faculdade": "FACULDADE MONTESSORIANO DE SALVADOR",
+    "Estado": "FAMA"
+  },
+  {
+    "Faculdade": "FACULDADE MORAES JÚNIOR - MACKENZIE RIO",
+    "Estado": "FMJ - MACKENZIE RIO"
+  },
+  {
+    "Faculdade": "FACULDADE MORUMBI SUL",
+    "Estado": "FMS"
+  },
+  {
+    "Faculdade": "FACULDADE MOZARTEUM DE SÃO PAULO",
+    "Estado": "FAMOSP"
+  },
+  {
+    "Faculdade": "FACULDADE MUNICIPAL DE PALHOÇA",
+    "Estado": "FMP"
+  },
+  {
+    "Faculdade": "FACULDADE MUNICIPAL PROFESSOR FRANCO MONTORO DE MOGI GUAÇU",
+    "Estado": "FMPFM"
+  },
+  {
+    "Faculdade": "FACULDADE MURIALDO",
+    "Estado": "FAMUR"
+  },
+  {
+    "Faculdade": "FACULDADE MÉTODO DE SÃO PAULO",
+    "Estado": "FAMESP"
+  },
+  {
+    "Faculdade": "FACULDADE NACIONAL",
+    "Estado": "FINAC"
+  },
+  {
+    "Faculdade": "FACULDADE NATALENSE DE ENSINO E CULTURA",
+    "Estado": "Fanec"
+  },
+  {
+    "Faculdade": "FACULDADE NATALENSE PARA O DESENVOLVIMENTO DO RIO GRANDE DO NORTE",
+    "Estado": "FARN"
+  },
+  {
+    "Faculdade": "FACULDADE NETWORK",
+    "Estado": "NWK"
+  },
+  {
+    "Faculdade": "FACULDADE NOBRE DE FEIRA DE SANTANA",
+    "Estado": "FAN"
+  },
+  {
+    "Faculdade": "FACULDADE NOROESTE",
+    "Estado": "FAN"
+  },
+  {
+    "Faculdade": "FACULDADE NORTE CAPIXABA DE SAO MATEUS",
+    "Estado": "MULTIVIX SÃO MATEUS"
+  },
+  {
+    "Faculdade": "FACULDADE NORTE PARANAENSE",
+    "Estado": "UNINORTE"
+  },
+  {
+    "Faculdade": "FACULDADE NOSSA CIDADE",
+    "Estado": "FNC"
+  },
+  {
+    "Faculdade": "FACULDADE NOSSA SENHORA APARECIDA",
+    "Estado": "FANAP"
+  },
+  {
+    "Faculdade": "FACULDADE NOSSA SENHORA DE FÁTIMA",
+    "Estado": "FACULDADE FÁTIMA"
+  },
+  {
+    "Faculdade": "FACULDADE NOVA ROMA",
+    "Estado": "FGV"
+  },
+  {
+    "Faculdade": "FACULDADE NOVAUNESC",
+    "Estado": "NOVAUNESC"
+  },
+  {
+    "Faculdade": "FACULDADE NOVO HAMBURGO",
+    "Estado": "FACULDADE IENH"
+  },
+  {
+    "Faculdade": "FACULDADE NOVO MILÊNIO",
+    "Estado": "FNM"
+  },
+  {
+    "Faculdade": "FACULDADE OBOÉ - FACO",
+    "Estado": "FACO"
+  },
+  {
+    "Faculdade": "FACULDADE ORÍGENES LESSA",
+    "Estado": "FACOL"
+  },
+  {
+    "Faculdade": "FACULDADE PADRE ANCHIETA DE VÁRZEA PAULISTA",
+    "Estado": "ANCHIETA"
+  },
+  {
+    "Faculdade": "FACULDADE PADRE JOÃO BAGOZZI",
+    "Estado": "FACULDADE BAGOZZI"
+  },
+  {
+    "Faculdade": "FACULDADE PADRÃO",
+    "Estado": "FP"
+  },
+  {
+    "Faculdade": "FACULDADE PALOTINA",
+    "Estado": "FAPAS"
+  },
+  {
+    "Faculdade": "FACULDADE PAN AMAZÔNICA",
+    "Estado": "FAPAN"
+  },
+  {
+    "Faculdade": "FACULDADE PANAMERICANA DE JIPARANÁ",
+    "Estado": "UNIJIPA"
+  },
+  {
+    "Faculdade": "FACULDADE PARA O DESENVOLVIMENTO DE PERNAMBUCO",
+    "Estado": "FADEPE"
+  },
+  {
+    "Faculdade": "FACULDADE PARAENSE DE ENSINO",
+    "Estado": "FAPEN"
+  },
+  {
+    "Faculdade": "FACULDADE PARANAPANEMA",
+    "Estado": "FP"
+  },
+  {
+    "Faculdade": "FACULDADE PARAÍBANA",
+    "Estado": "FAP"
+  },
+  {
+    "Faculdade": "FACULDADE PARAÍSO DO CEARÁ",
+    "Estado": "Fap"
+  },
+  {
+    "Faculdade": "FACULDADE PARQUE",
+    "Estado": "FAP"
+  },
+  {
+    "Faculdade": "FACULDADE PAULISTA DE ARTES",
+    "Estado": "FPA"
+  },
+  {
+    "Faculdade": "FACULDADE PAULISTA DE EDUCAÇÃO E COMUNICAÇÃO",
+    "Estado": "FAPEC"
+  },
+  {
+    "Faculdade": "FACULDADE PAULISTA DE SERVIÇO SOCIAL",
+    "Estado": "FAPSS-SP."
+  },
+  {
+    "Faculdade": "FACULDADE PAULUS DE COMUNICAÇÃO E TECNOLOGIA",
+    "Estado": "FAPCOM"
+  },
+  {
+    "Faculdade": "FACULDADE PEDRO LEOPOLDO",
+    "Estado": "FPL"
+  },
+  {
+    "Faculdade": "FACULDADE PENSAR",
+    "Estado": "FP"
+  },
+  {
+    "Faculdade": "FACULDADE PERNAMBUCANA",
+    "Estado": "Fape"
+  },
+  {
+    "Faculdade": "FACULDADE PERUIBE",
+    "Estado": "FPBE"
+  },
+  {
+    "Faculdade": "FACULDADE PHÊNIX DE CIÊNCIAS HUMANAS E SOCIAIS DO BRASIL",
+    "Estado": "PHENIX"
+  },
+  {
+    "Faculdade": "FACULDADE PIAGET",
+    "Estado": "FACPIAGET"
+  },
+  {
+    "Faculdade": "FACULDADE PIAUIENSE DE PROCESSAMENTO DE DADOS",
+    "Estado": "FPPD"
+  },
+  {
+    "Faculdade": "FACULDADE PIAUIENSE",
+    "Estado": "FAP"
+  },
+  {
+    "Faculdade": "FACULDADE PINHALZINHO",
+    "Estado": "HORUS"
+  },
+  {
+    "Faculdade": "FACULDADE PINHEIRO GUIMARÃES",
+    "Estado": "FAPG"
+  },
+  {
+    "Faculdade": "FACULDADE PIO DÉCIMO",
+    "Estado": "PIODECIMO"
+  },
+  {
+    "Faculdade": "FACULDADE PITÁGORAS DE ADMINISTRAÇÃO SUPERIOR",
+    "Estado": "FPAS"
+  },
+  {
+    "Faculdade": "FACULDADE PITÁGORAS DE BELO HORIZONTE",
+    "Estado": "FPAS"
+  },
+  {
+    "Faculdade": "FACULDADE PITÁGORAS DE BETIM",
+    "Estado": "PITÁGORAS-BETIM"
+  },
+  {
+    "Faculdade": "FACULDADE PITÁGORAS DE DIVINÓPOLIS - FPD",
+    "Estado": "FPD"
+  },
+  {
+    "Faculdade": "FACULDADE PITÁGORAS DE IMPERATRIZ",
+    "Estado": "FAMA"
+  },
+  {
+    "Faculdade": "FACULDADE PITÁGORAS DE IPATINGA",
+    "Estado": "FPI"
+  },
+  {
+    "Faculdade": "FACULDADE PITÁGORAS DE JUNDIAÍ",
+    "Estado": "PIT JUNDIAÍ"
+  },
+  {
+    "Faculdade": "FACULDADE PITÁGORAS DE TEIXEIRA DE FREITAS",
+    "Estado": "PIT TEIXEIRA"
+  },
+  {
+    "Faculdade": "FACULDADE POLITEC",
+    "Estado": "FAP"
+  },
+  {
+    "Faculdade": "FACULDADE POLITÉCNICA DE CAMPINAS",
+    "Estado": "POLICAMP"
+  },
+  {
+    "Faculdade": "FACULDADE POLITÉCNICA DE UBERLÂNDIA",
+    "Estado": "FPU"
+  },
+  {
+    "Faculdade": "FACULDADE PORTO ALGRENSE",
+    "Estado": "FAPA"
+  },
+  {
+    "Faculdade": "FACULDADE PORTO DAS ÁGUAS",
+    "Estado": "FAPAG"
+  },
+  {
+    "Faculdade": "FACULDADE PRESBITERIANA GAMMON",
+    "Estado": "FAGAMMON"
+  },
+  {
+    "Faculdade": "FACULDADE PRESIDENTE ANTÔNIO CARLOS DE AIMORÉS",
+    "Estado": "FUNEC Aimorés"
+  },
+  {
+    "Faculdade": "FACULDADE PRESIDENTE ANTÔNIO CARLOS DE BOM DESPACHO",
+    "Estado": "FAPACBD"
+  },
+  {
+    "Faculdade": "FACULDADE PRESIDENTE ANTÔNIO CARLOS DE GOVERNADOR VALADARES",
+    "Estado": "FAU G. Valadares"
+  },
+  {
+    "Faculdade": "FACULDADE PRESIDENTE ANTÔNIO CARLOS DE RIBEIRÃO DAS NEVES",
+    "Estado": "FUNEES R. das Neves"
+  },
+  {
+    "Faculdade": "FACULDADE PRESIDENTE ANTÔNIO CARLOS DE VÁRZEA DA PALMA",
+    "Estado": "FEES Várzea da Palma"
+  },
+  {
+    "Faculdade": "FACULDADE PRINCESA DO OESTE",
+    "Estado": "FPO"
+  },
+  {
+    "Faculdade": "FACULDADE PROCESSUS",
+    "Estado": "PFD"
+  },
+  {
+    "Faculdade": "FACULDADE PROFESSOR MIGUEL ÂNGELO DA SILVA SANTOS",
+    "Estado": "FEMASS"
+  },
+  {
+    "Faculdade": "FACULDADE PROJEÇÃO DE CEILÂNDIA",
+    "Estado": "FACEB"
+  },
+  {
+    "Faculdade": "FACULDADE PROJEÇÃO",
+    "Estado": "FAPRO"
+  },
+  {
+    "Faculdade": "FACULDADE PROMOVE DE JANAÚBA",
+    "Estado": "ISEJAN"
+  },
+  {
+    "Faculdade": "FACULDADE PROMOVE DE MINAS GERAIS",
+    "Estado": "FPMG"
+  },
+  {
+    "Faculdade": "FACULDADE PROMOVE DE SETE LAGOAS",
+    "Estado": "FSLMG"
+  },
+  {
+    "Faculdade": "FACULDADE QUIRINÓPOLIS",
+    "Estado": "FAQUI"
+  },
+  {
+    "Faculdade": "FACULDADE RAIMUNDO MARINHO",
+    "Estado": "FRM"
+  },
+  {
+    "Faculdade": "FACULDADE RANCHARIENSE",
+    "Estado": "FRAN"
+  },
+  {
+    "Faculdade": "FACULDADE RAÍZES",
+    "Estado": "SER"
+  },
+  {
+    "Faculdade": "FACULDADE REDENTOR",
+    "Estado": "FACREDENTOR"
+  },
+  {
+    "Faculdade": "FACULDADE REGES DE DRACENA",
+    "Estado": "FCGD"
+  },
+  {
+    "Faculdade": "FACULDADE REGIONAL DA BAHIA",
+    "Estado": "FARB"
+  },
+  {
+    "Faculdade": "FACULDADE REGIONAL DE ALAGOINHAS",
+    "Estado": "FARAL"
+  },
+  {
+    "Faculdade": "FACULDADE REGIONAL PALMITOS",
+    "Estado": "FAP"
+  },
+  {
+    "Faculdade": "FACULDADE REUNIDA",
+    "Estado": "FAR"
+  },
+  {
+    "Faculdade": "FACULDADE RIO BRANCO",
+    "Estado": "FARB"
+  },
+  {
+    "Faculdade": "FACULDADE RORAIMENSE DE ENSINO SUPERIOR",
+    "Estado": "FARES"
+  },
+  {
+    "Faculdade": "FACULDADE RUY BARBOSA",
+    "Estado": "FRB"
+  },
+  {
+    "Faculdade": "FACULDADE SABERES",
+    "Estado": "SABERES"
+  },
+  {
+    "Faculdade": "FACULDADE SALESIANA DE SANTA TERESA",
+    "Estado": "FSST"
+  },
+  {
+    "Faculdade": "FACULDADE SALESIANA DO NORDESTE",
+    "Estado": "FASNE"
+  },
+  {
+    "Faculdade": "FACULDADE SALESIANA DOM BOSCO",
+    "Estado": "FSDB"
+  },
+  {
+    "Faculdade": "FACULDADE SALESIANA MARIA AUXILIADORA",
+    "Estado": "FSMA"
+  },
+  {
+    "Faculdade": "FACULDADE SANT'ANA",
+    "Estado": "IESSA"
+  },
+  {
+    "Faculdade": "FACULDADE SANTA AMÉLIA",
+    "Estado": "SECAL"
+  },
+  {
+    "Faculdade": "FACULDADE SANTA CATARINA",
+    "Estado": "FASC"
+  },
+  {
+    "Faculdade": "FACULDADE SANTA CRUZ",
+    "Estado": "FACRUZ"
+  },
+  {
+    "Faculdade": "FACULDADE SANTA EMÍLIA DE RODAT",
+    "Estado": "FASER"
+  },
+  {
+    "Faculdade": "FACULDADE SANTA FÉ",
+    "Estado": "CESSF"
+  },
+  {
+    "Faculdade": "FACULDADE SANTA HELENA",
+    "Estado": "FASH"
+  },
+  {
+    "Faculdade": "FACULDADE SANTA IZILDINHA",
+    "Estado": "FIESI"
+  },
+  {
+    "Faculdade": "FACULDADE SANTA LÚCIA",
+    "Estado": "FCACSL"
+  },
+  {
+    "Faculdade": "FACULDADE SANTA MARCELINA",
+    "Estado": "FASM"
+  },
+  {
+    "Faculdade": "FACULDADE SANTA MARIA",
+    "Estado": "FSM"
+  },
+  {
+    "Faculdade": "FACULDADE SANTA RITA DE CÁSSIA",
+    "Estado": "UNIFASC"
+  },
+  {
+    "Faculdade": "FACULDADE SANTA RITA",
+    "Estado": "FASAR"
+  },
+  {
+    "Faculdade": "FACULDADE SANTA TEREZINHA",
+    "Estado": "CEST"
+  },
+  {
+    "Faculdade": "FACULDADE SANTA TEREZINHA",
+    "Estado": "FEST"
+  },
+  {
+    "Faculdade": "FACULDADE SANTO AGOSTINHO",
+    "Estado": "FSA"
+  },
+  {
+    "Faculdade": "FACULDADE SANTO ANTONIO",
+    "Estado": "FSA"
+  },
+  {
+    "Faculdade": "FACULDADE SANTO ANTÔNIO DE PÁDUA",
+    "Estado": "FASAP"
+  },
+  {
+    "Faculdade": "FACULDADE SANTO AUGUSTO",
+    "Estado": "FAISA"
+  },
+  {
+    "Faculdade": "FACULDADE SANT´ANNA DE SALTO",
+    "Estado": "FASAS"
+  },
+  {
+    "Faculdade": "FACULDADE SANTÍSSIMO SACRAMENTO",
+    "Estado": "FSSS"
+  },
+  {
+    "Faculdade": "FACULDADE SATC",
+    "Estado": "FASATC"
+  },
+  {
+    "Faculdade": "FACULDADE SEAMA",
+    "Estado": "SEAMA"
+  },
+  {
+    "Faculdade": "FACULDADE SENAC MINAS",
+    "Estado": "FSM"
+  },
+  {
+    "Faculdade": "FACULDADE SENAC PERNAMBUCO",
+    "Estado": "SENAC"
+  },
+  {
+    "Faculdade": "FACULDADE SENAC PORTO ALEGRE - FSPOA",
+    "Estado": "SENAC/RS"
+  },
+  {
+    "Faculdade": "FACULDADE SENAI-CETIQT",
+    "Estado": "SENAI-CETIQT"
+  },
+  {
+    "Faculdade": "FACULDADE SERGIPANA",
+    "Estado": "FASER"
+  },
+  {
+    "Faculdade": "FACULDADE SERIGY",
+    "Estado": "FASERGY"
+  },
+  {
+    "Faculdade": "FACULDADE SERRA DO CARMO",
+    "Estado": "FASEC"
+  },
+  {
+    "Faculdade": "FACULDADE SERRANA",
+    "Estado": "FASEP"
+  },
+  {
+    "Faculdade": "FACULDADE SINERGIA",
+    "Estado": "SINERGIA"
+  },
+  {
+    "Faculdade": "FACULDADE SINOP",
+    "Estado": "FASIP"
+  },
+  {
+    "Faculdade": "FACULDADE SOCIAL DA BAHIA",
+    "Estado": "FSBA"
+  },
+  {
+    "Faculdade": "FACULDADE SOCIESC DE CURITIBA",
+    "Estado": "SOCIESC"
+  },
+  {
+    "Faculdade": "FACULDADE SOCIESC",
+    "Estado": "UNICA"
+  },
+  {
+    "Faculdade": "FACULDADE SUDAMÉRICA",
+    "Estado": "SUDAMÉRICA"
+  },
+  {
+    "Faculdade": "FACULDADE SUDOESTE PAULISTA",
+    "Estado": "FSP"
+  },
+  {
+    "Faculdade": "FACULDADE SUL BRASIL",
+    "Estado": "FASUL"
+  },
+  {
+    "Faculdade": "FACULDADE SUL FLUMINENSE",
+    "Estado": "FASF"
+  },
+  {
+    "Faculdade": "FACULDADE SULAMERICANA",
+    "Estado": "FASAM"
+  },
+  {
+    "Faculdade": "FACULDADE SUMARÉ",
+    "Estado": "ISES"
+  },
+  {
+    "Faculdade": "FACULDADE SÃO BENTO DA BAHIA",
+    "Estado": "FSBB"
+  },
+  {
+    "Faculdade": "FACULDADE SÃO CAMILO",
+    "Estado": "FSC SALVADOR"
+  },
+  {
+    "Faculdade": "FACULDADE SÃO FRANCISCO DA PARAÍBA",
+    "Estado": "FASP"
+  },
+  {
+    "Faculdade": "FACULDADE SÃO FRANCISCO DE ASSIS",
+    "Estado": "UNIFIN"
+  },
+  {
+    "Faculdade": "FACULDADE SÃO FRANCISCO DE BARREIRAS - FASB",
+    "Estado": "FASB"
+  },
+  {
+    "Faculdade": "FACULDADE SÃO FRANCISCO DE PIUMHI",
+    "Estado": "FASPI"
+  },
+  {
+    "Faculdade": "FACULDADE SÃO GABRIEL",
+    "Estado": "FSG"
+  },
+  {
+    "Faculdade": "FACULDADE SÃO GERALDO",
+    "Estado": "FSG"
+  },
+  {
+    "Faculdade": "FACULDADE SÃO JOSÉ",
+    "Estado": "FSJ"
+  },
+  {
+    "Faculdade": "FACULDADE SÃO JUDAS TADEU",
+    "Estado": "FSJT"
+  },
+  {
+    "Faculdade": "FACULDADE SÃO LUCAS",
+    "Estado": "FSL"
+  },
+  {
+    "Faculdade": "FACULDADE SÃO LUIS DE FRANÇA",
+    "Estado": "FSLF"
+  },
+  {
+    "Faculdade": "FACULDADE SÃO LUÍS",
+    "Estado": "FSL"
+  },
+  {
+    "Faculdade": "FACULDADE SÃO MARCOS",
+    "Estado": "FASAMAR"
+  },
+  {
+    "Faculdade": "FACULDADE SÃO MIGUEL",
+    "Estado": "FSM"
+  },
+  {
+    "Faculdade": "FACULDADE SÃO SALVADOR",
+    "Estado": "FSSAL"
+  },
+  {
+    "Faculdade": "FACULDADE SÃO SEBASTIÃO",
+    "Estado": "FASS"
+  },
+  {
+    "Faculdade": "FACULDADE SÃO TOMAZ DE AQUINO",
+    "Estado": "FSTA"
+  },
+  {
+    "Faculdade": "FACULDADE TAMANDARÉ",
+    "Estado": "FAT"
+  },
+  {
+    "Faculdade": "FACULDADE TECSOMA",
+    "Estado": "FATEC"
+  },
+  {
+    "Faculdade": "FACULDADE TIJUCUSSU",
+    "Estado": "TIJUCUSSU"
+  },
+  {
+    "Faculdade": "FACULDADE TOBIAS BARRETO",
+    "Estado": "FTB"
+  },
+  {
+    "Faculdade": "FACULDADE TRIÂNGULO MINEIRO",
+    "Estado": "FTM"
+  },
+  {
+    "Faculdade": "FACULDADE TRÊS DE MAIO",
+    "Estado": "SETREM"
+  },
+  {
+    "Faculdade": "FACULDADE TRÊS PONTAS",
+    "Estado": "FATEP"
+  },
+  {
+    "Faculdade": "FACULDADE TÁHIRIH",
+    "Estado": "FT"
+  },
+  {
+    "Faculdade": "FACULDADE UBAENSE OZANAM COELHO",
+    "Estado": "FAGOC"
+  },
+  {
+    "Faculdade": "FACULDADE UBERLANDENSE DE NÚCLEOS INTEGRADOS DE ENSINO SERVIÇO SOCIAL E APRENDIZAGEM",
+    "Estado": "FAESSA"
+  },
+  {
+    "Faculdade": "FACULDADE UBS",
+    "Estado": "FACULDADE UBS"
+  },
+  {
+    "Faculdade": "FACULDADE UNA DE CONTAGEM",
+    "Estado": "FUNAC"
+  },
+  {
+    "Faculdade": "FACULDADE UNIDA DE CAMPINAS",
+    "Estado": "FACUNICAMPS"
+  },
+  {
+    "Faculdade": "FACULDADE UNIDA DE SUZANO",
+    "Estado": "UNISUZ"
+  },
+  {
+    "Faculdade": "FACULDADE UNIGRAN CAPITAL",
+    "Estado": "UNIGRAN CAPITAL"
+  },
+  {
+    "Faculdade": "FACULDADE UNILAGOS",
+    "Estado": "UNILAGOS"
+  },
+  {
+    "Faculdade": "FACULDADE UNIME DE CIÊNCIAS EXATAS E TECNOLÓGICAS",
+    "Estado": "FCT"
+  },
+  {
+    "Faculdade": "FACULDADE UNIME DE CIÊNCIAS SOCIAIS",
+    "Estado": "FCS"
+  },
+  {
+    "Faculdade": "FACULDADE UNISSA DE SARANDI",
+    "Estado": "UNISSA"
+  },
+  {
+    "Faculdade": "FACULDADE UNIÃO ARARUAMA DE ENSINO S/S LTDA.",
+    "Estado": "FAC-UNILAGOS"
+  },
+  {
+    "Faculdade": "FACULDADE UNIÃO BANDEIRANTE",
+    "Estado": "FUBSJ"
+  },
+  {
+    "Faculdade": "FACULDADE UNIÃO DE CAMPO MOURÃO",
+    "Estado": "UNICAMPO"
+  },
+  {
+    "Faculdade": "FACULDADE UNIÃO DE GOYAZES",
+    "Estado": "FUG"
+  },
+  {
+    "Faculdade": "FACULDADE VALE DO CRICARÉ",
+    "Estado": "F.V.C."
+  },
+  {
+    "Faculdade": "FACULDADE VALE DO GORUTUBA",
+    "Estado": "FAVAG"
+  },
+  {
+    "Faculdade": "FACULDADE VALE DO JAGUARIBE",
+    "Estado": "FVJ"
+  },
+  {
+    "Faculdade": "FACULDADE VALE DO SALGADO",
+    "Estado": "FVS"
+  },
+  {
+    "Faculdade": "FACULDADE VASCO DA GAMA",
+    "Estado": "FVG"
+  },
+  {
+    "Faculdade": "FACULDADE VENDA NOVA DO IMIGRANTE",
+    "Estado": "FAVENI"
+  },
+  {
+    "Faculdade": "FACULDADE VICENTINA - FAVI",
+    "Estado": "FAVI"
+  },
+  {
+    "Faculdade": "FACULDADE VICTOR HUGO",
+    "Estado": "FVH"
+  },
+  {
+    "Faculdade": "FACULDADE VISCONDE DE CAIRÚ",
+    "Estado": "FAVIV"
+  },
+  {
+    "Faculdade": "FACULDADE VITORIANA DE TECNOLOGIA",
+    "Estado": "FAVI"
+  },
+  {
+    "Faculdade": "FACULDADE VIZINHANÇA VALE DO IGUAÇU",
+    "Estado": "VIZIVALI"
+  },
+  {
+    "Faculdade": "FACULDADE VÉRTICE",
+    "Estado": "VÉRTICE"
+  },
+  {
+    "Faculdade": "FACULDADE XV DE AGOSTO",
+    "Estado": "FAQ"
+  },
+  {
+    "Faculdade": "FACULDADE ZACARIAS DE GÓES",
+    "Estado": "FAZAG"
+  },
+  {
+    "Faculdade": "FACULDADE ZUMBI DOS PALMARES",
+    "Estado": "FAZP"
+  },
+  {
+    "Faculdade": "FACULDADE ÁREA 1",
+    "Estado": "ÁREA 1"
+  },
+  {
+    "Faculdade": "FACULDADE ÚNICA DE IPATINGA",
+    "Estado": "FUNIP"
+  },
+  {
+    "Faculdade": "FACULDADE ÚNICA DE TIMÓTEO",
+    "Estado": "FUNIT"
+  },
+  {
+    "Faculdade": "FACULDADES ADAMANTINENSES INTEGRADAS",
+    "Estado": "FAI"
+  },
+  {
+    "Faculdade": "FACULDADES ASSOCIADAS DE ARIQUEMES",
+    "Estado": "FAAR"
+  },
+  {
+    "Faculdade": "FACULDADES ASSOCIADAS DE UBERABA",
+    "Estado": "FAZU"
+  },
+  {
+    "Faculdade": "FACULDADES ATIBAIA",
+    "Estado": "FAAT"
+  },
+  {
+    "Faculdade": "FACULDADES CATHEDRAL BARRA DO GARÇAS",
+    "Estado": "CATHEDRAL"
+  },
+  {
+    "Faculdade": "FACULDADES CATHEDRAL",
+    "Estado": "CATHEDRAL"
+  },
+  {
+    "Faculdade": "FACULDADES CEARENSES",
+    "Estado": "Fac"
+  },
+  {
+    "Faculdade": "FACULDADES DA FUNDAÇÃO DE ENSINO DE MOCOCA",
+    "Estado": "FAFEM"
+  },
+  {
+    "Faculdade": "FACULDADES DE CAMPINAS",
+    "Estado": "FACAMP"
+  },
+  {
+    "Faculdade": "FACULDADES DE PINHAIS",
+    "Estado": "FAPI"
+  },
+  {
+    "Faculdade": "FACULDADES DO CENTRO DO PARANÁ",
+    "Estado": "UCP"
+  },
+  {
+    "Faculdade": "FACULDADES EST",
+    "Estado": "EST"
+  },
+  {
+    "Faculdade": "FACULDADES FUTURÃO",
+    "Estado": "CENTEFF"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS ADVENTISTAS DE MINAS GERAIS",
+    "Estado": "FADMINAS"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS ANTÔNIO EUFRÁSIO DE TOLEDO DE PRESIDENTE PRUDENTE",
+    "Estado": "FIAETPP"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS APARÍCIO CARVALHO",
+    "Estado": "FIMCA"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS ASSOCIAÇÃO DE ENSINO DE SANTA CATARINA",
+    "Estado": "FASSESC"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS BARROS MELO",
+    "Estado": "AESO"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS CAMPO-GRANDENSES",
+    "Estado": "FIC"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS CAMPOS SALLES",
+    "Estado": "FICS"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS CLARETIANAS",
+    "Estado": "FIC"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS CORAÇÃO DE JESUS",
+    "Estado": "FAINC"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DA TERRA DE BRASÍLIA",
+    "Estado": "FTB"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DA UNIÃO DE ENSINO SUPERIOR CERTO",
+    "Estado": "UNICERTO"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DA UNIÃO EDUCACIONAL DO PLANALTO CENTRAL - FACIPLAC",
+    "Estado": "FACIPLAC"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DA VITÓRIA DE SANTO ANTÃO",
+    "Estado": "FAINTVISA"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DE ARIQUEMES",
+    "Estado": "FIAR"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DE BOTUCATU",
+    "Estado": "UNIFAC"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DE CACOAL",
+    "Estado": "UNESC"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DE CARATINGA",
+    "Estado": "FIC"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DE CIÊNCIAS HUMANAS SAÚDE E EDUCAÇÃO DE GUARULHOS",
+    "Estado": "FG"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DE DIAMANTINO",
+    "Estado": "FID"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DE FERNANDÓPOLIS",
+    "Estado": "FIFE"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DE ITARARÉ",
+    "Estado": "FAFIT-FACIC"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DE JACAREPAGUÁ",
+    "Estado": "FIJ"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DE NAVIRAÍ",
+    "Estado": "FINAV"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DE OURINHOS",
+    "Estado": "FIO"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DE PATOS",
+    "Estado": "FIP"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DE RIBEIRÃO PIRES",
+    "Estado": "FIRP"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DE RONDONÓPOLIS",
+    "Estado": "FAIR"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DE SANTA FÉ DO SUL",
+    "Estado": "FUNEC"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DE SÃO CARLOS",
+    "Estado": "FADISC"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DE TANGARÁ DA SERRA",
+    "Estado": "FITS"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DE TAQUARA",
+    "Estado": "FACCAT"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DE TRÊS LAGOAS",
+    "Estado": "AEMS"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DE VITÓRIA",
+    "Estado": "FDV"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DE VÁRZEA GRANDE",
+    "Estado": "FIAVEC"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DESEMBARGADOR SÁVIO BRANDÃO",
+    "Estado": "FAUSB"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DO BRASIL",
+    "Estado": "FACBRASIL"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DO EXTREMO SUL DA BAHIA",
+    "Estado": "UNESULBAHIA"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DO OESTE DE MINAS",
+    "Estado": "FADOM"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DO TAPAJÓS",
+    "Estado": "FIT"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DO VALE DO RIBEIRA",
+    "Estado": "FIVR"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DOM PEDRO II",
+    "Estado": "DOMPEDRO"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS DOS CAMPOS GERAIS",
+    "Estado": "CESCAGE"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS EINSTEIN DE LIMEIRA",
+    "Estado": "FIEL"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS ESPÍRITA",
+    "Estado": "FIES"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS ESPÍRITOSANTENSE",
+    "Estado": "FAESA"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS HÉLIO ALONSO",
+    "Estado": "FACHA"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS INTERAMERICANAS",
+    "Estado": "FAITER"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS IPIRANGA",
+    "Estado": "FAINTIPI"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS IPITANGA",
+    "Estado": "UNIBAHIA"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS MARIA IMACULADA",
+    "Estado": "FIMI"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS MARIA THEREZA",
+    "Estado": "FAMATH"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS MATO-GROSSENSES DE CIÊNCIAS SOCIAIS E HUMANAS",
+    "Estado": "ICE"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS OLGA METTIG",
+    "Estado": "FAMETTIG"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS PADRE ALBINO",
+    "Estado": "FIPA"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS PITÁGORAS",
+    "Estado": "FIP-MOC"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS REGIONAIS DE AVARÉ",
+    "Estado": "FIRA"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS RIO BRANCO",
+    "Estado": "FIRB"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS RIO BRANCO",
+    "Estado": "FRB"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS RUI BARBOSA",
+    "Estado": "FIRB"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS SANTA CRUZ DE CURITIBA",
+    "Estado": "FARESC"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS SOARES DE OLIVEIRA",
+    "Estado": "FISO"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS STELLA MARIS DE ANDRADINA",
+    "Estado": "FISMA"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS SÉVIGNÉ",
+    "Estado": "FAE SÉVIGNÉ"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS TERESA D´ÁVILA",
+    "Estado": "FATEA"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS URUBUPUNGÁ",
+    "Estado": "FIU"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS VIANNA JÚNIOR",
+    "Estado": "FIVJ"
+  },
+  {
+    "Faculdade": "FACULDADES INTEGRADAS",
+    "Estado": "UPIS"
+  },
+  {
+    "Faculdade": "FACULDADES ITECNE DE CASCAVEL",
+    "Estado": "ITECNE"
+  },
+  {
+    "Faculdade": "FACULDADES MAGSUL",
+    "Estado": "FAMAG"
+  },
+  {
+    "Faculdade": "FACULDADES MILTON CAMPOS",
+    "Estado": "FMC"
+  },
+  {
+    "Faculdade": "FACULDADES NORDESTE",
+    "Estado": "Fanor"
+  },
+  {
+    "Faculdade": "FACULDADES OSWALDO CRUZ",
+    "Estado": "FOC"
+  },
+  {
+    "Faculdade": "FACULDADES PEQUENO PRÍNCIPE",
+    "Estado": "FPP"
+  },
+  {
+    "Faculdade": "FACULDADES SANTO AGOSTINHO",
+    "Estado": "FSA"
+  },
+  {
+    "Faculdade": "FACULDADES SPEI",
+    "Estado": "FACSPEI"
+  },
+  {
+    "Faculdade": "FACULDADES UNIDAS DE PESQUISA CIÊNCIAS E SAÚDE LTDA",
+    "Estado": "FAPEC"
+  },
+  {
+    "Faculdade": "FACULDADES UNIDAS DO NORTE DE MINAS",
+    "Estado": "Funorte"
+  },
+  {
+    "Faculdade": "FACULDADES UNIDAS DO VALE DO ARAGUAIA",
+    "Estado": "UNIVAR"
+  },
+  {
+    "Faculdade": "FACULDADES UNIFICADAS DE CATAGUASES",
+    "Estado": "FUC"
+  },
+  {
+    "Faculdade": "FACULDADES UNIFICADAS DE FOZ DO IGUAÇU",
+    "Estado": "UNIFOZ"
+  },
+  {
+    "Faculdade": "FACULDADES UNIFICADAS DE GUARAPARI",
+    "Estado": "FUG"
+  },
+  {
+    "Faculdade": "FACULDADES UNIFICADAS DE IÚNA",
+    "Estado": "FUI"
+  },
+  {
+    "Faculdade": "FACULDADES UNIFICADAS DE TEÓFILO OTONI",
+    "Estado": "FUTO"
+  },
+  {
+    "Faculdade": "FACULDADES VALE DO CARANGOLA",
+    "Estado": "FAVALEUEMG"
+  },
+  {
+    "Faculdade": "FAE CENTRO UNIVERSITÁRIO",
+    "Estado": "FAE"
+  },
+  {
+    "Faculdade": "FAJOPA - FACULDADE JOÃO PAULO II",
+    "Estado": "FAJOPA"
+  },
+  {
+    "Faculdade": "FEFISA - FACULDADES INTEGRADAS DE SANTO ANDRÉ",
+    "Estado": "FEFISA"
+  },
+  {
+    "Faculdade": "FUNDAÇÃO ARMANDO ÁLVARES PENTEADO",
+    "Estado": "FAAP"
+  },
+  {
+    "Faculdade": "FUNDAÇÃO ASSIS GURGACZ",
+    "Estado": "FAG"
+  },
+  {
+    "Faculdade": "FUNDAÇÃO COMUNITÁRIA DE ENSINO SUPERIOR DE ITABIRA",
+    "Estado": "FUNCESI"
+  },
+  {
+    "Faculdade": "FUNDAÇÃO CÁSPER LÍBERO",
+    "Estado": "FCL"
+  },
+  {
+    "Faculdade": "FUNDAÇÃO DE ENSINO SUPERIOR DE CLEVELÂNDIA",
+    "Estado": "FESC"
+  },
+  {
+    "Faculdade": "FUNDAÇÃO DE ENSINO SUPERIOR DE PASSOS",
+    "Estado": "FESP"
+  },
+  {
+    "Faculdade": "FUNDAÇÃO EDUCACIONAL ARAÇATUBA",
+    "Estado": "FEA"
+  },
+  {
+    "Faculdade": "FUNDAÇÃO EDUCACIONAL DE DIVINÓPOLIS",
+    "Estado": "FUNEDI"
+  },
+  {
+    "Faculdade": "FUNDAÇÃO ESCOLA DE COMÉRCIO ÁLVARES PENTEADO",
+    "Estado": "FECAP"
+  },
+  {
+    "Faculdade": "FUNDAÇÃO ESCOLA DE SOCIOLOGIA E POLÍTICA DE SÃO PAULO",
+    "Estado": "FESPSP"
+  },
+  {
+    "Faculdade": "FUNDAÇÃO GETÚLIO VARGAS",
+    "Estado": "FGV"
+  },
+  {
+    "Faculdade": "FUNDAÇÃO GETÚLIO VARGAS",
+    "Estado": "FGV"
+  },
+  {
+    "Faculdade": "FUNDAÇÃO INSTITUTO CAPIXABA DE PESQUISAS EM CONTABILIDADE ECONOMIA E FINANÇAS",
+    "Estado": "FUCAPE"
+  },
+  {
+    "Faculdade": "FUNDAÇÃO INSTITUTO TECNOLÓGICO DE OSASCO",
+    "Estado": "FITO"
+  },
+  {
+    "Faculdade": "FUNDAÇÃO JOÃO PINHEIRO",
+    "Estado": "FJP"
+  },
+  {
+    "Faculdade": "FUNDAÇÃO MINEIRA DE EDUCAÇÃO E CULTURA",
+    "Estado": "FUMEC"
+  },
+  {
+    "Faculdade": "FUNDAÇÃO TÉCNICO EDUCACIONAL SOUZA MARQUES",
+    "Estado": "FTESM"
+  },
+  {
+    "Faculdade": "FUNDAÇÃO UNIVERSIDADE DO TOCANTINS",
+    "Estado": "UNITINS"
+  },
+  {
+    "Faculdade": "FUNDAÇÃO UNIVERSIDADE FEDERAL DO VALE DO SÃO FRANCISCO",
+    "Estado": "UNIVASF"
+  },
+  {
+    "Faculdade": "FUNDAÇÃO UNIVERSIDADE FEDERAL DO VALE DO SÃO FRANCISCO",
+    "Estado": "UNIVASF"
+  },
+  {
+    "Faculdade": "FUNDAÇÃO UNIVERSIDADE REGIONAL DE BLUMENAU",
+    "Estado": "FURB"
+  },
+  {
+    "Faculdade": "GRUPO EDUCACIONAL UNINTER",
+    "Estado": "UNINTER"
+  },
+  {
+    "Faculdade": "INSTITUIÇÃO DE ENSINO SUPERIOR DO ACRE",
+    "Estado": "Iesacre"
+  },
+  {
+    "Faculdade": "INSTITUIÇÃO DE ENSINO SÃO FRANCISCO",
+    "Estado": "IESF"
+  },
+  {
+    "Faculdade": "INSTITUIÇÃO TOLEDO DE ENSINO",
+    "Estado": "ITE"
+  },
+  {
+    "Faculdade": "INSTITUTO ADVENTISTA CRUZEIRO DO SUL",
+    "Estado": "IACS"
+  },
+  {
+    "Faculdade": "INSTITUTO ADVENTISTA DE ENSINO DE SANTA CATARINA",
+    "Estado": "IAESC"
+  },
+  {
+    "Faculdade": "INSTITUTO BAIANO DE ENSINO SUPERIOR",
+    "Estado": "IBES"
+  },
+  {
+    "Faculdade": "INSTITUTO BELO HORIZONTE DE ENSINO SUPERIOR",
+    "Estado": "IBHES"
+  },
+  {
+    "Faculdade": "INSTITUTO BRASILEIRO DE MERCADO DE CAPITAIS",
+    "Estado": "IBMEC"
+  },
+  {
+    "Faculdade": "INSTITUTO CAMILLO FILHO",
+    "Estado": "ICF"
+  },
+  {
+    "Faculdade": "INSTITUTO CENECISTA DE ENSINO SUPERIOR DE SANTO ÂNGELO",
+    "Estado": "IESA"
+  },
+  {
+    "Faculdade": "INSTITUTO CIENTÍFICO DE ENSINO SUPERIOR E PESQUISA",
+    "Estado": "Unicesp"
+  },
+  {
+    "Faculdade": "INSTITUTO CUIABÁ DE ENSINO E CULTURA",
+    "Estado": "ICEC"
+  },
+  {
+    "Faculdade": "INSTITUTO DE CIÊNCIAS BIOLÓGICAS",
+    "Estado": "ICB"
+  },
+  {
+    "Faculdade": "INSTITUTO DE CIÊNCIAS DA SAÚDE",
+    "Estado": "ICS"
+  },
+  {
+    "Faculdade": "INSTITUTO DE CIÊNCIAS EXATAS",
+    "Estado": "UNEB"
+  },
+  {
+    "Faculdade": "INSTITUTO DE CIÊNCIAS JURÍDICAS E SOCIAIS PROFESSOR CAMILLO FILHO",
+    "Estado": "ICF"
+  },
+  {
+    "Faculdade": "INSTITUTO DE CIÊNCIAS SOCIAIS APLICADAS",
+    "Estado": "UNEB"
+  },
+  {
+    "Faculdade": "INSTITUTO DE CIÊNCIAS SOCIAIS E HUMANAS",
+    "Estado": "ICSH"
+  },
+  {
+    "Faculdade": "INSTITUTO DE EDUCAÇÃO CENECISTA MARQUÊS DE HERVAL",
+    "Estado": "MARQUÊS"
+  },
+  {
+    "Faculdade": "INSTITUTO DE EDUCAÇÃO E ENSINO SUPERIOR DE CAMPINAS",
+    "Estado": "IESCAMP"
+  },
+  {
+    "Faculdade": "INSTITUTO DE EDUCAÇÃO SUPERIOR DA PARAÍBA",
+    "Estado": "IESP"
+  },
+  {
+    "Faculdade": "INSTITUTO DE EDUCAÇÃO SUPERIOR DE BOITUVA",
+    "Estado": "FIB"
+  },
+  {
+    "Faculdade": "INSTITUTO DE EDUCAÇÃO SUPERIOR DE BRASÍLIA",
+    "Estado": "IESB"
+  },
+  {
+    "Faculdade": "INSTITUTO DE EDUCAÇÃO SUPERIOR DE PATROCÍNIO",
+    "Estado": "IESP"
+  },
+  {
+    "Faculdade": "INSTITUTO DE EDUCAÇÃO SUPERIOR RAIMUNDO SÁ",
+    "Estado": "IESRSA"
+  },
+  {
+    "Faculdade": "INSTITUTO DE EDUCAÇÃO SUPERIOR UNYAHNA DE SALVADOR",
+    "Estado": "IESUS"
+  },
+  {
+    "Faculdade": "INSTITUTO DE ENSINO E PESQUISA OBJETIVO",
+    "Estado": "IEPO"
+  },
+  {
+    "Faculdade": "INSTITUTO DE ENSINO E PESQUISA",
+    "Estado": "Insper"
+  },
+  {
+    "Faculdade": "INSTITUTO DE ENSINO SUPERIOR CENECISTA",
+    "Estado": "INESC"
+  },
+  {
+    "Faculdade": "INSTITUTO DE ENSINO SUPERIOR DA FUPESP",
+    "Estado": "IESF"
+  },
+  {
+    "Faculdade": "INSTITUTO DE ENSINO SUPERIOR DA GRANDE FLORIANÓPOLIS",
+    "Estado": "IESGF"
+  },
+  {
+    "Faculdade": "INSTITUTO DE ENSINO SUPERIOR DE LONDRINA - INESUL",
+    "Estado": "INESUL"
+  },
+  {
+    "Faculdade": "INSTITUTO DE ENSINO SUPERIOR DE OLINDA",
+    "Estado": "IESO"
+  },
+  {
+    "Faculdade": "INSTITUTO DE ENSINO SUPERIOR DE PIEDADE",
+    "Estado": "IESP"
+  },
+  {
+    "Faculdade": "INSTITUTO DE ENSINO SUPERIOR DE RIO VERDE",
+    "Estado": "IESRIVER"
+  },
+  {
+    "Faculdade": "INSTITUTO DE ENSINO SUPERIOR DE RONDÔNIA",
+    "Estado": "IESUR"
+  },
+  {
+    "Faculdade": "INSTITUTO DE ENSINO SUPERIOR DO RIO GRANDE DO NORTE",
+    "Estado": "IESRN"
+  },
+  {
+    "Faculdade": "INSTITUTO DE ENSINO SUPERIOR DO SUL DO MARANHÃO",
+    "Estado": "IESMA"
+  },
+  {
+    "Faculdade": "INSTITUTO DE ENSINO SUPERIOR E FORMAÇÃO AVANÇADA DE VITÓRIA",
+    "Estado": "FAVI"
+  },
+  {
+    "Faculdade": "INSTITUTO DE ENSINO SUPERIOR FUCAPI",
+    "Estado": "Cesf"
+  },
+  {
+    "Faculdade": "INSTITUTO DE ENSINO SUPERIOR INTEGRADO-IESI",
+    "Estado": "FENORD"
+  },
+  {
+    "Faculdade": "INSTITUTO DE ENSINO SUPERIOR JOÃO ALFREDO DE ANDRADE",
+    "Estado": "IJAA"
+  },
+  {
+    "Faculdade": "INSTITUTO DE ENSINO SUPERIOR PRESIDENTE TANCREDO NEVES",
+    "Estado": "IPTAN"
+  },
+  {
+    "Faculdade": "INSTITUTO DE ENSINO SUPERIOR SANTO ANTÔNIO",
+    "Estado": "INESA"
+  },
+  {
+    "Faculdade": "INSTITUTO DE ENSINOS SUPERIORES DA AMAZÔNIA",
+    "Estado": "IESAM"
+  },
+  {
+    "Faculdade": "INSTITUTO DE FILOSOFIA E TEOLOGIA DE GOIÁS",
+    "Estado": "IFITEG"
+  },
+  {
+    "Faculdade": "INSTITUTO DE PÓSGRADUAÇÃO",
+    "Estado": "IPOG"
+  },
+  {
+    "Faculdade": "INSTITUTO DE PÓSGRADUAÇÃO",
+    "Estado": "IPOG"
+  },
+  {
+    "Faculdade": "INSTITUTO EDUCACIONAL DE CASTRO",
+    "Estado": "INEC"
+  },
+  {
+    "Faculdade": "INSTITUTO EDUCACIONAL VITÓRIA",
+    "Estado": "INEVI"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL BAIANO",
+    "Estado": "IF Baiano"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL CATARINENSE",
+    "Estado": "IFC"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DA BAHIA",
+    "Estado": "IFBA"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DA PARAÍBA",
+    "Estado": "IFPB"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DE ALAGOAS",
+    "Estado": "Ifal"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DE BRASÍLIA",
+    "Estado": "IFB"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DE SÃO PAULO",
+    "Estado": "IFSP"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DO NORTE DE MINAS GERAIS",
+    "Estado": "IFNMG"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA SUL-RIO-GRANDENSE",
+    "Estado": "IFSul"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DE GOIÁS",
+    "Estado": "IFG"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DE MATO GROSSO DO SUL",
+    "Estado": "IFMS"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DE MINAS GERAIS",
+    "Estado": "IFMG"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DE PERNAMBUCO",
+    "Estado": "IFPE"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DE RONDÔNIA",
+    "Estado": "IFRO"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DE RORAIMA",
+    "Estado": "IFRR"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DE SANTA CATARINA",
+    "Estado": "IFSC"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DE SERGIPE",
+    "Estado": "IFS"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DO ACRE",
+    "Estado": "IFAC"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DO AMAPÁ",
+    "Estado": "Ifap"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DO AMAZONAS",
+    "Estado": "Ifam"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DO CEARÁ",
+    "Estado": "Ifce"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DO ESPÍRITO SANTO",
+    "Estado": "IFES"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DO MARANHÃO",
+    "Estado": "IFMA"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DO MATO GROSSO",
+    "Estado": "IFMT"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DO NORTE DE MINAS",
+    "Estado": "IFNM"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DO PARÁ",
+    "Estado": "IFPA"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DO PIAUÍ",
+    "Estado": "IFPI"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DO RIO DE JANEIRO",
+    "Estado": "IFRJ"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DO RIO GRANDE DO NORTE",
+    "Estado": "IFRN"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DO RIO GRANDE DO SUL",
+    "Estado": "IFRS"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DO SERTÃO PERNAMBUCANO",
+    "Estado": "IFSertãoPE"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DO SUDESTE DE MINAS",
+    "Estado": "IFSM"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DO SUL DE MINAS",
+    "Estado": "IFSUM"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DO TOCANTINS",
+    "Estado": "IFTO"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL DO TRIÂNGULO MINEIRO",
+    "Estado": "IFTM"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL FARROUPILHA",
+    "Estado": "IFFarroupilha"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL FLUMINENSE",
+    "Estado": "IFF"
+  },
+  {
+    "Faculdade": "INSTITUTO FEDERAL GOIANO",
+    "Estado": "IF Goiano"
+  },
+  {
+    "Faculdade": "INSTITUTO FLORENCE DE ENSINO SUPERIOR",
+    "Estado": "IFES"
+  },
+  {
+    "Faculdade": "INSTITUTO INFNET RIO DE JANEIRO",
+    "Estado": "INFNET"
+  },
+  {
+    "Faculdade": "INSTITUTO INFNET",
+    "Estado": "INFNET"
+  },
+  {
+    "Faculdade": "INSTITUTO ITAPETININGANO DE ENSINO SUPERIOR",
+    "Estado": "IIES"
+  },
+  {
+    "Faculdade": "INSTITUTO JORDÃO DE ARRUDA",
+    "Estado": "INSJAR"
+  },
+  {
+    "Faculdade": "INSTITUTO LUTERANO DE ENSINO SUPERIOR DE PORTO VELHO",
+    "Estado": "ILES/ULBRA"
+  },
+  {
+    "Faculdade": "INSTITUTO MANCHESTER PAULISTA DE ENSINO SUPERIOR",
+    "Estado": "IMAPES"
+  },
+  {
+    "Faculdade": "INSTITUTO MATONENSE MUNICIPAL DE ENSINO SUPERIOR",
+    "Estado": "IMMES"
+  },
+  {
+    "Faculdade": "INSTITUTO MAUÁ DE TECNOLOGIA",
+    "Estado": "IMT"
+  },
+  {
+    "Faculdade": "INSTITUTO MAUÁ DE TECNOLOGIA",
+    "Estado": "IMT"
+  },
+  {
+    "Faculdade": "INSTITUTO METODISTA BENNETT",
+    "Estado": "BENNETT"
+  },
+  {
+    "Faculdade": "INSTITUTO METROPOLITANO DE ENSINO SUPERIOR",
+    "Estado": "IMES"
+  },
+  {
+    "Faculdade": "INSTITUTO MILITAR DE ENGENHARIA",
+    "Estado": "IME"
+  },
+  {
+    "Faculdade": "INSTITUTO MUNICIPAL DE ENSINO SUPERIOR DE ASSIS",
+    "Estado": "IMESA"
+  },
+  {
+    "Faculdade": "INSTITUTO MUNICIPAL DE ENSINO SUPERIOR DE BEBEDOURO VICTÓRIO CARDASSI",
+    "Estado": "IMESB"
+  },
+  {
+    "Faculdade": "INSTITUTO MUNICIPAL DE ENSINO SUPERIOR DE CATANDUVA",
+    "Estado": "IMES Catanduva"
+  },
+  {
+    "Faculdade": "INSTITUTO MUNICIPAL DE ENSINO SUPERIOR DE SÃO MANUEL",
+    "Estado": "IMESSM"
+  },
+  {
+    "Faculdade": "INSTITUTO NACIONAL DE EDUCAÇÃO DE SURDOS",
+    "Estado": "INES"
+  },
+  {
+    "Faculdade": "INSTITUTO NACIONAL DE ENSINO SUPERIOR E PÓS-GRADUAÇÃO PADRE GERVÁSIO",
+    "Estado": "INAPÓS"
+  },
+  {
+    "Faculdade": "INSTITUTO NACIONAL DE TELECOMUNICAÇÕES",
+    "Estado": "INATEL"
+  },
+  {
+    "Faculdade": "INSTITUTO PARAIBANO DE ENSINO RENOVADO",
+    "Estado": "INPER"
+  },
+  {
+    "Faculdade": "INSTITUTO PAULISTA DE ENSINO",
+    "Estado": "FIPEN"
+  },
+  {
+    "Faculdade": "INSTITUTO PERNAMBUCANO DE ENSINO SUPERIOR",
+    "Estado": "IPESU"
+  },
+  {
+    "Faculdade": "INSTITUTO PERNAMBUCO DE ENSINO E CULTURA",
+    "Estado": "IPEC"
+  },
+  {
+    "Faculdade": "INSTITUTO SALESIANO DE FILOSOFIA",
+    "Estado": "INSAF"
+  },
+  {
+    "Faculdade": "INSTITUTO SANTO TOMÁS DE AQUINO",
+    "Estado": "ISTA"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE CIÊNCIAS APLICADAS - ISCA",
+    "Estado": "ISCA"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE CIÊNCIAS HUMANAS E SOCIAIS ANÍSIO TEIXEIRA",
+    "Estado": "ISAT"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE EDUCAÇÃO ALBERT EINSTEIN",
+    "Estado": "ISALBE"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE EDUCAÇÃO ALMEIDA RODRIGUES",
+    "Estado": "ISEAR"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE EDUCAÇÃO ALVORADA PLUS",
+    "Estado": "ISEAP"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE EDUCAÇÃO ANCHIETA",
+    "Estado": "ISEA"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE EDUCAÇÃO ANTONINO FREIRE",
+    "Estado": "ISEAF"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE EDUCAÇÃO DE CAMPOS GERAIS",
+    "Estado": "ISEC"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE EDUCAÇÃO DE FLORESTA",
+    "Estado": "ISEF"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE EDUCAÇÃO DE GOIANA",
+    "Estado": "ISEG"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE EDUCAÇÃO DE PESQUEIRA",
+    "Estado": "ISEP"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE EDUCAÇÃO DE SALGUEIRO",
+    "Estado": "ISES"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE EDUCAÇÃO DE SÃO PAULO",
+    "Estado": "SINGULARIDADES/ISESP"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE EDUCAÇÃO DO CENTRO EDUCACIONAL NOSSA SENHORA AUXILIADORA",
+    "Estado": "ISECENSA"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE EDUCAÇÃO DO MUNICÍPIO DE ITAPERUNA",
+    "Estado": "ISEMI"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE EDUCAÇÃO DO SERTÃO DO PAJEÚ",
+    "Estado": "ISESP"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE EDUCAÇÃO DO VALE DO JURUENA",
+    "Estado": "AJES"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE EDUCAÇÃO ELVIRA DAYRELL",
+    "Estado": "ISEED"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE EDUCAÇÃO FRANCISCANO NOSSA SENHORA DE FÁTIMA",
+    "Estado": "FATIMA"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE EDUCAÇÃO ORÍGENES LESSA",
+    "Estado": "ISEOL"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE EDUCAÇÃO PAULO MARTINS",
+    "Estado": "ISPAM"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE EDUCAÇÃO PROFESSOR ALDO MUYLAERT",
+    "Estado": "ISEPAM"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE EDUCAÇÃO PROFESSORA NAIR FORTES ABU-MERHY",
+    "Estado": "ISEFOR"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE EDUCAÇÃO SANTA CRUZ",
+    "Estado": "ISED"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE EDUCAÇÃO SÃO JUDAS TADEU",
+    "Estado": "ISESJT"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE EDUCAÇÃO UNIÃO DAS AMÉRICAS",
+    "Estado": "UNIAMÉRICA"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE EDUCAÇÃO VERDE NORTE",
+    "Estado": "FAVENORTE"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE ENSINO E PESQUISA DE ITUIUTABA",
+    "Estado": "ISEPI"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE FILOSOFIA BERTHIER",
+    "Estado": "IFIBE"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE TECNOLOGIA EM CIÊNCIAS DA COMPUTAÇÃO DE PARACAMBI",
+    "Estado": "ISTParacambi"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE TECNOLOGIA EM CIÊNCIAS DA COMPUTAÇÃO DE PETRÓPOLIS",
+    "Estado": "ISTCCP"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE TECNOLOGIA EM CIÊNCIAS DA COMPUTAÇÃO DO RIO DE JANEIRO",
+    "Estado": "ISTRio"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DE TEOLOGIA APLICADA",
+    "Estado": "Ista"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR DO LITORAL DO PARANÁ",
+    "Estado": "ISULPAR"
+  },
+  {
+    "Faculdade": "INSTITUTO SUPERIOR E CENTRO EDUCACIONAL LUTERANO - BOM JESUS - IELUSC",
+    "Estado": "BOM JESUS/IELUSC"
+  },
+  {
+    "Faculdade": "INSTITUTO SÃO PAULO DE FORMAÇÃO E ESPECIALIZAÇÃO PROFISSIONAL",
+    "Estado": "UniSãopaulo"
+  },
+  {
+    "Faculdade": "INSTITUTO TAQUARITINGUENSE DE ENSINO SUPERIOR DR. ARISTIDES DE CARVALHO SCHLOBACH",
+    "Estado": "ITES"
+  },
+  {
+    "Faculdade": "INSTITUTO TAUBATÉ DE ENSINO SUPERIOR",
+    "Estado": "I.T.E.S."
+  },
+  {
+    "Faculdade": "INSTITUTO TECNOLÓGICO DE AERONÁUTICA",
+    "Estado": "ITA"
+  },
+  {
+    "Faculdade": "INSTITUTO TECNOLÓGICO DE CARATINGA",
+    "Estado": "ITC"
+  },
+  {
+    "Faculdade": "INSTITUTO TECNOLÓGICO E DAS CIÊNCIAS SOCIAIS APLICADAS E DA SAÚDE DO CENTRO EDUC. N. SRª AUXILIADORA",
+    "Estado": "ITCSAS/CENSA"
+  },
+  {
+    "Faculdade": "INSTITUTO TOCANTINENSE PRESIDENTE ANTÔNIO CARLOS DE PORTO NACIONAL",
+    "Estado": "ITPAC de Porto Nacional"
+  },
+  {
+    "Faculdade": "INSTITUTO TOCANTINENSE PRESIDENTE ANTÔNIO CARLOS",
+    "Estado": "ITPAC"
+  },
+  {
+    "Faculdade": "INSTITUTO UNIFICADO DE ENSINO SUPERIOR OBJETIVO",
+    "Estado": "IUESO"
+  },
+  {
+    "Faculdade": "MATER CHRISTI",
+    "Estado": "Faculdade"
+  },
+  {
+    "Faculdade": "PONTIFÍCIA UNIVERSIDADE CATÓLICA DE CAMPINAS",
+    "Estado": "PUCCampinas"
+  },
+  {
+    "Faculdade": "PONTIFÍCIA UNIVERSIDADE CATÓLICA DE GOIÁS",
+    "Estado": "PUC"
+  },
+  {
+    "Faculdade": "PONTIFÍCIA UNIVERSIDADE CATÓLICA DE MINAS GERAIS",
+    "Estado": "PUCMG"
+  },
+  {
+    "Faculdade": "PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO PAULO",
+    "Estado": "PUCSP"
+  },
+  {
+    "Faculdade": "PONTIFÍCIA UNIVERSIDADE CATÓLICA DO PARANÁ",
+    "Estado": "PUCPR"
+  },
+  {
+    "Faculdade": "PONTIFÍCIA UNIVERSIDADE CATÓLICA DO RIO DE JANEIRO",
+    "Estado": "PUCRIO"
+  },
+  {
+    "Faculdade": "PONTIFÍCIA UNIVERSIDADE CATÓLICA DO RIO GRANDE DO SUL",
+    "Estado": "PUCRS"
+  },
+  {
+    "Faculdade": "SERVIÇO NACIONAL DE APRENDIZAGEM INDUSTRIAL",
+    "Estado": "SENAI/CIMATEC"
+  },
+  {
+    "Faculdade": "SOCIEDADE EDUCACIONAL DE SANTA CATARINA",
+    "Estado": "SOCIESC"
+  },
+  {
+    "Faculdade": "SOCIEDADE UNIVERSITÁRIA REDENTOR",
+    "Estado": "REDENTOR"
+  },
+  {
+    "Faculdade": "TREVISAN ESCOLA SUPERIOR DE NEGÓCIOS",
+    "Estado": "TREVISAN"
+  },
+  {
+    "Faculdade": "UNIDADE DE ENSINO SUPERIOR DOM BOSCO",
+    "Estado": "UNDB"
+  },
+  {
+    "Faculdade": "UNIDADE DE ENSINO SUPERIOR EXPOENTE",
+    "Estado": "UNIEXP"
+  },
+  {
+    "Faculdade": "UNISA  FACULDADE DE FILOSOFIA CIÊNCIAS E LETRAS DO ALTO SÃO FRANCISCO",
+    "Estado": "FASF"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ALTO VALE DO RIO DO PEIXE",
+    "Estado": "UNIARP"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ANHANGUERA",
+    "Estado": "Unianhanguera"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ANHEMBI MORUMBI",
+    "Estado": "UAM"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE BANDEIRANTE DE SÃO PAULO",
+    "Estado": "UNIBAN"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE BARRIGA VERDE",
+    "Estado": "UNIBAVE"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE BRAZ CUBAS",
+    "Estado": "UBC"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE CAMILO CASTELO BRANCO",
+    "Estado": "UNICASTELO"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE CASTELO BRANCO",
+    "Estado": "UCB"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE CATÓLICA DE BRASÍLIA",
+    "Estado": "UCB"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE CATÓLICA DE PELOTAS",
+    "Estado": "UCPEL"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE CATÓLICA DE PERNAMBUCO",
+    "Estado": "UNICAP"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE CATÓLICA DE SALVADOR",
+    "Estado": "UCSAL"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE CATÓLICA DE SANTOS",
+    "Estado": "UNISANTOS"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE CATÓLICA DOM BOSCO",
+    "Estado": "UCDB"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE COMUNITÁRIA REGIONAL DE CHAPECÓ",
+    "Estado": "UNOCHAPECÓ"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE CRUZEIRO DO SUL",
+    "Estado": "UNICSUL"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE CÂNDIDO MENDES",
+    "Estado": "UCAM"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DA AMAZÔNIA",
+    "Estado": "UNAMA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DA INTEGRAÇÃO INTERNACIONAL DA LUSOFONIA AFRO-BRASILEIRA",
+    "Estado": "UNILAB"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DA REGIÃO DA CAMPANHA",
+    "Estado": "URCAMP"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DA REGIÃO DE JOINVILLE",
+    "Estado": "UNIVILLE"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DE ALFENAS JOSÉ DO ROSÁRIO VELLANO",
+    "Estado": "UNIFENAS"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DE BRASÍLIA",
+    "Estado": "UnB"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DE CAXIAS DO SUL",
+    "Estado": "UCS"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DE CRUZ ALTA",
+    "Estado": "UNICRUZ"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DE CUIABÁ",
+    "Estado": "UNIC"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DE FORTALEZA",
+    "Estado": "Unifor"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DE FRANCA",
+    "Estado": "UNIFRAN"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DE GUARULHOS",
+    "Estado": "UNG"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DE ITAÚNA",
+    "Estado": "UIT"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DE MARÍLIA",
+    "Estado": "UNIMAR"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DE MOGI DAS CRUZES",
+    "Estado": "UMC"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DE PASSO FUNDO",
+    "Estado": "UPF"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DE RIBEIRÃO PRETO",
+    "Estado": "UNAERP"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DE RIO VERDE2",
+    "Estado": "FESURV"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DE SANTA CRUZ DO SUL",
+    "Estado": "UNISC"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DE SOROCABA",
+    "Estado": "UNISO"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DE SÃO PAULO",
+    "Estado": "USP"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DE TAUBATÉ",
+    "Estado": "UNITAU"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DE UBERABA",
+    "Estado": "UNIUBE"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DO CEUMA - UNICEUMA",
+    "Estado": "UNICEUMA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DO CONTESTADO",
+    "Estado": "UNC"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DO ESTADO DA BAHIA",
+    "Estado": "UNEB"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DO ESTADO DE MATO GROSSO",
+    "Estado": "UNEMAT"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DO ESTADO DE MINAS GERAIS",
+    "Estado": "UEMG"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DO ESTADO DE SANTA CATARINA",
+    "Estado": "UDESC"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DO ESTADO DO AMAZONAS",
+    "Estado": "Uea"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DO ESTADO DO PARÁ",
+    "Estado": "UEPA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DO ESTADO DO RIO DE JANEIRO",
+    "Estado": "UERJ"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DO ESTADO DO RIO GRANDE DO NORTE",
+    "Estado": "UERN"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DO EXTREMO SUL CATARINENSE",
+    "Estado": "UNESC"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DO GRANDE ABC",
+    "Estado": "UniABC"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DO GRANDE RIO PROFESSOR JOSÉ DE SOUZA HERDY",
+    "Estado": "UNIGRANRIO"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DO GRANDE RIO",
+    "Estado": "UNIGRANRIO"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DO NORTE DO PARANÁ",
+    "Estado": "UNOPAR"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DO OESTE DE SANTA CATARINA",
+    "Estado": "UNOESC"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DO OESTE PAULISTA",
+    "Estado": "UNOESTE"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DO PLANALTO CATARINENSE",
+    "Estado": "UNIPLAC"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DO SAGRADO CORAÇÃO",
+    "Estado": "USC"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DO SUL DE SANTA CATARINA",
+    "Estado": "UNISUL"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DO VALE DO ITAJAÍ",
+    "Estado": "UNIVALI"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DO VALE DO PARAÍBA",
+    "Estado": "UNIVAP"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DO VALE DO RIO DOS SINOS",
+    "Estado": "UNISINOS"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE DO VALE DO SAPUCAÍ",
+    "Estado": "UNIVAS"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ELETRÔNICA DO BRASIL",
+    "Estado": "UEB"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL DA PARAÍBA",
+    "Estado": "UEPB"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL DA ZONA OESTE",
+    "Estado": "UEZO"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL DE ALAGOAS",
+    "Estado": "Uneal"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL DE CAMPINAS",
+    "Estado": "UNICAMP"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL DE CIÊNCIAS DA SAÚDE DE ALAGOAS",
+    "Estado": "Uncisal"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL DE FEIRA DE SANTANA",
+    "Estado": "UEFS"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL DE GOIÁS",
+    "Estado": "UEG"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL DE LONDRINA",
+    "Estado": "UEL"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL DE MARINGÁ",
+    "Estado": "UEM"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL DE MONTES CLAROS",
+    "Estado": "UNIMONTES"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL DE PONTA GROSSA",
+    "Estado": "UEPG"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL DE RORAIMA",
+    "Estado": "UERR"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL DE SANTA CRUZ",
+    "Estado": "UESC"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL DO AMAPÁ",
+    "Estado": "Ueap"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL DO CEARÁ",
+    "Estado": "Uece"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL DO CENTROOESTE",
+    "Estado": "UNICENTRO"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL DO MARANHÃO",
+    "Estado": "UEMA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL DO MATO GROSSO DO SUL",
+    "Estado": "UEMS"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL DO NORTE DO PARANÁ",
+    "Estado": "UENP"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL DO NORTE FLUMINENSE",
+    "Estado": "UENF"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL DO OESTE DO PARANÁ",
+    "Estado": "UNIOESTE"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL DO PARANÁ",
+    "Estado": "UNESPAR"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL DO PIAUÍ",
+    "Estado": "UESPI"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL DO RIO GRANDE DO SUL",
+    "Estado": "UERGS"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL DO SUDOESTE DA BAHIA",
+    "Estado": "UESB"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL PAULISTA JÚLIO DE MESQUITA FILHO",
+    "Estado": "UNESP"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTADUAL VALE DO ACARAÚ",
+    "Estado": "Uva"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTÁCIO DE SÁ",
+    "Estado": "UNESA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTÁCIO DE SÁ",
+    "Estado": "UNESA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE ESTÁCIO DE SÁ",
+    "Estado": "UNESA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE EVANGELICA",
+    "Estado": "UniEvangelica"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DA BAHIA",
+    "Estado": "UFBA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DA FRONTEIRA DO SUL",
+    "Estado": "UFFS"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DA FRONTEIRA DO SUL",
+    "Estado": "UFFS"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DA FRONTEIRA SUL",
+    "Estado": "UFFS"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DA GRANDE DOURADOS",
+    "Estado": "UFGD"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DA INTEGRAÇÃO LATINOAMERICANA",
+    "Estado": "UNILA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DA PARAÍBA",
+    "Estado": "UFPB"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DE ALAGOAS",
+    "Estado": "Ufal"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DE ALFENAS",
+    "Estado": "UNIFAL"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DE CAMPINA GRANDE",
+    "Estado": "UFCG"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DE CIÊNCIAS DA SAÚDE DE PORTO ALEGRE",
+    "Estado": "UFCSPA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DE GOIÁS",
+    "Estado": "UFG"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DE INTEGRAÇÃO LUSOAFRO",
+    "Estado": "UNILAB"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DE ITAJUBÁ",
+    "Estado": "UNIFEI"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DE JUIZ DE FORA",
+    "Estado": "UFJF"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DE LAVRAS",
+    "Estado": "UFLA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DE MATO GROSSO",
+    "Estado": "UFMT"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
+    "Estado": "UFMG"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DE OURO PRETO",
+    "Estado": "UFOP"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DE PELOTAS",
+    "Estado": "UFPEL"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
+    "Estado": "UFPE"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DE RONDÔNIA",
+    "Estado": "UNIR"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DE RORAIMA",
+    "Estado": "UFRR"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DE SANTA CATARINA",
+    "Estado": "UFSC"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DE SANTA MARIA",
+    "Estado": "UFSM"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DE SERGIPE",
+    "Estado": "UFS"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DE SÃO CARLOS",
+    "Estado": "UFSCAR"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DE SÃO JOÃO DELREI",
+    "Estado": "UFSJ"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DE SÃO PAULO",
+    "Estado": "UNIFESP"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DE UBERLÂNDIA",
+    "Estado": "UFU"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DE VIÇOSA",
+    "Estado": "UFV"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DO ABC",
+    "Estado": "UFABC"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DO ACRE",
+    "Estado": "UFAC"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DO AMAPÁ",
+    "Estado": "Unifap"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DO AMAZONAS",
+    "Estado": "Ufam"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DO CEARÁ",
+    "Estado": "UFC"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DO ESPÍRITO SANTO",
+    "Estado": "UFES"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DO ESTADO DO RIO DE JANEIRO",
+    "Estado": "UNIRIO"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DO MARANHÃO",
+    "Estado": "UFMA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DO MATO GROSSO DO SUL",
+    "Estado": "UFMS"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DO OESTE DO PARÁ",
+    "Estado": "UFOPA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DO PAMPA",
+    "Estado": "UNIPAMPA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DO PANTANAL",
+    "Estado": "UFPAN"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DO PARANÁ",
+    "Estado": "UFPR"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DO PARÁ",
+    "Estado": "UFPA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DO PIAUÍ",
+    "Estado": "UFPI"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DO RECÔNCAVO DA BAHIA",
+    "Estado": "UFRB"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DO RIO DE JANEIRO",
+    "Estado": "UFRJ"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE",
+    "Estado": "UFRN"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL",
+    "Estado": "UFRGS"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DO RIO GRANDE",
+    "Estado": "FURG"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DO TOCANTINS",
+    "Estado": "UFT"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DO TRIÂNGULO MINEIRO",
+    "Estado": "UFTM"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL DOS VALES DO JEQUITINHONHA E MUCURI",
+    "Estado": "UFVJM"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL FLUMINENSE",
+    "Estado": "UFF"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL RURAL DA AMAZÔNIA",
+    "Estado": "UFRA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO",
+    "Estado": "UFRPE"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO",
+    "Estado": "UFRPE"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO",
+    "Estado": "UFRPE"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL RURAL DO RIO DE JANEIRO",
+    "Estado": "UFRRJ"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEDERAL RURAL DO SEMIÁRIDO",
+    "Estado": "UFERSA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FEEVALE",
+    "Estado": "FEEVALE"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE FUMEC",
+    "Estado": "FUMEC"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE GAMA E SOUZA",
+    "Estado": "UGS"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE GAMA FILHO",
+    "Estado": "UGF"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE IBIRAPUERA",
+    "Estado": "UNIB"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE IGUAÇU",
+    "Estado": "UNIG"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE LUTERANA DO BRASIL",
+    "Estado": "ULBRA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE LUTERANA DO BRASIL",
+    "Estado": "ULBRA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE LUTERANA DO BRASIL",
+    "Estado": "ULBRA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE LUTERANA DO BRASIL",
+    "Estado": "ULBRA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE LUTERANA DO BRASIL",
+    "Estado": "ULBRA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE METODISTA DE PIRACICABA",
+    "Estado": "UNIMEP"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE METODISTA DE SÃO PAULO",
+    "Estado": "UMESP"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE METROPOLITANA DE SANTOS",
+    "Estado": "UNIMES"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE MUNICIPAL DE SÃO CAETANO DO SUL",
+    "Estado": "USCS"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE MUNICIPAL DE SÃO JOSÉ",
+    "Estado": "USJ"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE NILTON LINS",
+    "Estado": "UNINILTONLINS"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE NORTE DO PARANÁ",
+    "Estado": "UNOPAR"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE NORTE DO PARANÁ",
+    "Estado": "UNOPAR"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE NORTE DO PARANÁ",
+    "Estado": "UNOPAR"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE NORTE DO PARANÁ",
+    "Estado": "UNOPAR"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE NOVE DE JULHO",
+    "Estado": "UNINOVE"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE PARA O DESENVOLVIMENTO DO ESTADO E REGIÃO DO PANTANAL",
+    "Estado": "UNIDERP"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE PARANAENSE",
+    "Estado": "UNIPAR"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE PAULISTA",
+    "Estado": "UNIP"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE PAULISTA",
+    "Estado": "UNIP"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE PAULISTA",
+    "Estado": "UNIP"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE PAULISTA",
+    "Estado": "UNIP"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE PAULISTA",
+    "Estado": "UNIP"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE PAULISTA",
+    "Estado": "Unip"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE POSITIVO",
+    "Estado": "UP"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE POTIGUAR",
+    "Estado": "UNP"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE PRESBITERIANA MACKENZIE",
+    "Estado": "MACK"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE PRESIDENTE ANTÔNIO CARLOS",
+    "Estado": "UNIPAC"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE REGIONAL DO CARIRI",
+    "Estado": "Urca"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE REGIONAL DO NOROESTE DO ESTADO DO RIO GRANDE DO SUL",
+    "Estado": "UNIJUÍ"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE REGIONAL INTEGRADA DO ALTO URUGUAI E DAS MISSÕES",
+    "Estado": "URI"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE SALGADO DE OLIVEIRA",
+    "Estado": "UNIVERSO"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE SALGADO DE OLIVEIRA",
+    "Estado": "UNIVERSO"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE SALGADO DE OLIVEIRA",
+    "Estado": "UNIVERSO"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE SALGADO DE OLIVEIRA",
+    "Estado": "UNIVERSO"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE SALGADO DE OLIVEIRA",
+    "Estado": "UNIVERSO"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE SALVADOR",
+    "Estado": "UNIFACS"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE SANTA CECÍLIA",
+    "Estado": "UNISANTA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE SANTA ÚRSULA",
+    "Estado": "USU"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE SANTO AMARO",
+    "Estado": "UNISA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE SEVERINO SOMBRA",
+    "Estado": "USS"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE SÃO FRANCISCO",
+    "Estado": "USF"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE SÃO JUDAS TADEU",
+    "Estado": "USJT"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE SÃO MARCOS",
+    "Estado": "UNIMARCO"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+    "Estado": "UTFPR"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE TIRADENTES",
+    "Estado": "Unit"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE TIRADENTES",
+    "Estado": "UnitEAD"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE TUIUTI DO PARANÁ",
+    "Estado": "UTP"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE VALE DO RIO DOCE",
+    "Estado": "UNIVALE"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE VEIGA DE ALMEIDA",
+    "Estado": "UVA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE VILA VELHA",
+    "Estado": "UVV"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE VIRTUAL DO MARANHÃO",
+    "Estado": "UNIVIMA"
+  },
+  {
+    "Faculdade": "UNIVERSIDADE Á DISTANCIA DO NORTE DO PARANÁ",
+    "Estado": "UNOPAR"
+  },
+  {
+    "Faculdade": "UNIVERSIDADES UNIDAS DO VALE DO ARAGUAIABARRA DO GARÇAS",
+    "Estado": "UNIVAR"
+  },
+  {
+    "Faculdade": "UNIÃO DAS ESCOLAS DO GRUPO FAIMI DE EDUCAÇÃO",
+    "Estado": "FAIMI"
+  },
+  {
+    "Faculdade": "UNIÃO DAS FACULDADES DOS GRANDES LAGOS",
+    "Estado": "UNILAGO"
+  },
+  {
+    "Faculdade": "UNIÃO DE ENSINO DO SUDOESTE DO PARANÁ",
+    "Estado": "UNISEP"
+  },
+  {
+    "Faculdade": "UNIÃO DE ENSINO SUPERIOR DE NOVA MUTUM",
+    "Estado": "UNINOVA"
+  },
+  {
+    "Faculdade": "UNIÃO DE ENSINO SUPERIOR DE VIÇOSA",
+    "Estado": "UNIVIÇOSA"
+  },
+  {
+    "Faculdade": "UNIÃO DE ESCOLAS SUPERIORES DA FUNESO",
+    "Estado": "UNESF"
+  },
+  {
+    "Faculdade": "UNIÃO DINÂMICA DE FACULDADES CATARATAS",
+    "Estado": "UDC"
+  },
+  {
+    "Faculdade": "UNIÃO EDUCACIONAL DE ENSINO SUPERIOR DO MÉDIO TOCANTINS",
+    "Estado": "UNEST"
+  },
+  {
+    "Faculdade": "UNIÃO EDUCACIONAL DO NORTE",
+    "Estado": "Uninorte"
+  },
+  {
+    "Faculdade": "UNIÃO LATINO-AMERICADA DE TECNOLOGIA",
+    "Estado": "ULT"
+  },
+  {
+    "Faculdade": "UNIÃO METROPOLITANA DE EDUCAÇÃO E CULTURA",
+    "Estado": "UNIME"
+  },
+  {
+    "Faculdade": "ACADEMIA DA FORÇA AÉREA",
+    "Estado": "ABC"
+  }
+]

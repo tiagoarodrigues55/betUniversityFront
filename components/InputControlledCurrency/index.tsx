@@ -37,6 +37,7 @@ export function InputControlledCurrency({
 	precision,
 	thousandSeparator = '.',
 	prefix = 'R$',
+	onChange,
 	...rest
 }: InputProps) {
 	return (
@@ -46,7 +47,7 @@ export function InputControlledCurrency({
 					control={control}
 					data-testid="currencyInput"
 					name={name}
-					render={({ field: { onChange, value: valueForm } }) => (
+					render={({ field: { onChange: onChange2, value: valueForm } }) => (
 						<CurrencyInput
 							prefix={prefix}
 							style={{ width: rest.width }}
@@ -56,7 +57,10 @@ export function InputControlledCurrency({
 							decimalSeparator={decimalSeparator}
 							thousandSeparator={thousandSeparator}
 							precision={precision}
-							onChange={onChange}
+							onChange={(value) => {
+								onChange(value)
+								onChange2(value)
+							}}
 							disabled={rest.disabled}
 						/>
 					)}

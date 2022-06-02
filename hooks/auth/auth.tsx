@@ -22,13 +22,17 @@ interface IAuthContextData {
 
 const AuthContext = createContext({} as IAuthContextData);
 
+const getUser = () => {
+	return JSON.parse(localStorage.getItem('user')) || null
+}
+
 function AuthProvider({ children }: AuthProviderProps) {
 	const [user, setUser] = useState<User>({} as User);
 	const [isLoadingUser, setIsLoadingUser] = useState(true);
 
 	useEffect(() => {
-		const userFromLocalStorage = window.localStorage.getItem('user');
-		if (userFromLocalStorage) {
+		const userFromLocalStorage = window.localStorage.getItem('user') || null;
+		if (userFromLocalStorage && userFromLocalStorage !== "undefined") {
 			const userJson = JSON.parse(userFromLocalStorage) as User;
 			setUser(userJson);
 		}
@@ -66,4 +70,4 @@ function useAuth() {
 	return context;
 }
 
-export { AuthProvider, useAuth };
+export { AuthProvider, useAuth, getUser };

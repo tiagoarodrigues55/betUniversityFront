@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 import Router from 'next/router';
 import Link from 'next/link';
@@ -15,6 +15,7 @@ import UniBet from '../../assets/UniBet.png';
 import { useAuth } from '../../hooks/auth/auth';
 
 import { Logout } from '../../utils/logout';
+import { User } from '../../Types';
 
 interface INavbar {
 	title: string;
@@ -25,12 +26,13 @@ export const Navbar = ({ title, link }: INavbar) => {
 	const [isHiddenBackdrop, setIsHiddenBackdrop] = useState(true);
 	const [isHiddenMenu, setIsHiddenMenu] = useState(true);
 
-	const { removeData } = useAuth();
+	const { removeData, user } = useAuth();
 
 	const triggerMenu = () => {
 		setIsHiddenBackdrop(!isHiddenBackdrop);
 		setIsHiddenMenu(!isHiddenMenu);
 	};
+
 
 	return (
 		<div className="is-12">
@@ -83,8 +85,7 @@ export const Navbar = ({ title, link }: INavbar) => {
 										borderRadius: '100%',
 									}}
 								/>{' '}
-								Fale com a gente
-							</a>
+								Saldo: {user.wallet}							</a>
 						</div>
 
 						<div className="navbar-item px-2">
@@ -133,9 +134,8 @@ export const Navbar = ({ title, link }: INavbar) => {
 				></BackgroundDiv>
 
 				<DrawerDivStyled
-					className={`${
-						isHiddenMenu && 'is-hidden'
-					} is-flex is-flex-direction-column is-justify-content-center animate__animated animate__slideInRight`}
+					className={`${isHiddenMenu && 'is-hidden'
+						} is-flex is-flex-direction-column is-justify-content-center animate__animated animate__slideInRight`}
 					id="drawer"
 				>
 					<div className="column is-half py-4">

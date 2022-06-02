@@ -2,6 +2,7 @@ import { NextApiRequest, NextApiResponse } from 'next';
 import axios from 'axios';
 import 'dotenv/config';
 import { supabase } from '../../services/supabaseClient';
+import updateEvent from '../../utils/update-event';
 
 export default async function createBet(
 	req: NextApiRequest,
@@ -20,14 +21,17 @@ export default async function createBet(
 	};
 
 	const createBet = await supabase.from('bets').insert(newBet);
-
-	if( createBet.status !== 200 ) {
+	const event = await updateEvent(newBet)
+	const user = await supabase.from('users').select('*').eq('id', user_id).single();
+	user.data.wallet -= bet_value
+	const updateUser = await supabase.from('users').update(user.data).match({ id: user_id })
+	if (createBet.error || event.error) {
 		return res
 			.status(201)
-			.json({ status: 'Ocorreu algum erro'});
+			.json({ status: 'Ocorreu algum erro' });
 	} else {
 		return res
 			.status(200)
 			.json({ status: 'Boa, aposta realizada com sucesso' });
-}
+	}
 }

@@ -12,5 +12,3 @@ export const updateOdds = (balance: []) => {
 	});
 	return newOdds;
 };
-
-module.exports = updateOdds;
