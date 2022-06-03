@@ -2,15 +2,11 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 import { useAuth } from '../../hooks/auth/auth'
 
-function UserPage() {
+function Bets({ user_id }) {
 	const [data, setData] = useState([])
 
-	const { user } = useAuth();
-
-
-
 	useEffect(() => {
-		axios.post('/api/get-bets', { user_id: user.id }).then(res => {
+		axios.post('/api/get-bets', { user_id }).then(res => {
 			console.log(res.data.bets)
 			setData(res.data.bets || [])
 		})
@@ -37,4 +33,4 @@ function UserPage() {
 	)
 }
 
-export default UserPage
+export default Bets
