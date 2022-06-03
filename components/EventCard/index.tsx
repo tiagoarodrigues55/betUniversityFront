@@ -32,7 +32,7 @@ import Swal from 'sweetalert2';
 
 interface Card {
 	name: string;
-	teams: string;
+	teams: string[];
 	id: string;
 	modality: string;
 	odds: number[];
@@ -96,6 +96,8 @@ export const EventCard = () => {
 			const payload = {
 				user_id: user.id,
 				event_id: card.id,
+				event_name: card.name,
+				teams: card.teams,
 				modality: card.modality,
 				odds: card.odds,
 				bet: odd,
@@ -154,7 +156,7 @@ export const EventCard = () => {
 											onClick={() => {
 												setSelectedCard({
 													name: event.name,
-													teams: event.teams[0],
+													teams: event.teams,
 													id: event.id,
 													modality: event.modality,
 													odds: event.odds,
@@ -172,7 +174,7 @@ export const EventCard = () => {
 											onClick={() => {
 												setSelectedCard({
 													name: event.name,
-													teams: 'Empate',
+													teams: event.teams,
 													id: event.id,
 													modality: event.modality,
 													odds: event.odds,
@@ -189,7 +191,7 @@ export const EventCard = () => {
 											onClick={() => {
 												setSelectedCard({
 													name: event.name,
-													teams: event.teams[1],
+													teams: event.teams,
 													id: event.id,
 													modality: event.modality,
 													odds: event.odds,

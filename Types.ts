@@ -1,12 +1,15 @@
 export interface Bet {
 	user_id: string; // id do usuário
 	event_id: string; // id do evento
+	event_name: string; // nome do evento
+	teams: string; // times
 	modality: string; // modalidade
 	odds: number[]; // odds no momento da aposta [odd do time 1, odd do time 2, odd do empate]
 	bet: number; // index da aposta (0, 1 ou 2)
 	bet_value: number; // valor da aposta
 	offer: boolean; // é oferta?
 	status: string; // status (open, closed, pending)
+	result: number; // Resultado (null, 0, 1 ou 2)
 }
 
 export interface Event {
@@ -32,4 +35,5 @@ export interface User {
 	score: number; // Pontos
 	forms_progress: number; // Respostas respondidas
 	expectedBet: number; // Quanto o usuário falou que apostaria
+	default_event: string; // Evento padrão (integramix, interusp, economiadas)
 }
