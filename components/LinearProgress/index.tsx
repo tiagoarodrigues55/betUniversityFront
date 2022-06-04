@@ -25,7 +25,7 @@ export default function FormsProgress({ progress }) {
   const realProgress = Number((progress / questions.length * 100).toFixed(2))
   return (
     <>
-      <Box sx={{ width: '60%' }}>
+      <Box sx={{ width: '100%' }}>
         <LinearProgressWithLabel value={realProgress} />
       </Box>
       {progress < 100 ? (

@@ -100,7 +100,7 @@ export const EventCard = () => {
 				teams: card.teams,
 				modality: card.modality,
 				odds: card.odds,
-				bet: odd,
+				bet: card.odds.indexOf(odd),
 				bet_value: betValue,
 				offer: false,
 				status: 'open',
@@ -161,7 +161,7 @@ export const EventCard = () => {
 													modality: event.modality,
 													odds: event.odds,
 												});
-												setSelectedOdd(0);
+												setSelectedOdd(event.odds[0]);
 											}}
 										>
 											{event.odds[0]}
@@ -179,7 +179,7 @@ export const EventCard = () => {
 													modality: event.modality,
 													odds: event.odds,
 												});
-												setSelectedOdd(2);
+												setSelectedOdd(event.odds[2]);
 											}}
 										>
 											{event.odds[2]}
@@ -196,7 +196,7 @@ export const EventCard = () => {
 													modality: event.modality,
 													odds: event.odds,
 												});
-												setSelectedOdd(1);
+												setSelectedOdd(event.odds[1]);
 											}}
 										>
 											{event.odds[1]}

@@ -6,11 +6,11 @@ export default async function getBets(
 	req: NextApiRequest,
 	res?: NextApiResponse
 ) {
-	console.log(req.body)
+	console.log(req.query)
 	const findBets = await supabase
 		.from('bets')
 		.select('*')
-		.eq('user_id', req.body.user_id);
+		.eq('user_id', req.query.user_id);
 
 	return res
 		.status(200)

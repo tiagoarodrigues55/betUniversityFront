@@ -19,7 +19,7 @@ export default async function createBet(
 		offer,
 		event_name,
 		teams,
-		status: 'open',
+		status: 'close',
 		result: null
 	};
 
