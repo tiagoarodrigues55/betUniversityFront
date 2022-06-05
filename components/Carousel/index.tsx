@@ -1,16 +1,16 @@
 import React from 'react';
-import useEmblaCarousel from 'embla-carousel-react';
+import EventCard from '../EventCard'
 
-export const EmblaCarousel = () => {
-	const [emblaRef] = useEmblaCarousel();
-
+function Carousel({ events, selectOdd }) {
 	return (
-		<div className="embla" ref={emblaRef}>
-			<div className="embla__container">
-				<div className="embla__slide">Slide 1</div>
-				<div className="embla__slide">Slide 2</div>
-				<div className="embla__slide">Slide 3</div>
-			</div>
-		</div>
+		events.map((event) => (
+			<EventCard
+				event={event}
+				selectOdd={selectOdd}
+				key={event.id}
+			/>
+		))
 	);
-};
+}
+
+export default Carousel;

@@ -33,6 +33,7 @@
 		"react-dom": "^18.1.0",
 		"react-dropdown-select": "^4.9.0",
 		"react-hook-form": "^7.31.1",
+		"react-horizontal-scrolling-menu": "^2.8.2",
 		"react-icons": "^4.3.1",
 		"react-input-mask": "^2.0.4",
 		"react-owl-carousel": "^2.3.3",
