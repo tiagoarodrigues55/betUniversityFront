@@ -36,7 +36,6 @@ export default async function handler(req, res) {
       break;
     case 'PUT':
       const updateUser = await users.update(req.body.email, req.body)
-      console.log(updateUser)
       if (updateUser.status === 200) {
         return res.status(200).json({ status: 'Atualizado com sucesso', user: updateUser.body[0] });
       } else {

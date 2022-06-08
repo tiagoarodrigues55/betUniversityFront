@@ -1,15 +1,9 @@
-import axios from 'axios';
 import React, {
-  ReactElement,
-  useEffect,
-  useLayoutEffect,
   useState,
 } from 'react';
 
 import { useForm } from 'react-hook-form';
 
-import { Event } from '../../Types';
-import useEmblaCarousel from 'embla-carousel-react';
 import { useAuth, getUser } from '../../hooks/auth/auth';
 import { InputControlledCurrency } from '../InputControlledCurrency';
 import { moneyMask, undoMoneyMask } from '../../utils/masks';
@@ -40,8 +34,8 @@ export const Bet = ({ selectedOdd, selectedCard, doBet }) => {
     if (user.wallet >= betValue) {
       const payload = {
         user_id: user.id,
-        event_id: card.id,
-        event_name: card.name,
+        game_id: card.id,
+        game_name: card.name,
         teams: card.teams,
         modality: card.modality,
         odds: card.odds,

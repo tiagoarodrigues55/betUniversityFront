@@ -1,44 +1,58 @@
-import { users } from '../../../services/registers-repo'
+import { bets } from '../../../services/registers-repo'
 
 export default async function handler(req, res) {
   const { method } = req
 
+  const { status, game_id } = req?.query
+
+  if (status && game_id) {
+    const response = await bets.getBetsByMultipleProps({ value: status, name: 'status' }, { value: game_id, name: 'game_id' })
+    res.json(response.data)
+  }
+  if (status) {
+    const response = await bets.getBetsByProps(status, 'status')
+    res.json(response.data)
+  }
+  if (game_id) {
+    const response = await bets.getBetsByProps(game_id, 'game_id')
+    res.json(response.data)
+  }
+
   switch (method) {
     case 'GET':
-      const response = await users.getAll()
-      res.json(response)
+      const response = await bets.getAll()
+      res.json(response.data)
       break;
     case 'POST':
-      const { email, name, favorite_team, wallet, forms_progress, expected_bet } = req.body;
-      const newUser = {
-        email,
-        name,
-        favorite_team,
-        total_bet: 0,
-        wallet,
-        score: 0,
-        forms_progress,
-        expected_bet,
+      const { user_id, game_id, game_name, teams, modality, odds, bet, bet_value, offer } = req.body;
+      const newBet = {
+        user_id,
+        game_id,
+        modality,
+        odds,
+        bet,
+        bet_value,
+        offer,
+        game_name,
+        teams,
+        status: 'open',
+        result: null
       };
 
-      const findUser = await users.getUserByEmail(email)
+      const createBet = await bets.create(newBet);
+      const updatedGame = await bets.updateGame(newBet)
+      const updateUser = await bets.updateUser(bet_value, user_id)
 
-      if (findUser.status !== 200) {
-        const createUser = await users.create(newUser);
-        if (createUser.statusText === 'Created') {
-          return res.status(200).json({ status: 'Cadastro criado com sucesso', user: createUser.body[0] });
-        }
-        return res.status(201).json({
-          status: 'Ocorreu algum erro inesperado, tente novamente mais tarde',
-        });
+      const error = createBet.error || updatedGame.error || updateUser.error
+      if (error) {
+        return res.status(500).json({ error })
       }
-      res.status(findUser.status)
-      break;
+      res.status(200).json({ status: 'Aposta criada com sucesso', bet: createBet.body[0] })
+
     case 'PUT':
-      const updateUser = await users.update(req.body.email, req.body)
-      console.log(updateUser)
-      if (updateUser.status === 200) {
-        return res.status(200).json({ status: 'Atualizado com sucesso', user: updateUser.body[0] });
+      const updateBet = await bets.update(req.body.id, req.body)
+      if (updateBet.status === 200) {
+        return res.status(200).json({ status: 'Atualizado com sucesso', user: updateBet.body[0] });
       } else {
         return res.status(201).json({
           status: 'Ocorreu algum erro inesperado, tente novamente mais tarde',
