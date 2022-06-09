@@ -30,7 +30,7 @@ export default function Home() {
 
 	const [betValue, setBetValue] = useState(0);
 	const [selectSport, setSelectSport] = useState("futebol")
-	const [events, setEvents] = useState([])
+	const [games, setGames] = useState([])
 
 	useEffect(() => {
 		// getData();
@@ -38,8 +38,8 @@ export default function Home() {
 		if (!user.id) {
 			Router.push('/')
 		}
-		axios.get('/api/get-event').then(res => {
-			setEvents(res.data.events)
+		axios.get('/api/games').then(res => {
+			setGames(res.data)
 		})
 	}, []);
 
@@ -64,9 +64,9 @@ export default function Home() {
 					<ContainerStyled>
 						<ContainerTemplateStyled>
 							<SelectSport selectSport={(sport) => setSelectSport(sport)} />
-							<Carousel events={events} selectOdd={({ event, odd }) => {
+							<Carousel games={games} selectOdd={({ game, odd }) => {
 								setSelectedOdd(odd)
-								setSelectedCard(event)
+								setSelectedCard(game)
 							}
 							} />
 						</ContainerTemplateStyled >

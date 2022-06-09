@@ -1,13 +1,13 @@
 import React from 'react';
-import EventCard from '../EventCard'
+import GameCard from '../GameCard'
 
-function Carousel({ events, selectOdd }) {
+function Carousel({ games, selectOdd }) {
 	return (
-		events.map((event) => (
-			<EventCard
-				event={event}
+		games.map((game) => (
+			<GameCard
+				game={game}
 				selectOdd={selectOdd}
-				key={event.id}
+				key={game.id}
 			/>
 		))
 	);

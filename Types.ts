@@ -1,7 +1,7 @@
 export interface Bet {
 	user_id: string; // id do usuário
-	event_id: string; // id do evento
-	event_name: string; // nome do evento
+	game_id: string; // id do jogo
+	game_name: string; // nome do jogo
 	teams: string; // times
 	modality: string; // modalidade
 	odds: number[]; // odds no momento da aposta [odd do time 1, odd do time 2, odd do empate]
@@ -12,9 +12,9 @@ export interface Bet {
 	result: number; // Resultado (null, 0, 1 ou 2)
 }
 
-export interface Event {
-	id: string; // id do evento
-	name: string; // Nome do evento (Final do Futebol GV X MAC)
+export interface Game {
+	id: string; // id do jogo
+	name: string; // Nome do jogo (Final do Futebol GV X MAC)
 	teams: string[]; // [nome do time 1, nome do time 2]
 	odds: number[]; // odds atuais [odd do time 1, odd do time 2, odd do empate]
 	modality: string; // Modalidade da partida
@@ -22,11 +22,12 @@ export interface Event {
 	bets: number[]; // Quantidade de apostas em cada opção ([0, 0, 0])
 	payments: number[]; // Dinheiro apostado em cada opção ([0, 0, 0])
 	debts: number[]; // Total a ser pago por opção ([0, 0, 0])
+	event: string; // Nome do evento do Jogo (Integramix, Interusp, Intermed)
 }
 
 export interface User {
-	id: Record<string, unknown>; // id do evento
-	name: string; // id do evento
+	id: Record<string, unknown>; // id do usuário
+	name: string; // id do usuário
 	email: string; // email
 	password: string; // Senha
 	favorite_team: string; // Faculdade que estuda/torce

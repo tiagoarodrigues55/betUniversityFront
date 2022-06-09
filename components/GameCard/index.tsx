@@ -16,43 +16,43 @@ interface Card {
   odds: number[];
 }
 
-export default function EventCard({ event, selectOdd }) {
+export default function GameCard({ game, selectOdd }) {
   const [selectedCard, setSelectedCard] = useState<Card>();
   const [selectedOdd, setSelectedOdd] = useState<number>();
 
   return (
-    <Container className="embla__slide" key={event.id}>
+    <Container className="embla__slide" key={game.id}>
       <RowDivStyled>
-        <Title>{event.name}</Title>
+        <Title>{game.name}</Title>
         <Title></Title>
       </RowDivStyled>
 
-      <TeamName>{`1: ${event.teams[0]}`}</TeamName>
-      <TeamName>{`2: ${event.teams[1]}`}</TeamName>
-      <ButtonsDivStyled key={event.id}>
+      <TeamName>{`1: ${game.teams[0]}`}</TeamName>
+      <TeamName>{`2: ${game.teams[1]}`}</TeamName>
+      <ButtonsDivStyled key={game.id}>
         <ButtonDivStyled>
           <p>Time 1</p>
           <button
-            onClick={() => selectOdd({ event, odd: 0 })}
+            onClick={() => selectOdd({ game, odd: 0 })}
           >
-            {event.odds[0]}
+            {game.odds[0]}
           </button>{' '}
         </ButtonDivStyled>
 
         <ButtonDivStyled>
           <p>Empate</p>
           <button
-            onClick={() => selectOdd({ event, odd: 2 })}
+            onClick={() => selectOdd({ game, odd: 2 })}
           >
-            {event.odds[2]}
+            {game.odds[2]}
           </button>
         </ButtonDivStyled>
         <ButtonDivStyled>
           <p>Time 2</p>
           <button
-            onClick={() => selectOdd({ event, odd: 1 })}
+            onClick={() => selectOdd({ game, odd: 1 })}
           >
-            {event.odds[1]}
+            {game.odds[1]}
           </button>
         </ButtonDivStyled>
       </ButtonsDivStyled>
