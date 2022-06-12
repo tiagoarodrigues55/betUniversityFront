@@ -15,7 +15,7 @@ function RegisterTemplate() {
 	const [wallet, setWallet] = useState<number>(0);
 
 	useEffect(() => {
-		setQuestion(questions[session?.user?.forms_progress || 0]);
+		setQuestion(questions[session?.user?.forms_progress + 1 || 0]);
 		setWallet(session?.user?.wallet)
 		// setQuestion(questions[session.user.forms_progress + 1 || 0]);
 	}, [session]);
