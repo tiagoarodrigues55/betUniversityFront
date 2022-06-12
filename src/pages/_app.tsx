@@ -10,6 +10,7 @@ import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import { queryClient } from '../services/queryClient';
 import { useRouter } from 'next/router';
+import { EventProvider } from '../context/EventContext';
 
 const MyApp: React.FC<AppProps> = ({
 	Component,
@@ -19,14 +20,16 @@ const MyApp: React.FC<AppProps> = ({
 	return (
 		<SessionProvider session={session}>
 			<QueryClientProvider client={queryClient}>
-				{router.pathname !== '/login' && router.pathname !== '/register' && (
-					<>
-						<Header />
-						<Navbar />
-					</>
-				)}
-				<Component {...pageProps} />
-				<GlobalStyles />
+				<EventProvider>
+					{router.pathname !== '/login' && router.pathname !== '/register' && (
+						<>
+							<Header />
+							<Navbar />
+						</>
+					)}
+					<Component {...pageProps} />
+					<GlobalStyles />
+				</EventProvider>
 			</QueryClientProvider>
 		</SessionProvider>
 	);

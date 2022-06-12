@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Wrapper = styled.section`
 	width: 100%;
 	padding: 2rem 1.6rem;
-	background-color: #f5f5f5;
+	background-color: #3a1653;
 
 	span {
 		color: green;
@@ -13,6 +13,7 @@ export const Wrapper = styled.section`
 
 export const Game = styled.div`
 	margin-bottom: 30px;
+	color: #fff;
 `;
 
 export const GameInfo = styled.div`
@@ -38,6 +39,7 @@ export const Title = styled.div`
 	display: flex;
 	align-items: center;
 	gap: 16px;
+	font-weight: bold;
 
 	.circle {
 		width: 2.4rem;
@@ -60,5 +62,5 @@ export const BetButton = styled.button`
 	background: transparent;
 	cursor: pointer;
 	border-radius: 40px;
-	/* color: #ffffff; */
+	color: #ffffff;
 `;

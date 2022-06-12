@@ -16,8 +16,6 @@ function RankingsTemplate() {
 		return response.data;
 	});
 
-	console.log(data);
-
 	return (
 		<S.Wrapper>
 			<h1>Ranking de {option === 'users' ? 'usuários' : 'jogos'}</h1>

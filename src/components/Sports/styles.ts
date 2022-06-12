@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
 
 export const Sport = styled.button`
 	border-radius: 30px 30px 0 0;
-	background: #f5f5f5;
+	background: #3a1653;
 	padding: 10px;
 
 	display: flex;
@@ -17,8 +17,4 @@ export const Sport = styled.button`
 
 	border: 0;
 	cursor: pointer;
-
-	&.active {
-		background: #b8b8b8;
-	}
 `;
