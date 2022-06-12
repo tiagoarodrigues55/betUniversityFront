@@ -31,23 +31,24 @@ export default async function handler(req, res) {
         modality,
         odds,
         bet,
-        bet_value,
+        bet_value: Number(bet_value),
         offer,
         game_name,
         teams,
         status: 'open',
         result: null
       };
-
+      console.log(newBet)
       const createBet = await bets.create(newBet);
       const updatedGame = await bets.updateGame(newBet)
-      const updateUser = await bets.updateUser(bet_value, user_id)
+      const updateUser = await bets.updateUser(Number(bet_value), user_id)
 
       const error = createBet.error || updatedGame.error || updateUser.error
       if (error) {
+        console.log(createBet.error, updatedGame.error, updateUser.error)
         return res.status(500).json({ error })
       }
-      res.status(200).json({ status: 'Aposta criada com sucesso', bet: createBet.body[0] })
+      return res.status(200).json({ status: 'Aposta criada com sucesso', bet: createBet.body[0] })
 
     case 'PUT':
       const updateBet = await bets.update(req.body.id, req.body)

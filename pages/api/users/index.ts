@@ -6,10 +6,10 @@ export default async function handler(req, res) {
   switch (method) {
     case 'GET':
       const response = await users.getAll()
-      res.json(response)
+      res.json(response.data)
       break;
     case 'POST':
-      const { email, name, favorite_team, wallet, forms_progress, expected_bet } = req.body;
+      const { email, name, favorite_team, wallet, forms_progress, expected_bet, afiliation_id } = req.body;
       const newUser = {
         email,
         name,
@@ -19,6 +19,7 @@ export default async function handler(req, res) {
         score: 0,
         forms_progress,
         expected_bet,
+        afiliation_id
       };
 
       const findUser = await users.getUserByEmail(email)
