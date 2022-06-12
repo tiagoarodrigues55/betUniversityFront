@@ -26,6 +26,10 @@ export const games = {
 	create: async (register) => await supabase.from('games').insert(register),
 	update: async (name, params) =>
 		await supabase.from('games').update(params).match({ name }),
+	getOldGames: async (date) =>
+		await supabase.from('games').select('name')
+			.lt('date', date).eq('status', 'open'),
+	lockGames: async (names) => await supabase.rpc('lockgames2', { names })
 };
 
 export const bets = {
@@ -42,7 +46,7 @@ export const bets = {
 	update: async (id, params) =>
 		await supabase.from('bets').update(params).match({ id }),
 	updateGame,
-	updateUser: async (bet_value, id) => await supabase.rpc('updateuser', { bet_value, id })
+	updateUser: async (bet_value, id) => await supabase.rpc('updateuserwallet', { bet_value: Number(bet_value), id })
 };
 
 

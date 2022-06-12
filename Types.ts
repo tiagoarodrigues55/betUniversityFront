@@ -37,4 +37,5 @@ export interface User {
 	forms_progress: number; // Respostas respondidas
 	expectedBet: number; // Quanto o usuário falou que apostaria
 	default_event: string; // Evento padrão (integramix, interusp, economiadas)
+	afiliation_id: number; // Id do parceiro
 }

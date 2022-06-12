@@ -32,9 +32,9 @@ export default async function handler(req, res) {
         odds: getOdds(teams, modality),
         modality,
         status: 'open',
-        bets: [0, 0, 0],
-        payments: [0, 0, 0],
-        debts: [0, 0, 0],
+        bets: [0, 0],
+        payments: [0, 0],
+        debts: [0, 0],
         place,
         date,
         event,
@@ -45,7 +45,7 @@ export default async function handler(req, res) {
       if (findGame.status !== 200) {
         const createGame = await games.create(newGame);
         if (createGame.statusText === 'Created') {
-          return res.status(200).json({ status: 'Cadastro criado com sucesso', user: createGame.body[0] });
+          return res.status(200).json({ status: 'Cadastro criado com sucesso', game: createGame.body[0] });
         }
         return res.status(201).json({
           status: 'Ocorreu algum erro inesperado, tente novamente mais tarde',
@@ -56,7 +56,7 @@ export default async function handler(req, res) {
     case 'PUT':
       const updateGame = await games.update(req.body.name, req.body)
       if (updateGame.status === 200) {
-        return res.status(200).json({ status: 'Atualizado com sucesso', user: updateGame.body[0] });
+        return res.status(200).json({ status: 'Atualizado com sucesso', game: updateGame.body[0] });
       } else {
         return res.status(201).json({
           status: 'Ocorreu algum erro inesperado, tente novamente mais tarde',
