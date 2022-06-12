@@ -17,6 +17,7 @@ function RegisterTemplate() {
 	useEffect(() => {
 		setQuestion(questions[session?.user?.forms_progress + 1 || 0]);
 		setWallet(session?.user?.wallet)
+		console.log(question)
 		// setQuestion(questions[session.user.forms_progress + 1 || 0]);
 	}, [session]);
 
@@ -46,8 +47,12 @@ function RegisterTemplate() {
 	}
 
 	function nextQuestion() {
-		setQuestion(questions[question.id + 1]);
-		setWallet(wallet + 10);
+		if (questions[question.id + 1]) {
+			setQuestion(questions[question.id + 1]);
+			setWallet(wallet + 10);
+		} else {
+			return
+		}
 	}
 
 	return (
