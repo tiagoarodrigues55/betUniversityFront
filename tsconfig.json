@@ -19,9 +19,9 @@
 		"next-env.d.ts",
 		"**/*.ts",
 		"**/*.tsx",
-		"pages/api/[collection].js",
-		"pages/index.tsx",
-		"services/mongodb.js"
+		"src/pages/api/[collection].js",
+		"src/pages/index.tsx",
+		"src/services/mongodb.js"
 	],
 	"exclude": ["node_modules"]
 }
