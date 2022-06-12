@@ -16,7 +16,7 @@ function RegisterTemplate() {
 
 	useEffect(() => {
 		setQuestion(questions[session?.user?.forms_progress + 1 || 0]);
-		setWallet(session?.user?.wallet)
+		setWallet(session?.user?.wallet || 0);
 		// setQuestion(questions[session.user.forms_progress + 1 || 0]);
 	}, [session]);
 
@@ -68,16 +68,16 @@ function RegisterTemplate() {
 							type="text"
 						/>
 					</div>
-					<button type="button" onClick={nextQuestion}>
-						Próxima questão
-					</button>
+					{question?.id === questions.length - 1 ? (
+						<span>Ultima questão</span>
+					) : (
+						<button type="button" onClick={nextQuestion}>
+							Próxima questão
+						</button>
+					)}
 				</S.Form>
 
-				<S.SignInButton
-					onClick={handleOnClick}
-				>
-					Crie sua conta
-				</S.SignInButton>
+				<S.SignInButton onClick={handleOnClick}>Crie sua conta</S.SignInButton>
 			</S.Container>
 		</S.Wrapper>
 	);

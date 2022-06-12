@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.section`
-	background-color: #f5f5f5;
+	background-color: #3a1653;
 	padding: 2rem 1.6rem;
+
+	color: #fff;
 `;
 
 export const UserInfo = styled.div`
@@ -83,7 +85,7 @@ export const BetValues = styled.div`
 `;
 
 export const Hr = styled.hr`
-  width: 100%;
-  height: 2px;
-  background-color: #c5c5c5;
-`
+	width: 100%;
+	height: 2px;
+	background-color: #c5c5c5;
+`;

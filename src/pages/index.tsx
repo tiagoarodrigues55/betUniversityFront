@@ -10,9 +10,10 @@ import { getSession } from 'next-auth/react';
 import api from '../services/api';
 import { useQuery } from 'react-query';
 import { users } from '../services/registers-repo';
+import useEvent from '../context/EventContext';
 
 export default function Home() {
-	const [games, setGames] = useState([]);
+	const { event } = useEvent()
 	const [sport, setSport] = useState('Futebol');
 	const [modalBet, setModalBet] = useState<any>({
 		isModalOpen: false,
@@ -20,7 +21,7 @@ export default function Home() {
 	});
 
 	const { data, refetch } = useQuery(['games', sport], async () => {
-		const response = await api.get(`/games?modality=${sport}`);
+		const response = await api.get(`/games?modality=${sport}&event=${event}`);
 
 		return response.data;
 	});

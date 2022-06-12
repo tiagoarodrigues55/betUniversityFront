@@ -35,6 +35,9 @@ export const ButtonEvents = styled.button`
 	align-items: center;
 	gap: 0.5rem;
 	background: transparent;
+
+	color: #ffffff;
+	cursor: pointer;
 `;
 
 type Events = {

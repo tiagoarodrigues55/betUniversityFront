@@ -2,7 +2,11 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.section`
 	padding: 2rem 1.6rem;
-	background-color: #f5f5f5;
+	background-color: #3a1653;
+
+	color: #ffff;
+
+	margin-bottom: 2rem;
 `;
 
 export const ButtonContainer = styled.div`
@@ -25,7 +29,8 @@ export const Button = styled.button<ButtonProps>`
 	background-color: ${({ isActive }) => (isActive ? 'orange' : 'transparent')};
 	border: ${({ isActive }) => (isActive ? 'none' : '1px solid orange')};
 
-	color: ${({ isActive }) => (isActive ? '#ffffff' : '#000000')};
+	color: #fff;
+	// color: ${({ isActive }) => (isActive ? '#ffffff' : '#000000')};
 	border-radius: 10px;
 `;
 

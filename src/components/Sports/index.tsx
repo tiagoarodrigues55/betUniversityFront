@@ -16,31 +16,31 @@ function Sports({ sport, handleChooseSport }: SportsProps) {
 				className={sport === 'Futebol' ? 'active' : ''}
 				onClick={() => handleChooseSport('Futebol')}
 			>
-				<BiFootball size={30} color="#000" />
+				<BiFootball size={30} color={sport === 'Futebol' ? '#F78232' : "#FFFFFF"} />
 			</S.Sport>
 			<S.Sport
         className={sport === 'Basquete' ? 'active' : ''}
 				onClick={() => handleChooseSport('Basquete')}
 			>
-				<FaBasketballBall size={30} color="#000" />
+				<FaBasketballBall size={30} color={sport === 'Basquete' ? '#F78232' : "#FFFFFF"} />
 			</S.Sport>
 			<S.Sport
         className={sport === 'Volei' ? 'active' : ''}
 				onClick={() => handleChooseSport('Volei')}
 			>
-				<FaVolleyballBall size={30} color="#000" />
+				<FaVolleyballBall size={30} color={sport === 'Volei' ? '#F78232' : "#FFFFFF"} />
 			</S.Sport>
 			<S.Sport
         className={sport === 'Handebol' ? 'active' : ''}
 				onClick={() => handleChooseSport('Handebol')}
 			>
-				<MdSportsHandball size={30} color="#000" />
+				<MdSportsHandball size={30} color={sport === 'Handebol' ? '#F78232' : "#FFFFFF"} />
 			</S.Sport>
 			<S.Sport
 				className={sport === 'Futsal' ? 'active' : ''}
 				onClick={() => handleChooseSport('Futsal')}
 			>
-        <IoIosFootball size={30} color="#000" />
+				<IoIosFootball size={30} color={sport === 'Futsal' ? '#F78232' : "#FFFFFF"} />
 			</S.Sport>
 		</S.Wrapper>
 	);
