@@ -61,6 +61,8 @@ function ModalBet({
 			const event = new Event("visibilitychange");
 			document.dispatchEvent(event);
 
+			onCloseModal()
+
 			return Swal.fire({
 				text: 'Boa sorte!',
 				title: 'Proposta criada com sucesso',

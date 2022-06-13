@@ -6,8 +6,8 @@ export const Wrapper = styled.div`
   width: 100vw;
   height: 100vh;
 
-  h1 {
-    text-align: center;
+  p {
+    justify-content: center;
   }
 `
 

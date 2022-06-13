@@ -1,11 +1,12 @@
 import { signIn } from 'next-auth/react';
+import Logo from '../../components/Logo';
 import * as S from './styles';
 
 function LoginTemplate() {
 	return (
 		<S.Wrapper>
 			<div>
-				<h1>Entre com o Google</h1>
+				<Logo />
 				<S.SignInButton
 					onClick={() =>
 						signIn('google', {
