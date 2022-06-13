@@ -10,7 +10,7 @@ import { useQuery } from 'react-query';
 import { users } from '../services/registers-repo';
 import useEvent from '../context/EventContext';
 
-export default async async function Home() {
+export default function Home() {
 	const { event } = useEvent()
 	const [sport, setSport] = useState('Futebol');
 	const [modalBet, setModalBet] = useState<any>({
@@ -31,26 +31,6 @@ export default async async function Home() {
 		});
 	});
 
-	const session = await getSession(context);
-	const isUserInDatabase = await users.getUserByEmail(session?.user?.email);
-	console.log(session, isUserInDatabase)
-	if (!session) {
-		return {
-			redirect: {
-				destination: '/login',
-				permanent: false,
-			},
-		};
-	}
-
-	if (!isUserInDatabase?.data?.email) {
-		return {
-			redirect: {
-				destination: '/register',
-				permanent: false,
-			},
-		};
-	}
 	function handleCloseModal() {
 		setModalBet({ isModalOpen: false, game: null });
 	}
