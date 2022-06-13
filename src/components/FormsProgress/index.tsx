@@ -44,14 +44,14 @@ export const Anchor = styled.a`
 `;
 
 export default function FormsProgress({ progress }) {
-	const realProgress = Number(((progress / questions.length) * 100).toFixed(2));
+	const realProgress = Number(((progress / (questions.length - 1)) * 100).toFixed(2));
 	return (
 		<>
 			<Box sx={{ width: '60%' }}>
 				<LinearProgressWithLabel value={realProgress} />
 			</Box>
-			{progress < 100 ? (
-				<Link href="/forms" passHref>
+			{progress < (questions.length - 1) ? (
+				<Link href="/register" passHref>
 					<Anchor>Continuar</Anchor>
 				</Link>
 			) : null}

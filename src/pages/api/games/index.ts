@@ -8,22 +8,21 @@ export default async function handler(req, res) {
 
   if (status && modality) {
     const response = await games.getGamesByMultipleProps({ value: status, name: 'status' }, { value: modality, name: 'modality' })
-    res.json(response.data)
+    return res.json(response.data)
   }
   if (status) {
     const response = await games.getGamesByProps(status, 'status')
-    res.json(response.data)
+    return res.json(response.data)
   }
   if (modality) {
     const response = await games.getGamesByProps(modality, 'modality')
-    res.json(response.data)
+    return res.json(response.data)
   }
 
   switch (method) {
     case 'GET':
       const response = await games.getAll()
-      res.json(response.data)
-      break;
+      return res.json(response.data)
     case 'POST':
       const { name, teams, modality, place, date, event } = req.body;
       const newGame = {

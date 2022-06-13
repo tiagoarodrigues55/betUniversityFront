@@ -19,19 +19,19 @@ function Sports({ sport, handleChooseSport }: SportsProps) {
 				<BiFootball size={30} color={sport === 'Futebol' ? '#F78232' : "#FFFFFF"} />
 			</S.Sport>
 			<S.Sport
-        className={sport === 'Basquete' ? 'active' : ''}
+				className={sport === 'Basquete' ? 'active' : ''}
 				onClick={() => handleChooseSport('Basquete')}
 			>
 				<FaBasketballBall size={30} color={sport === 'Basquete' ? '#F78232' : "#FFFFFF"} />
 			</S.Sport>
 			<S.Sport
-        className={sport === 'Volei' ? 'active' : ''}
-				onClick={() => handleChooseSport('Volei')}
+				className={sport === 'Vôlei' ? 'active' : ''}
+				onClick={() => handleChooseSport('Vôlei')}
 			>
 				<FaVolleyballBall size={30} color={sport === 'Volei' ? '#F78232' : "#FFFFFF"} />
 			</S.Sport>
 			<S.Sport
-        className={sport === 'Handebol' ? 'active' : ''}
+				className={sport === 'Handebol' ? 'active' : ''}
 				onClick={() => handleChooseSport('Handebol')}
 			>
 				<MdSportsHandball size={30} color={sport === 'Handebol' ? '#F78232' : "#FFFFFF"} />

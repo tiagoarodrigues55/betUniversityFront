@@ -3,7 +3,7 @@ import * as S from './styles';
 
 import logo from '../../public/logo.png';
 import { FiChevronDown, FiChevronUp } from 'react-icons/fi';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useSession } from 'next-auth/react';
 import Logo from '../Logo';
 import useEvent from '../../context/EventContext';
@@ -38,8 +38,8 @@ function Header() {
 				</S.ButtonContainer>
 			</S.Top>
 			<S.Wallet>
-				<span>Betcoin:</span>
-				<b>{session?.user?.wallet}</b>
+				<span>Betcoin: </span>
+				<b> {session?.user?.wallet} $</b>
 			</S.Wallet>
 		</S.Wrapper>
 	);

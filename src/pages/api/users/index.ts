@@ -6,8 +6,7 @@ export default async function handler(req, res) {
   switch (method) {
     case 'GET':
       const response = await users.getAll()
-      res.json(response.data)
-      break;
+      return res.json(response.data)
     case 'POST':
       const { email, name, favorite_team, wallet, forms_progress, expected_bet, afiliation_id } = req.body;
       const newUser = {
@@ -33,8 +32,7 @@ export default async function handler(req, res) {
           status: 'Ocorreu algum erro inesperado, tente novamente mais tarde',
         });
       }
-      res.status(findUser.status)
-      break;
+      return res.status(findUser.status)
     case 'PUT':
       const updateUser = await users.update(req.body.email, req.body)
       if (updateUser.status === 200) {

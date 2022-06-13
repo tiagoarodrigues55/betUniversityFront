@@ -19,7 +19,7 @@ export default NextAuth({
 			const findUser = await supabase
 				.from('users')
 				.select('*')
-				.eq('email', user?.email)
+				.eq('email', session?.user?.email)
 				.single();
 
 			if (findUser.data) {
@@ -37,8 +37,7 @@ export default NextAuth({
 					},
 				};
 			}
-
-			return session			
+			return session
 		},
 		async signIn({ user, account, profile, email, credentials }) {
 			try {

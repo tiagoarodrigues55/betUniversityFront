@@ -19,6 +19,7 @@ export const Wallet = styled.div`
   display: flex;
   align-items: center;
   margin-left: 1rem;
+	color: #ffffff;
 `
 
 export const ButtonContainer = styled.div`

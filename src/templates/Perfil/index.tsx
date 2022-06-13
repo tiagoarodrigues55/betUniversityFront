@@ -11,8 +11,7 @@ function ProfileTemplate() {
 	const { data: session } = useSession();
 
 	const { data } = useQuery('bets', async () => {
-		const response = await api.get(`/get-bets?user_id=${session?.user?.id}`);
-
+		const response = await api.get(`/bets/${session?.user?.id}`);
 		return response.data;
 	});
 
@@ -71,7 +70,7 @@ function ProfileTemplate() {
 					</S.Select>
 				</S.SelectContainer>
 				<S.BetsContainer>
-					{data?.bets?.map((bet, index) => (
+					{data?.filter(bet => bet.status === option).map((bet, index) => (
 						<S.Bet key={index}>
 							<h3>
 								{bet?.game_name} - {bet?.teams[0]} X {bet?.teams[1]}

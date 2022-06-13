@@ -20,12 +20,14 @@ function ModalBet({
 
 	const [odd, setOdd] = useState(0);
 	const [expectedReturn, setExpectedReturn] = useState('');
-	const [bet, setBet] = useState(0);
+	const [bet, setBet] = useState(10);
 
 	if (!game) return null;
 
 	function handleChooseOdd(odd: number) {
 		setOdd(odd);
+		setExpectedReturn((Number(odd) * bet).toFixed(2));
+
 	}
 
 	function onChange(value) {

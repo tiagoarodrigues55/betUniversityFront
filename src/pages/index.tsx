@@ -22,11 +22,16 @@ export default function Home() {
 
 	const { data, refetch } = useQuery(['games', sport], async () => {
 		const response = await api.get(`/games?modality=${sport}&event=${event}`);
-
-		return response.data;
+		return response.data.sort(function (a, b) {
+			if (a.name > b.name) {
+				return 1;
+			}
+			if (a.name < b.name) {
+				return -1;
+			}
+			return 0;
+		});
 	});
-
-	console.log(data);
 
 	function handleCloseModal() {
 		setModalBet({ isModalOpen: false, game: null });
@@ -57,7 +62,7 @@ export default function Home() {
 export const getServerSideProps: GetServerSideProps = async (context) => {
 	const session = await getSession(context);
 	const isUserInDatabase = await users.getUserByEmail(session?.user?.email);
-
+	console.log(session, isUserInDatabase)
 	if (!session) {
 		return {
 			redirect: {

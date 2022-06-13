@@ -7,7 +7,7 @@ type LogoProps = {
 function Logo({ variant = 'gold' }: LogoProps) {
 	return (
 		<S.Wrapper variant={variant}>
-			<span>inter</span> <span>bet</span>
+			<span><b>inter</b></span> <span><b>bet</b></span>
 		</S.Wrapper>
 	);
 }

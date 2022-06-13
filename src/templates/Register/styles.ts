@@ -24,8 +24,27 @@ export const Container = styled.div`
 
 export const Form = styled.form`
   margin: 2rem 0;
+    input {
+      padding: .8rem;
+      background: white;
+      border: none;
+      border: 5px;
+      outline: none;
+    }
+  div.text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 
-  div {
+    input {
+      padding: .8rem;
+      background: white;
+      border: none;
+      border: 5px;
+      outline: none;
+    }
+  }
+	div.number {
     display: flex;
     flex-direction: column;
     gap: 16px;

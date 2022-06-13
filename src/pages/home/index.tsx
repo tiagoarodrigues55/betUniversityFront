@@ -40,6 +40,7 @@ export default function Home() {
 		}
 		axios.get('/api/games').then(res => {
 			setGames(res.data)
+			console.log(res.data.sort())
 		})
 	}, []);
 
