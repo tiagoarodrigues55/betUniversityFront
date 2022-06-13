@@ -4,6 +4,7 @@ export const Wrapper = styled.section`
 	width: 100%;
 	padding: 2rem 1.6rem;
 	background-color: #3a1653;
+	padding-bottom: 5rem;
 
 	span {
 		color: green;

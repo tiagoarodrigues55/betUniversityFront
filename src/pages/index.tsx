@@ -60,7 +60,7 @@ export default function Home() {
 export const getServerSideProps: GetServerSideProps = async (context) => {
 	const session = await getSession(context);
 	const isUserInDatabase = await users.getUserByEmail(session?.user?.email);
-	console.log(session, isUserInDatabase)
+	console.log(isUserInDatabase)
 	if (!session) {
 		return {
 			redirect: {
