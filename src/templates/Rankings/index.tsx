@@ -1,29 +1,37 @@
 import { useState } from 'react';
 import { useQuery } from 'react-query';
+import { string } from 'yup';
 import api from '../../services/api';
 import * as S from './styles';
 
+interface Score {
+	name: string,
+	score: number
+}
 function RankingsTemplate() {
 	const [option, setOption] = useState('users');
 
 	const { data } = useQuery(['ranking', option], async () => {
-		const response = await api.get('/users');
+		const response = await api.get<Score[]>('/users');
 		var groupBy = function (xs, key) {
 			return xs.reduce(function (rv, x) {
 				(rv[x[key]] = rv[x[key]] || []).push(x);
 				return rv;
-			}, {});
+			}, {})
 		};
 		if (option === 'users') {
 			return response.data.sort((a, b) => b.score - a.score)
 		}
 		const finalResponse = []
-		Object.entries(groupBy(response.data, 'favorite_team')).forEach(([key, value]) => {
-			finalResponse.push({ name: key, score: value.map(user => user.score).reduce((previousValue, currentValue) => previousValue + currentValue) })
-		})
+		Object.entries<Score[]>(groupBy(response.data, 'favorite_team')).forEach(([key, value]) => {
+			const newValue = value
+			finalResponse.push({
+				name: key, score: newValue.map(user => user.score).reduce((previousValue, currentValue) => previousValue + currentValue)
+			})
+		});
 		return finalResponse
-	});
 
+	});
 	return (
 		<S.Wrapper>
 			<h1>Ranking por {option === 'users' ? 'usuário' : 'faculdade'}</h1>

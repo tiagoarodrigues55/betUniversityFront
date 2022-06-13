@@ -9,7 +9,7 @@ import {
 	GroupStyled,
 	ErrorStyled,
 	ErrorDivStyled,
-} from '../Input/style';
+} from './style';
 
 export interface InputProps extends InputHTMLAttributes<any> {
 	// React-hook-form

@@ -1,4 +1,3 @@
-import { AppProps } from 'next/app';
 import { QueryClientProvider } from 'react-query';
 import { SessionProvider } from 'next-auth/react';
 
@@ -12,7 +11,7 @@ import { queryClient } from '../services/queryClient';
 import { useRouter } from 'next/router';
 import { EventProvider } from '../context/EventContext';
 
-const MyApp: React.FC<AppProps> = ({
+const MyApp = ({
 	Component,
 	pageProps: { session, ...pageProps },
 }) => {

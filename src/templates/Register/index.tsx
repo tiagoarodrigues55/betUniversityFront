@@ -17,7 +17,7 @@ function RegisterTemplate() {
 	const [formValues, setFormValues] = useState<any>({});
 	const [question, setQuestion] = useState<any>();
 	const [wallet, setWallet] = useState<number>(0);
-	const event = session?.user?.default_event || 'Integramix'
+	const event = 'Integramix'
 	useEffect(() => {
 		setQuestion(questions[session?.user?.forms_progress + 1 || 0]);
 		setWallet(session?.user?.wallet || 0);
