@@ -1,7 +1,5 @@
 import { useState, useEffect } from 'react';
 
-import axios from 'axios';
-
 import ModalBet from '../components/ModalBet';
 import Games from '../components/Games';
 import Sports from '../components/Sports';
@@ -63,6 +61,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 	const session = await getSession(context);
 	const isUserInDatabase = await users.getUserByEmail(session?.user?.email);
 	console.log(session, isUserInDatabase)
+	alert('aa')
 	if (!session) {
 		return {
 			redirect: {
