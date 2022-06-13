@@ -21,7 +21,7 @@ export default function Home() {
 	});
 
 	const { data, refetch } = useQuery(['games', sport], async () => {
-		const response = await api.get(`/games?modality=${sport}&event=${event}`);
+		const response = await api.get(`/api/games?modality=${sport}&event=${event}`);
 		return response.data.sort(function (a, b) {
 			if (a.name > b.name) {
 				return 1;

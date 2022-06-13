@@ -10,6 +10,7 @@ export default NextAuth({
 		}),
 		// ...add more providers here
 	],
+	secret: process.env.SECRET,
 	callbacks: {
 		async jwt({ token, user }) {
 			user && (token.user = user);

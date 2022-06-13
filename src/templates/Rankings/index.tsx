@@ -12,7 +12,7 @@ function RankingsTemplate() {
 	const [option, setOption] = useState('users');
 
 	const { data } = useQuery(['ranking', option], async () => {
-		const response = await api.get<Score[]>('/users');
+		const response = await api.get<Score[]>('/api/users');
 		var groupBy = function (xs, key) {
 			return xs.reduce(function (rv, x) {
 				(rv[x[key]] = rv[x[key]] || []).push(x);

@@ -11,7 +11,7 @@ function ProfileTemplate() {
 	const { data: session } = useSession();
 
 	const { data } = useQuery('bets', async () => {
-		const response = await api.get(`/bets/${session?.user?.id}`);
+		const response = await api.get(`/api/bets/${session?.user?.id}`);
 		return response.data;
 	});
 

@@ -34,7 +34,7 @@ function RegisterTemplate() {
 			expected_bet: formValues.expectedBet,
 		};
 
-		api.post('/users', payload).then((response) => {
+		api.post('/api/users', payload).then((response) => {
 			console.log(response);
 			router.push('/');
 		});

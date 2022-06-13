@@ -56,7 +56,7 @@ function ModalBet({
 				status: 'open',
 			};
 
-			await api.post('/bets', betValue);
+			await api.post('/api/bets', betValue);
 
 			const event = new Event("visibilitychange");
 			document.dispatchEvent(event);
