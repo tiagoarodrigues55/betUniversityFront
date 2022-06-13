@@ -8,7 +8,6 @@ import CreatableSelect from 'react-select';
 
 import api from '../../services/api';
 import * as S from './styles';
-import { maxHeight } from '@mui/system';
 
 function RegisterTemplate() {
 	const router = useRouter();
@@ -36,7 +35,7 @@ function RegisterTemplate() {
 
 		api.post('/api/users', payload).then((response) => {
 			console.log(response);
-			router.push('/');
+			router.push('/home');
 		});
 	}
 

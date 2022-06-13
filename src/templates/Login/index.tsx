@@ -9,7 +9,7 @@ function LoginTemplate() {
 				<S.SignInButton
 					onClick={() =>
 						signIn('google', {
-							callbackUrl: `${window.location.origin}/`,
+							callbackUrl: `${window.location.origin}/home`,
 						})
 					}
 				>

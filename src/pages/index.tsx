@@ -61,7 +61,6 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 	const session = await getSession(context);
 	const isUserInDatabase = await users.getUserByEmail(session?.user?.email);
 	console.log(session, isUserInDatabase)
-	alert('aa')
 	if (!session) {
 		return {
 			redirect: {
