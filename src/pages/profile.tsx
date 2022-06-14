@@ -13,23 +13,23 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 	const session = await getSession(context);
 	const isUserInDatabase = await users.getUserByEmail(session?.user?.email);
 
-	// if (!session) {
-	// 	return {
-	// 		redirect: {
-	// 			destination: '/login',
-	// 			permanent: false,
-	// 		},
-	// 	};
-	// }
+	if (!session) {
+		return {
+			redirect: {
+				destination: '/login',
+				permanent: false,
+			},
+		};
+	}
 
-	// if (!isUserInDatabase?.data?.email) {
-	// 	return {
-	// 		redirect: {
-	// 			destination: '/register',
-	// 			permanent: false,
-	// 		},
-	// 	};
-	// }
+	if (!isUserInDatabase?.data?.email) {
+		return {
+			redirect: {
+				destination: '/register',
+				permanent: false,
+			},
+		};
+	}
 
 	return {
 		props: {},
