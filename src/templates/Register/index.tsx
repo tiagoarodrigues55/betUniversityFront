@@ -85,25 +85,28 @@ function RegisterTemplate() {
 		setWallet(wallet + 10);
 	}
 
-	async function inviteFriend() {
-		const payload = {
-			email: session.user.email,
-			name: session.user.name,
-			instagram: formValues.insta,
-			favorite_team: formValues.team,
-			wallet,
-			forms_progress: question.id,
-			expected_bet: formValues.expectedBet,
-			afiliation_id: localStorage.getItem("afiliation_id") || null
-		};
+	async function inviteFriend(e) {
+		e.preventDefault();
+		window.open(`https://api.whatsapp.com/send?text=eai`, '_blank');
+		return
+		// const payload = {
+		// 	email: session.user.email,
+		// 	name: session.user.name,
+		// 	instagram: formValues.insta,
+		// 	favorite_team: formValues.team,
+		// 	wallet,
+		// 	forms_progress: question.id,
+		// 	expected_bet: formValues.expectedBet,
+		// 	afiliation_id: localStorage.getItem("afiliation_id") || null
+		// };
 
-		api.post('/api/users', payload).then((response) => {
-			const shareUrl = `https://interbet.vercel.app/login?afiliation_id=${response.data.user.id || 188}`
-			window.open(`https://api.whatsapp.com/send?text=${shareUrl}`, '_blank');
-			const event = new Event('visibilitychange');
-			document.dispatchEvent(event);
-			router.push('/');
-		});
+		// api.post('/api/users', payload).then((response) => {
+		// 	const shareUrl = `https://interbet.vercel.app/login?afiliation_id=${response.data.user.id || 188}`
+		// 	window.open(`https://api.whatsapp.com/send?text=${shareUrl}`, '_blank');
+		// 	const event = new Event('visibilitychange');
+		// 	document.dispatchEvent(event);
+		// 	router.push('/');
+		// });
 	}
 	return (
 		<S.Wrapper>
