@@ -41,7 +41,6 @@ function RegisterTemplate() {
 	}
 
 	function handleChange(event: any) {
-		console.log(event);
 		setFormValues({
 			...formValues,
 			[event.target.name]: event.target.value,

@@ -42,11 +42,12 @@ export const Title = styled.div`
 	gap: 16px;
 	font-weight: bold;
 
-	.circle {
+	.image {
+		position: relative;
 		width: 2.4rem;
 		height: 2.4rem;
-		background-color: #000000;
 		border-radius: 50%;
+		overflow: hidden;
 	}
 `;
 

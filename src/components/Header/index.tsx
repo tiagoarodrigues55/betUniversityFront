@@ -16,31 +16,33 @@ function Header() {
 	return (
 		<S.Wrapper>
 			<S.Top>
-				<Logo />
-
 				<S.ButtonContainer>
 					<S.ButtonEvents
 						onClick={() => setOpenEvents((prevState) => !prevState)}
 					>
-						{event}
-						{/* Escolha o evento */}
 						{openEvents ? (
-							<FiChevronUp size={22} color="#AEAEB3" />
+							<FiChevronUp size={22} color="#FFFFFF" />
 						) : (
-							<FiChevronDown size={22} color="#AEAEB3" />
+							<FiChevronDown size={22} color="#FFFFFF" />
 						)}
+						{event}
 					</S.ButtonEvents>
 					<S.Events showEvents={openEvents}>
-						<S.Event onClick={() => changeEvent('Integramix')}>Integramix</S.Event>
+						<S.Event onClick={() => changeEvent('Integramix')}>
+							Integramix
+						</S.Event>
 						<S.Event onClick={() => changeEvent('Interusp')}>InterUSP</S.Event>
 						<S.Event onClick={() => changeEvent('Intermed')}>Intermed</S.Event>
 					</S.Events>
 				</S.ButtonContainer>
+
+				<S.Wallet>
+					<b>{session?.user?.wallet} $</b>
+				</S.Wallet>
 			</S.Top>
-			<S.Wallet>
-				<span>Betcoin: </span>
-				<b> {session?.user?.wallet} $</b>
-			</S.Wallet>
+			<S.Bottom>
+				<Logo />
+			</S.Bottom>
 		</S.Wrapper>
 	);
 }
