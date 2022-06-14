@@ -6,7 +6,7 @@ export const Wrapper = styled.section`
 
 	color: #ffff;
 
-	margin-bottom: 2rem;
+	margin-bottom: 6rem;
 `;
 
 export const ButtonContainer = styled.div`

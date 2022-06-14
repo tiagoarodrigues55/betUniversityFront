@@ -5,8 +5,8 @@ export const Wrapper = styled.header`
 	flex-direction: column;
 	gap: 0.5rem;
 
-	padding: 1rem 0.5rem;
-  margin-bottom: 1.5rem;
+	padding: 1rem 0;
+	margin-bottom: 1rem;
 `;
 
 export const Top = styled.div`
@@ -15,12 +15,17 @@ export const Top = styled.div`
 	align-items: center;
 `;
 
-export const Wallet = styled.div`
-  display: flex;
-  align-items: center;
-  margin-left: 1rem;
-	color: #ffffff;
+export const Bottom = styled.div`
+	display: flex;
+	justify-content: center;
 `
+
+export const Wallet = styled.div`
+	display: flex;
+	align-items: center;
+	margin-right: 1rem;
+	color: #ffffff;
+`;
 
 export const ButtonContainer = styled.div`
 	position: relative;
@@ -28,9 +33,11 @@ export const ButtonContainer = styled.div`
 
 export const ButtonEvents = styled.button`
 	padding: 0.7rem;
-	border: 1px solid orange;
-	border-radius: 10px;
+	border-radius: 0 10px 10px 0;
 	font-size: 16px;
+
+	background-color: #391754;
+	border: 0;
 
 	display: flex;
 	align-items: center;
@@ -58,6 +65,7 @@ export const Events = styled.div<Events>`
 
 	padding: 0.5rem 0;
 	border-radius: 0.5rem;
+	margin-left: 5px;
 `;
 
 export const Event = styled.button`

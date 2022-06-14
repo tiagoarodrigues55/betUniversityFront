@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import * as S from './styles';
 
 type GamesProps = {
@@ -16,14 +17,26 @@ function Games({ games, handleOpenModal }: GamesProps) {
 					</S.GameInfo>
 					<S.TeamInfo>
 						<S.Title>
-							<div className="circle"></div>
+							<div className="image">
+								<Image
+									src={`/universities/${game.teams[0]}.jpeg`}
+									layout="fill"
+									objectFit="cover"
+								/>
+							</div>
 							{game.teams[0]}
 						</S.Title>
 						<span>{game.odds[0]}</span>
 					</S.TeamInfo>
 					<S.TeamInfo>
 						<S.Title>
-							<div className="circle"></div>
+							<div className="image">
+								<Image
+									src={`/universities/${game.teams[1]}.jpeg`}
+									layout="fill"
+									objectFit="cover"
+								/>
+							</div>{' '}
 							{game.teams[1]}
 						</S.Title>
 						<span>{game.odds[1]}</span>
