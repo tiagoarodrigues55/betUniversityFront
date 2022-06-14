@@ -69,3 +69,16 @@ export const SignInButton = styled.button`
 	display: block;
 	cursor: pointer;
 `;
+
+export const whatsappButton = styled.a`
+	button {
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: orange;
+    color: #fff;
+    border: 0;
+    margin: 2rem auto;
+    display: block;
+    cursor: pointer;
+	}
+`

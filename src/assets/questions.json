@@ -7,14 +7,26 @@
   },
   {
     "id": 1,
-    "type": "text",
-    "text": "Qual o seu instagram?",
-    "name": "insta"
+    "type": "select",
+    "text": "Qual esporte universitário vc mais acompanha?",
+    "name": "sport"
   },
   {
     "id": 2,
+    "type": "select",
+    "text": "O que você acha da ideia de apostar no {evento}?",
+    "name": "idea"
+  },
+  {
+    "id": 3,
     "type": "number",
     "text": "Quanto dinheiro você apostaria no {evento}?",
     "name": "expectedBet"
+  },
+  {
+    "id": 4,
+    "type": "number",
+    "text": "De 0 a 10 o quanto você acha que seus amigos usariam a interbet?",
+    "name": "nps"
   }
 ]

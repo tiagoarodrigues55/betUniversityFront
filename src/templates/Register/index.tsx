@@ -17,6 +17,36 @@ function RegisterTemplate() {
 	const [question, setQuestion] = useState<any>();
 	const [wallet, setWallet] = useState<number>(0);
 	const event = 'Integramix';
+
+	const options = {
+		team: universities.map((uni) => ({
+			value: String(uni.Estado),
+			label: String(uni.Estado),
+		})),
+		sport: [
+			{ value: "Futebol", label: "Futebol" },
+			{ value: "Futsal", label: "Futsal" },
+			{ value: "Handebol", label: "Handebol" },
+			{ value: "Basquete", label: "Basquete" },
+			{ value: "Vôlei", label: "Vôlei" },
+			{ value: "Judô", label: "Judô" },
+			{ value: "Tênis de Mesa", label: "Tênis de Mesa" },
+			{ value: "Natação", label: "Natação" },
+			{ value: "Tênis de Campo", label: "Tênis de Campo" },
+			{ value: "Atletismo", label: "Atletismo" },
+			{ value: "Xadrez", label: "Xadrez" },
+			{ value: "Rugby", label: "Rugby" },
+			{ value: "Atletismo", label: "Atletismo" },
+		],
+		idea: [
+			{ value: 4, label: "Adorei" },
+			{ value: 3, label: "Gostei" },
+			{ value: 2, label: "Indiferente" },
+			{ value: 1, label: "Não gostei" },
+			{ value: 0, label: "Odiei" },
+		]
+	}
+
 	useEffect(() => {
 		setQuestion(questions[session?.user?.forms_progress + 1 || 0]);
 		setWallet(session?.user?.wallet || 0);
@@ -54,16 +84,27 @@ function RegisterTemplate() {
 		setQuestion(questions[question.id + 1]);
 		setWallet(wallet + 10);
 	}
-	const customStyles = {
-		option: (provided, state) => ({}),
-		control: () => ({}),
-		singleValue: (provided, state) => {
-			const opacity = state.isDisabled ? 0.5 : 1;
-			const transition = 'opacity 300ms';
 
-			return { ...provided, opacity, transition };
-		},
-	};
+	async function inviteFriend() {
+		const payload = {
+			email: session.user.email,
+			name: session.user.name,
+			instagram: formValues.insta,
+			favorite_team: formValues.team,
+			wallet,
+			forms_progress: question.id,
+			expected_bet: formValues.expectedBet,
+			afiliation_id: localStorage.getItem("afiliation_id") || null
+		};
+
+		api.post('/api/users', payload).then((response) => {
+			const shareUrl = `https://interbet.vercel.app/login?afiliation_id=${response.data.user.id || 188}`
+			window.open(`https://api.whatsapp.com/send?text=${shareUrl}`, '_blank');
+			const event = new Event('visibilitychange');
+			document.dispatchEvent(event);
+			router.push('/home');
+		});
+	}
 	return (
 		<S.Wrapper>
 			<S.Container>
@@ -75,16 +116,13 @@ function RegisterTemplate() {
 								className="select"
 								name={question?.name}
 								isClearable
-								onChange={(event) =>
+								onChange={(event: { value: string }) =>
 									setFormValues({
 										...formValues,
-										team: event?.value,
+										[question.name]: event?.value,
 									})
 								}
-								options={universities.map((uni) => ({
-									value: String(uni.Estado),
-									label: String(uni.Estado),
-								}))}
+								options={options[question.name]}
 							/>
 						) : (
 							<input
@@ -94,7 +132,13 @@ function RegisterTemplate() {
 							/>
 						)}
 					</div>
-					{question?.id === questions.length - 1 ? null : (
+					{question?.id === questions.length - 1 ? (
+						<S.whatsappButton>
+							<button onClick={inviteFriend}>
+								<b>Convide um amigo</b>
+							</button>
+						</S.whatsappButton>
+					) : (
 						<S.SignInButton onClick={nextQuestion}>
 							Ganhar mais 10 Betcoins
 						</S.SignInButton>
