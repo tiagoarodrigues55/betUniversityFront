@@ -30,6 +30,7 @@ export default async function handler(req, res) {
         }
         return res.status(201).json({
           status: 'Ocorreu algum erro inesperado, tente novamente mais tarde',
+          newUser,
         });
       }
       return res.status(findUser.status)
