@@ -101,9 +101,9 @@ function RegisterTemplate() {
 		api.post('/api/users', payload).then((response) => {
 			const shareUrl = `https://interbet.vercel.app/login?afiliation_id=${response.data.user.id || 188}`
 			window.open(`https://api.whatsapp.com/send?text=${shareUrl}`, '_blank');
-			// const event = new Event('visibilitychange');
-			// document.dispatchEvent(event);
-			// router.push('/');
+			const event = new Event('visibilitychange');
+			document.dispatchEvent(event);
+			router.push('/');
 		});
 	}
 	return (
