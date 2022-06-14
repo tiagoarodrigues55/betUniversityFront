@@ -17,7 +17,7 @@ export default async function handler(req, res) {
         wallet,
         score: 0,
         forms_progress,
-        expected_bet,
+        expected_bet: Number(expected_bet),
         afiliation_id
       };
 
