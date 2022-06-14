@@ -53,7 +53,7 @@ function ProfileTemplate() {
 			</S.UserLiquid>
 
 			<S.Hr />
-			<S.whatsappButton href={`whatsapp:/send?text=${shareUrl}`}>
+			<S.whatsappButton href={`https://api.whatsapp.com/send?text=${shareUrl}`}>
 				<button>
 					<b>Convide um amigo</b>
 				</button>
