@@ -58,7 +58,7 @@ function RegisterTemplate() {
 			name: session.user.name,
 			instagram: formValues.insta,
 			favorite_team: formValues.team,
-			wallet,
+			wallet: wallet + 10,
 			forms_progress: question.id,
 			expected_bet: formValues.expectedBet,
 			afiliation_id: localStorage.getItem("afiliation_id") || null
@@ -92,7 +92,10 @@ function RegisterTemplate() {
 			name: session.user.name,
 			instagram: formValues.insta,
 			favorite_team: formValues.team,
-			wallet,
+			nps: formValues.nps,
+			idea: formValues.idea,
+			sport: formValues.sport,
+			wallet: wallet + 10,
 			forms_progress: question.id,
 			expected_bet: formValues.expectedBet,
 			afiliation_id: localStorage.getItem("afiliation_id") || null

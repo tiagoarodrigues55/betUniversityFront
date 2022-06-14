@@ -8,7 +8,7 @@ export default async function handler(req, res) {
       const response = await users.getAll()
       return res.json(response.data)
     case 'POST':
-      const { email, name, favorite_team, wallet, forms_progress, expected_bet, afiliation_id } = req.body;
+      const { email, name, favorite_team, wallet, forms_progress, expected_bet, nps, idea, sport, afiliation_id } = req.body;
       const newUser = {
         email,
         name,
@@ -16,6 +16,9 @@ export default async function handler(req, res) {
         total_bet: 0,
         wallet,
         score: 0,
+        nps,
+        idea,
+        sport,
         forms_progress,
         expected_bet: Number(expected_bet),
         afiliation_id

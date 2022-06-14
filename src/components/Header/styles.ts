@@ -61,7 +61,7 @@ export const Events = styled.div<Events>`
 	top: 49px;
 	width: 100%;
 
-	background-color: #eeeeee;
+	background-color: orange;
 
 	padding: 0.5rem 0;
 	border-radius: 0.5rem;
@@ -77,8 +77,8 @@ export const Event = styled.button`
 
 	/* & + & { */
 	/* } */
-
-	/* background-color: #b5b5b5; */
+	background-color: orange;
+	color: #ffffff;
 	border: 0;
 	border-bottom: 1px solid #b5b5b5;
 

@@ -13,7 +13,7 @@ function Games({ games, handleOpenModal }: GamesProps) {
 				<S.Game key={game.id}>
 					<S.GameInfo>
 						<S.Name>{game.name}</S.Name>
-						<S.Info>15:30 - Ginásio 1</S.Info>
+						<S.Info></S.Info>
 					</S.GameInfo>
 					<S.TeamInfo>
 						<S.Title>
@@ -42,7 +42,6 @@ function Games({ games, handleOpenModal }: GamesProps) {
 						<span>{game.odds[1]}</span>
 					</S.TeamInfo>
 					<S.Draw>
-						Empate
 						<span>{game.odds[2]}</span>
 						<S.BetButton onClick={() => handleOpenModal({ game })}>
 							Apostar

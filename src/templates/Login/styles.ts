@@ -22,3 +22,10 @@ export const SignInButton = styled.button`
   cursor: pointer;
 `;
 
+export const Description = styled.p`
+text-align: center;
+font-size: 10px;
+color: #ffffff
+
+`
+

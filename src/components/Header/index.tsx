@@ -28,11 +28,20 @@ function Header() {
 						{event}
 					</S.ButtonEvents>
 					<S.Events showEvents={openEvents}>
-						<S.Event onClick={() => changeEvent('Integramix')}>
+						<S.Event onClick={() => {
+							changeEvent('Integramix')
+							setOpenEvents(false)
+						}}>
 							Integramix
 						</S.Event>
-						<S.Event onClick={() => changeEvent('Interusp')}>InterUSP</S.Event>
-						<S.Event onClick={() => changeEvent('Intermed')}>Intermed</S.Event>
+						<S.Event onClick={() => {
+							changeEvent('Interusp')
+							setOpenEvents(false)
+						}}>InterUSP</S.Event>
+						<S.Event onClick={() => {
+							changeEvent('Intermed')
+							setOpenEvents(false)
+						}}>Intermed</S.Event>
 					</S.Events>
 				</S.ButtonContainer>
 

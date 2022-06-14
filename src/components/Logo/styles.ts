@@ -34,7 +34,7 @@ export const Wrapper = styled.p<WrapperProps>`
 	${({ variant }) => css`
 		font-size: 24px;
 		display: flex;
-
+		font-family: Orbitron;
 		${!!variant && wrapperModifiers[variant]};
 	`}
 `;
