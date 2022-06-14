@@ -54,7 +54,7 @@ export const Select = styled.button<SelectProps>`
 	background-color: ${({ isActive }) => (isActive ? 'orange' : 'transparent')};
 	border: ${({ isActive }) => (isActive ? 'none' : '1px solid orange')};
 
-	color: ${({ isActive }) => (isActive ? '#ffffff' : '#000000')};
+	color: #ffffff;
 	border-radius: 10px;
 `;
 
@@ -66,7 +66,7 @@ export const BetsContainer = styled.div`
 
 export const Bet = styled.div`
 	padding: 0.7rem;
-	background-color: #cacaca;
+	background-color: #221133;
 	border-radius: 0.5rem;
 
 	display: flex;
@@ -89,3 +89,15 @@ export const Hr = styled.hr`
 	height: 2px;
 	background-color: #c5c5c5;
 `;
+
+export const whatsappButton = styled.a`
+	button {
+		font-size: 20px;
+		padding: 1rem;
+		width: 100%;
+		margin-top: 1rem;
+		background-color: orange;
+		color: #ffffff;
+		border-radius: 10px;
+	}
+`

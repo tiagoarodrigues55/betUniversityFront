@@ -21,3 +21,4 @@ export const SignInButton = styled.button`
 	display: block;
   cursor: pointer;
 `;
+

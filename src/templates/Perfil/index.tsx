@@ -9,9 +9,10 @@ import * as S from './styles';
 function ProfileTemplate() {
 	const [option, setOption] = useState<'close' | 'open'>('open');
 	const { data: session } = useSession();
+	const shareUrl = `https://interbet.vercel.app/login?afiliation_id=${session?.user?.id || 188}`
 
 	const { data } = useQuery('bets', async () => {
-		const response = await api.get(`/api/bets/${session?.user?.id}`);
+		const response = await api.get(`/api/bets/${session?.user?.id || 188}`);
 		return response.data;
 	});
 
@@ -52,7 +53,11 @@ function ProfileTemplate() {
 			</S.UserLiquid>
 
 			<S.Hr />
-
+			<S.whatsappButton href={`whatsapp:/send?text=${shareUrl}`}>
+				<button>
+					<b>Convide um amigo</b>
+				</button>
+			</S.whatsappButton>
 			<S.Bets>
 				<h2>Minhas apostas</h2>
 				<S.SelectContainer>
@@ -80,7 +85,6 @@ function ProfileTemplate() {
 								{bet?.teams[bet?.bet]} @ {bet?.odds[bet?.bet]}
 							</p>
 							<S.BetValues>
-								<h4>Valores:</h4>
 								<p>Valor apostado: {bet?.bet_value}</p>
 								<p>
 									Retorno:{' '}
@@ -94,7 +98,7 @@ function ProfileTemplate() {
 					))}
 				</S.BetsContainer>
 			</S.Bets>
-		</S.Wrapper>
+		</S.Wrapper >
 	);
 }
 

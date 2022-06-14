@@ -1,8 +1,12 @@
 import { signIn } from 'next-auth/react';
 import Logo from '../../components/Logo';
 import * as S from './styles';
+import { useRouter } from 'next/router'
 
 function LoginTemplate() {
+	const router = useRouter()
+	const { afiliation_id } = router.query
+
 	return (
 		<S.Wrapper>
 			<div>

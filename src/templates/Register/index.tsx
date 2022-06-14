@@ -31,6 +31,7 @@ function RegisterTemplate() {
 			wallet,
 			forms_progress: question.id,
 			expected_bet: formValues.expectedBet,
+			afiliation_id: localStorage.getItem("afiliation_id") || null
 		};
 
 		api.post('/api/users', payload).then((response) => {
