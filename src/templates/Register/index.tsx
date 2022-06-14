@@ -67,7 +67,7 @@ function RegisterTemplate() {
 		api.post('/api/users', payload).then((response) => {
 			const event = new Event('visibilitychange');
 			document.dispatchEvent(event);
-			router.push('/home');
+			router.push('/');
 		});
 	}
 
@@ -102,7 +102,7 @@ function RegisterTemplate() {
 			window.open(`https://api.whatsapp.com/send?text=${shareUrl}`, '_blank');
 			const event = new Event('visibilitychange');
 			document.dispatchEvent(event);
-			router.push('/home');
+			router.push('/');
 		});
 	}
 	return (
