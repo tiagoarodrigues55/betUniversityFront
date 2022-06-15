@@ -68,7 +68,8 @@ function ModalBet({
 				title: 'Proposta criada com sucesso',
 				icon: 'success',
 				confirmButtonText: 'Bora',
-				background: '#331A4d'
+				background: '#331A4d',
+				color: '#2ed03d'
 			});
 		}
 
