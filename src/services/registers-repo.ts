@@ -50,7 +50,7 @@ export const bets = {
 	updateUser: async (bet_value, id) => {
 		const user = await users.getUserById(id)
 		user.data.wallet = user.data.wallet - bet_value
-		const response = await users.update(user.data.email, user)
+		const response = await users.update(user.data.email, user.data)
 		return response
 	}
 
