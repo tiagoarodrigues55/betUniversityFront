@@ -4,10 +4,10 @@ import { getOdds } from '../../../utils/getOdds';
 export default async function handler(req, res) {
   const { method } = req
 
-  const { status, modality } = req?.query
+  const { status, modality, event } = req?.query
 
   if (status && modality) {
-    const response = await games.getGamesByMultipleProps({ value: status, name: 'status' }, { value: modality, name: 'modality' })
+    const response = await games.getGamesByMultipleProps({ value: status, name: 'status' }, { value: modality, name: 'modality' }, { value: event, name: 'event' })
     return res.json(response.data)
   }
   if (status) {
@@ -53,7 +53,7 @@ export default async function handler(req, res) {
       res.status(findGame.status)
       break;
     case 'PUT':
-      const updateGame = await games.update(req.body.name, req.body)
+      const updateGame = await games.update(req.body.id, req.body)
       if (updateGame.status === 200) {
         return res.status(200).json({ status: 'Atualizado com sucesso', game: updateGame.body[0] });
       } else {

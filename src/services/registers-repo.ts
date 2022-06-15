@@ -9,8 +9,10 @@ export const users = {
 		await supabase.from('users').select('*').eq('id', id).single(),
 	getAll: async () => await supabase.from('users').select('*'),
 	create: async (register) => await supabase.from('users').insert(register),
-	update: async (email, params) =>
-		await supabase.from('users').update(params).match({ email }),
+	update: async (id, params) =>
+		await supabase.from('users').update(params).match({ id }),
+	getWalletIn: async (ids) => await supabase.from('users').select('email, wallet, id, afiliation_id, score')
+		.in('id', ids)
 };
 
 export const games = {
@@ -20,12 +22,12 @@ export const games = {
 		await supabase.from('games').select('*').eq('id', id).single(),
 	getGamesByProps: async (propValue, propName) =>
 		await supabase.from('games').select('*').eq(propName, propValue),
-	getGamesByMultipleProps: async (propOne, propTwo) =>
-		await supabase.from('games').select('*').eq(propOne.name, propOne.value).eq(propTwo.name, propTwo.value),
+	getGamesByMultipleProps: async (propOne, propTwo, propThree) =>
+		await supabase.from('games').select('*').eq(propOne.name, propOne.value).eq(propTwo.name, propTwo.value).eq(propThree.name, propThree.value),
 	getAll: async () => await supabase.from('games').select('*'),
 	create: async (register) => await supabase.from('games').insert(register),
-	update: async (name, params) =>
-		await supabase.from('games').update(params).match({ name }),
+	update: async (id, params) =>
+		await supabase.from('games').update(params).match({ id }),
 	getOldGames: async (date) =>
 		await supabase.from('games').select('name')
 			.lt('date', date).eq('status', 'open'),
@@ -43,8 +45,8 @@ export const bets = {
 		await supabase.from('bets').select('*').eq(propOne.name, propOne.value).eq(propTwo.name, propTwo.value),
 	getAll: async () => await supabase.from('bets').select('*'),
 	create: async (register) => await supabase.from('bets').insert(register),
-	update: async (id, params) =>
-		await supabase.from('bets').update(params).match({ id }),
+	update: async (game_id, params) =>
+		await supabase.from('bets').update(params).match({ game_id }),
 	updateGame,
 	// updateUser: async (bet_value, id) => await supabase.rpc('updateuserwallet', { bet_value: Number(bet_value), id })
 	updateUser: async (bet_value, id) => {

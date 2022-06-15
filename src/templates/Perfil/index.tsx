@@ -88,9 +88,14 @@ function ProfileTemplate() {
 								<p>Valor apostado: {bet?.bet_value}</p>
 								<p>
 									Retorno:{' '}
-									{(bet?.result === bet?.bet || !bet?.result
+									{(bet?.winner === bet?.bet || !bet.winner
 										? bet?.odds[bet?.bet] * bet?.bet_value
 										: 0
+									).toFixed(2)}
+								</p>
+								<p>
+									Resultado:{' '}
+									{(bet.result ? bet.result : null
 									).toFixed(2)}
 								</p>
 							</S.BetValues>

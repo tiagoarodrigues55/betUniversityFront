@@ -8,7 +8,7 @@ export interface Bet {
 	bet: number; // index da aposta (0, 1 ou 2)
 	bet_value: number; // valor da aposta
 	offer: boolean; // é oferta?
-	status: string; // status (open, closed, pending)
+	status: string; // status (open, close, pending)
 	result: number; // Resultado (null, 0, 1 ou 2)
 }
 
@@ -18,7 +18,7 @@ export interface Game {
 	teams: string[]; // [nome do time 1, nome do time 2]
 	odds: number[]; // odds atuais [odd do time 1, odd do time 2, odd do empate]
 	modality: string; // Modalidade da partida
-	status: string; // status (open, closed, pending)
+	status: string; // status (open, close, pending)
 	bets: number[]; // Quantidade de apostas em cada opção ([0, 0, 0])
 	payments: number[]; // Dinheiro apostado em cada opção ([0, 0, 0])
 	debts: number[]; // Total a ser pago por opção ([0, 0, 0])

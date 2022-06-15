@@ -36,7 +36,7 @@ export default async function handler(req, res) {
           newUser,
         });
       } else {
-        const updateUser = await users.update(req.body.email, req.body)
+        const updateUser = await users.update(req.body.id, req.body)
         if (updateUser.status === 200) {
           return res.status(200).json({ status: 'Atualizado com sucesso', user: updateUser.body[0] });
         } else {
@@ -46,7 +46,7 @@ export default async function handler(req, res) {
         }
       }
     case 'PUT':
-      const updateUser = await users.update(req.body.email, req.body)
+      const updateUser = await users.update(req.body.id, req.body)
       if (updateUser.status === 200) {
         return res.status(200).json({ status: 'Atualizado com sucesso', user: updateUser.body[0] });
       } else {

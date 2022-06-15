@@ -25,9 +25,11 @@ function RankingsTemplate() {
 		const finalResponse = []
 		Object.entries<Score[]>(groupBy(response.data, 'favorite_team')).forEach(([key, value]) => {
 			const newValue = value
-			finalResponse.push({
-				name: key, score: newValue.map(user => user.score).reduce((previousValue, currentValue) => previousValue + currentValue)
-			})
+			if (key !== null && key !== 'null') {
+				finalResponse.push({
+					name: key, score: newValue.map(user => user.score).reduce((previousValue, currentValue) => previousValue + currentValue)
+				})
+			}
 		});
 		return finalResponse
 
@@ -53,7 +55,7 @@ function RankingsTemplate() {
 				{data?.map((item) => (
 					<S.RankingItem key={item.id}>
 						<span>{item?.name}</span>
-						<span>{item?.score} pontos</span>
+						<span>{item?.score} Betcoins</span>
 					</S.RankingItem>
 				))}
 			</S.RankingList>
