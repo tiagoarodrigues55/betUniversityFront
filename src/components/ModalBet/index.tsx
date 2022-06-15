@@ -112,7 +112,7 @@ function ModalBet({ isModalOpen, handleCloseModal, game }: ModalBetProps) {
 
 				<p>Valor retornado: {expectedReturn}</p>
 
-				<button onClick={() => (bet > 0 ? handleBet({ game, odd }) : null)}>
+				<button onClick={() => (bet > 0 && odd > 0 ? handleBet({ game, odd }) : null)}>
 					Apostar
 				</button>
 			</S.Wrapper>
