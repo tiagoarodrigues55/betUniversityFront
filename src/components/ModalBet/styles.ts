@@ -28,7 +28,7 @@ export const Wrapper = styled.div`
 	align-items: center;
 	/* height: 24rem; */
 	padding: 2.4rem;
-	background-color: #ffffff;
+	background-color: #260539;
 	border-radius: 0.5rem;
 	width: 100%;
 	margin: 0 2rem;
