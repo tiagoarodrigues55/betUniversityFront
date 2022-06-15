@@ -13,7 +13,6 @@ export const Backdrop = styled.div<ModalOpen>`
 	opacity: ${({ isModalOpen }) => (isModalOpen ? '1' : '0')};
 	transition: all ease 0.2s;
 	display: flex;
-	// display: ${({ isModalOpen }) => (isModalOpen ? 'flex' : 'none')};
 	justify-content: center;
 	align-items: center;
 	width: 100vw;
@@ -26,9 +25,10 @@ export const Wrapper = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	/* height: 24rem; */
+	position: relative;
+	max-width: 50rem;
 	padding: 2.4rem;
-	background-color: #331A4d;
+	background-color: #331a4d;
 	border-radius: 0.5rem;
 	width: 100%;
 	margin: 0 2rem;
@@ -43,6 +43,12 @@ export const Wrapper = styled.div`
 		margin-top: 2rem;
 		font-size: 1.4rem;
 		width: 100%;
+	}
+
+	svg {
+		position: absolute;
+		top: 1rem;
+		right: 1rem;
 	}
 
 	.form-control {
@@ -71,22 +77,22 @@ export const Odds = styled.div`
 
 export const Odd = styled.div`
 	display: flex;
-	align-items: center;
 	gap: 3rem;
 	margin-bottom: 1rem;
+	align-items: center;
+	justify-content: space-between;
 
 	button {
 		cursor: pointer;
-		width: 
 		background-color: transparent;
-		color: #000000;
+		color: #ffffff;
 		border-radius: 30px;
 		padding: 0.8rem 1.3rem;
 		border: 1px solid orange;
 		font-size: 1rem;
 		margin: 0;
-	align-items: rigth;
-
+		max-width: 9rem;
+		width: 100%;
 	}
 `;
 
