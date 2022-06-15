@@ -38,7 +38,7 @@ function ModalBet({
 	function onCloseModal() {
 		handleCloseModal();
 		handleChooseOdd(0);
-		onChange(0);
+		onChange(10);
 	}
 
 	async function handleBet({ game, odd }) {
@@ -68,13 +68,15 @@ function ModalBet({
 				title: 'Proposta criada com sucesso',
 				icon: 'success',
 				confirmButtonText: 'Bora',
+				background: '#331A4d'
 			});
 		}
 
-		Swal.fire({
+		return Swal.fire({
 			text: 'Saldo Insuficiente',
 			icon: 'error',
 			confirmButtonText: 'Entendi',
+			background: '#331A4d'
 		});
 	}
 
@@ -112,7 +114,7 @@ function ModalBet({
 
 				<p>Valor retornado: {expectedReturn}</p>
 
-				<button onClick={() => handleBet({ game, odd })}>Apostar</button>
+				<button onClick={() => bet > 0 ? handleBet({ game, odd }) : null}>Apostar</button>
 			</S.Wrapper>
 		</S.Backdrop>
 	);
