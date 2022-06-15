@@ -46,7 +46,14 @@ export const bets = {
 	update: async (id, params) =>
 		await supabase.from('bets').update(params).match({ id }),
 	updateGame,
-	updateUser: async (bet_value, id) => await supabase.rpc('updateuserwallet', { bet_value: Number(bet_value), id })
+	// updateUser: async (bet_value, id) => await supabase.rpc('updateuserwallet', { bet_value: Number(bet_value), id })
+	updateUser: async (bet_value, id) => {
+		const user = await users.getUserById(id)
+		user.data.wallet = user.data.wallet - bet_value
+		const response = await users.update(user.data.email, user)
+		return response
+	}
+
 };
 
 
