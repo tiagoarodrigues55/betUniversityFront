@@ -32,7 +32,7 @@ export const Wrapper = styled.div`
 	border-radius: 0.5rem;
 	width: 100%;
 	margin: 0 2rem;
-
+	color: #ffffff;
 	button {
 		cursor: pointer;
 		background-color: orange;
