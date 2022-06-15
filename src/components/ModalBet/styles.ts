@@ -55,7 +55,7 @@ export const Wrapper = styled.div`
 
 		input {
 			width: 100%;
-
+			color: #ffffff;
 			margin-top: 1rem;
 			padding: 0 1.6rem;
 			height: 56px;
