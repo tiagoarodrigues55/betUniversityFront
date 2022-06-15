@@ -31,7 +31,7 @@ function RankingsTemplate() {
 				})
 			}
 		});
-		return finalResponse
+		return finalResponse.sort((a, b) => b.score - a.score)
 
 	});
 	return (
