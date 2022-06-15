@@ -1,15 +1,16 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  display: grid;
-  place-items: center;
-  width: 100vw;
-  height: 100vh;
+	display: grid;
+	place-items: center;
+	width: 100vw;
+	height: 100vh;
 
-  p {
-    justify-content: center;
-  }
-`
+	p {
+		justify-content: center;
+    font-size: 2rem;
+	}
+`;
 
 export const SignInButton = styled.button`
 	padding: 1rem;
@@ -19,13 +20,12 @@ export const SignInButton = styled.button`
 	border: 0;
 	margin: 2rem auto;
 	display: block;
-  cursor: pointer;
+	cursor: pointer;
+	font-size: 1.4rem;
 `;
 
 export const Description = styled.p`
-text-align: center;
-font-size: 10px;
-color: #ffffff
-
-`
-
+	text-align: center;
+	font-size: 10px;
+	color: #ffffff;
+`;

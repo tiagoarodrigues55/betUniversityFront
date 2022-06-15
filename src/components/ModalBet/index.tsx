@@ -2,6 +2,7 @@ import { useSession } from 'next-auth/react';
 import React, { useState } from 'react';
 import Swal from 'sweetalert2';
 import api from '../../services/api';
+import { FiX } from 'react-icons/fi';
 
 import * as S from './styles';
 
@@ -11,11 +12,7 @@ type ModalBetProps = {
 	game: any;
 };
 
-function ModalBet({
-	isModalOpen,
-	handleCloseModal,
-	game,
-}: ModalBetProps) {
+function ModalBet({ isModalOpen, handleCloseModal, game }: ModalBetProps) {
 	const { data: session } = useSession();
 
 	const [odd, setOdd] = useState(0);
@@ -27,7 +24,6 @@ function ModalBet({
 	function handleChooseOdd(odd: number) {
 		setOdd(odd);
 		setExpectedReturn((Number(odd) * bet).toFixed(2));
-
 	}
 
 	function onChange(value) {
@@ -58,10 +54,10 @@ function ModalBet({
 
 			await api.post('/api/bets', betValue);
 
-			const event = new Event("visibilitychange");
+			const event = new Event('visibilitychange');
 			document.dispatchEvent(event);
 
-			onCloseModal()
+			onCloseModal();
 
 			return Swal.fire({
 				text: 'Boa sorte!',
@@ -77,13 +73,14 @@ function ModalBet({
 			text: 'Saldo Insuficiente',
 			icon: 'error',
 			confirmButtonText: 'Entendi',
-			background: '#331A4d'
+			background: '#331A4d',
 		});
 	}
 
 	return (
 		<S.Backdrop onClick={onCloseModal} isModalOpen={isModalOpen}>
 			<S.Wrapper onClick={(event) => event.stopPropagation()}>
+				<FiX color="#fff" size={26} onClick={onCloseModal} />
 				<h2>
 					{game?.name} - {game?.teams?.join(' x ')}
 				</h2>
@@ -115,7 +112,9 @@ function ModalBet({
 
 				<p>Valor retornado: {expectedReturn}</p>
 
-				<button onClick={() => bet > 0 ? handleBet({ game, odd }) : null}>Apostar</button>
+				<button onClick={() => (bet > 0 ? handleBet({ game, odd }) : null)}>
+					Apostar
+				</button>
 			</S.Wrapper>
 		</S.Backdrop>
 	);
