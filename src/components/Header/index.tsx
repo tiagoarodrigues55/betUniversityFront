@@ -34,14 +34,14 @@ function Header() {
 						}}>
 							Integramix
 						</S.Event>
-						<S.Event onClick={() => {
+						{/* <S.Event onClick={() => {
 							changeEvent('Interusp')
 							setOpenEvents(false)
 						}}>InterUSP</S.Event>
 						<S.Event onClick={() => {
 							changeEvent('Intermed')
 							setOpenEvents(false)
-						}}>Intermed</S.Event>
+						}}>Intermed</S.Event> */}
 					</S.Events>
 				</S.ButtonContainer>
 

@@ -95,8 +95,7 @@ function ProfileTemplate() {
 								</p>
 								<p>
 									Resultado:{' '}
-									{(bet.result ? bet.result : null
-									).toFixed(2)}
+									{bet.result ? bet.result : null}
 								</p>
 							</S.BetValues>
 						</S.Bet>
