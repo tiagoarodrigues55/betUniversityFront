@@ -77,6 +77,7 @@ export const Odd = styled.div`
 
 	button {
 		cursor: pointer;
+		width: 
 		background-color: transparent;
 		color: #000000;
 		border-radius: 30px;
@@ -84,6 +85,8 @@ export const Odd = styled.div`
 		border: 1px solid orange;
 		font-size: 1rem;
 		margin: 0;
+	align-items: rigth;
+
 	}
 `;
 

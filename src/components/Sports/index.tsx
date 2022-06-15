@@ -28,7 +28,7 @@ function Sports({ sport, handleChooseSport }: SportsProps) {
 				className={sport === 'Vôlei' ? 'active' : ''}
 				onClick={() => handleChooseSport('Vôlei')}
 			>
-				<FaVolleyballBall size={30} color={sport === 'Volei' ? '#F78232' : "#FFFFFF"} />
+				<FaVolleyballBall size={30} color={sport === 'Vôlei' ? '#F78232' : "#FFFFFF"} />
 			</S.Sport>
 			<S.Sport
 				className={sport === 'Handebol' ? 'active' : ''}
