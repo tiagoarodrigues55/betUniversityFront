@@ -117,15 +117,19 @@ function RegisterTemplate() {
 						<label>{question?.text.replace('{evento}', event)}</label>
 						{question?.type === 'select' ? (
 							<CreatableSelect
+								key={`my_unique_select_key__${question?.name}`}
+
 								className="select"
 								name={question?.name}
 								isClearable
-								onChange={(event: { value: string }) =>
+								onChange={(event: any) => {
+									console.log(event)
+									console.log(event.value)
 									setFormValues({
 										...formValues,
-										[question.name]: event?.value,
+										[question?.name]: event?.value,
 									})
-								}
+								}}
 								options={options[question.name]}
 							/>
 						) : (
