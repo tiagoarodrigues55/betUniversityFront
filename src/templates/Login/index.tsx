@@ -8,33 +8,25 @@ function LoginTemplate() {
 		<S.Wrapper>
 			<div>
 				<Logo />
-				<S.SignInButton
-					onClick={() => {
-						// if (window.navigator.userAgent.includes("Instagram")) {
+				{
+					(window.navigator.userAgent.includes("Instagram")) ?
 						<a href={window.location.href} target="_blank" download>
-							{signIn('google', {
-								callbackUrl: `${window.location.origin}/home`,
-							})}
+							<S.SignInButton>
+								Entre com o google
+							</S.SignInButton>
 						</a>
-						// } else {
-						// 	signIn('google', {
-						// 		callbackUrl: `${window.location.origin}/home`,
-						// 	})
-						// }
-					}
-					}
-				>
-					Entre com o google
-				</S.SignInButton>
-				<S.SignInButton
-					onClick={() =>
-						signIn('facebook', {
-							callbackUrl: `${window.location.origin}/home`,
-						})
-					}
-				>
-					Entre com o facebook
-				</S.SignInButton>
+						:
+						<S.SignInButton
+							onClick={() =>
+								signIn('google', {
+									callbackUrl: `${window.location.origin}/home`,
+								})
+							}
+						>
+							Entre com o google
+						</S.SignInButton>
+				}
+
 			</div>
 		</S.Wrapper>
 	);
