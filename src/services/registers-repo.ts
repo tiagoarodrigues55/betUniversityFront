@@ -12,7 +12,19 @@ export const users = {
 	update: async (id, params) =>
 		await supabase.from('users').update(params).match({ id }),
 	getWalletIn: async (ids) => await supabase.from('users').select('email, wallet, id, afiliation_id, score')
-		.in('id', ids)
+		.in('id', ids),
+	liquidPoints: async (id, value) => {
+		const user = await users.getUserById(id)
+		if (!user || !user.data) {
+			return user
+		}
+		console.log(user)
+		user.data.wallet = user.data.wallet - value
+		user.data.score = user.data.score - value
+
+		const response = await users.update(id, user.data)
+		return response
+	}
 };
 
 export const games = {
@@ -31,7 +43,7 @@ export const games = {
 	getOldGames: async (date) =>
 		await supabase.from('games').select('name')
 			.lt('date', date).eq('status', 'open'),
-	lockGames: async (names) => await supabase.rpc('lockgames2', { names })
+	lockGames: async (names) => await supabase.from('games').update({ status: 'pending' }).in('name', names),
 };
 
 export const bets = {
@@ -52,7 +64,7 @@ export const bets = {
 	updateUser: async (bet_value, id) => {
 		const user = await users.getUserById(id)
 		user.data.wallet = user.data.wallet - bet_value
-		const response = await users.update(user.data.email, user.data)
+		const response = await users.update(id, user.data)
 		return response
 	}
 
