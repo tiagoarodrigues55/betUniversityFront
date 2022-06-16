@@ -61,9 +61,11 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 	const session = await getSession(context);
 	const isUserInDatabase = await users.getUserByEmail(session?.user?.email);
 	const date = new Date()
-	console.log(typeof (date))
+	date.setHours(date.getHours() - 3);
 
-	// api.post(`/api/games/lock-games?date=${date}`).then(res => console.log(res.data)).catch(err => console.log(err))
+
+
+	api.post(`/api/games/lock-games?date=${date.toISOString()}`).then(res => console.log(res.data)).catch(err => console.log(err))
 	if (!session) {
 		return {
 			redirect: {
