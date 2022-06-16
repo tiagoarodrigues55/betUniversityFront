@@ -3,6 +3,9 @@ import Logo from '../../components/Logo';
 import * as S from './styles';
 
 function LoginTemplate() {
+	if (!window) {
+		return
+	}
 	return (
 		<S.Wrapper>
 			<div>
