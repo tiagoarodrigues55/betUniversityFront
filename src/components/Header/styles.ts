@@ -18,13 +18,20 @@ export const Top = styled.div`
 export const Bottom = styled.div`
 	display: flex;
 	justify-content: center;
-`
+`;
 
 export const Wallet = styled.div`
 	display: flex;
 	align-items: center;
 	margin-right: 1rem;
 	color: #ffffff;
+
+	b {
+		font-size: 1.1rem;
+		display: flex;
+		align-items: flex-start;
+		gap: 0.3rem;
+	}
 `;
 
 export const ButtonContainer = styled.div`

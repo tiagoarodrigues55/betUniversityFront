@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { useState } from 'react';
 import { useQuery } from 'react-query';
 import { string } from 'yup';
@@ -5,8 +6,8 @@ import api from '../../services/api';
 import * as S from './styles';
 
 interface Score {
-	name: string,
-	score: number
+	name: string;
+	score: number;
 }
 function RankingsTemplate() {
 	const [option, setOption] = useState('users');
@@ -17,22 +18,28 @@ function RankingsTemplate() {
 			return xs.reduce(function (rv, x) {
 				(rv[x[key]] = rv[x[key]] || []).push(x);
 				return rv;
-			}, {})
+			}, {});
 		};
 		if (option === 'users') {
-			return response.data.sort((a, b) => b.score - a.score)
+			return response.data.sort((a, b) => b.score - a.score);
 		}
-		const finalResponse = []
-		Object.entries<Score[]>(groupBy(response.data, 'favorite_team')).forEach(([key, value]) => {
-			const newValue = value
-			if (key !== null && key !== 'null') {
-				finalResponse.push({
-					name: key, score: newValue.map(user => user.score).reduce((previousValue, currentValue) => previousValue + currentValue)
-				})
+		const finalResponse = [];
+		Object.entries<Score[]>(groupBy(response.data, 'favorite_team')).forEach(
+			([key, value]) => {
+				const newValue = value;
+				if (key !== null && key !== 'null') {
+					finalResponse.push({
+						name: key,
+						score: newValue
+							.map((user) => user.score)
+							.reduce(
+								(previousValue, currentValue) => previousValue + currentValue
+							),
+					});
+				}
 			}
-		});
-		return finalResponse.sort((a, b) => b.score - a.score)
-
+		);
+		return finalResponse.sort((a, b) => b.score - a.score);
 	});
 	return (
 		<S.Wrapper>
@@ -55,7 +62,10 @@ function RankingsTemplate() {
 				{data?.map((item) => (
 					<S.RankingItem key={item.id}>
 						<span>{item?.name}</span>
-						<span>{item?.score} Betcoins</span>
+						<span>
+							{item?.score}
+							<Image src="/betcoin.jpeg" width={20} height={20} />
+						</span>
 					</S.RankingItem>
 				))}
 			</S.RankingList>

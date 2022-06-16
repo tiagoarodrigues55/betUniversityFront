@@ -2,11 +2,11 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.section`
 	padding: 2rem 1.6rem;
-	background-color: #3a1653;
-
-	color: #ffff;
-
+	padding-bottom: 4rem;
 	margin-bottom: 6rem;
+	
+	background-color: #3a1653;
+	color: #ffff;
 `;
 
 export const ButtonContainer = styled.div`
@@ -39,11 +39,17 @@ export const RankingList = styled.ul`
 	display: flex;
 	flex-direction: column;
 	gap: 1.6rem;
-`
+`;
 
 export const RankingItem = styled.li`
 	display: grid;
 	grid-template-columns: 2fr 1fr;
 	align-items: center;
 	gap: 1rem;
-`
+
+	span:last-child {
+		display: flex;
+		align-items: flex-end;
+		gap: 0.3rem;
+	}
+`;

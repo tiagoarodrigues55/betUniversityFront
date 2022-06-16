@@ -1,12 +1,11 @@
+import { useState } from 'react';
 import Image from 'next/image';
-import * as S from './styles';
-
-import logo from '../../public/logo.png';
-import { FiChevronDown, FiChevronUp } from 'react-icons/fi';
-import { useEffect, useState } from 'react';
 import { useSession } from 'next-auth/react';
+import { FiChevronDown, FiChevronUp } from 'react-icons/fi';
+
 import Logo from '../Logo';
 import useEvent from '../../context/EventContext';
+import * as S from './styles';
 
 function Header() {
 	const { changeEvent, event } = useEvent();
@@ -28,10 +27,12 @@ function Header() {
 						{event}
 					</S.ButtonEvents>
 					<S.Events showEvents={openEvents}>
-						<S.Event onClick={() => {
-							changeEvent('Integramix')
-							setOpenEvents(false)
-						}}>
+						<S.Event
+							onClick={() => {
+								changeEvent('Integramix');
+								setOpenEvents(false);
+							}}
+						>
 							Integramix
 						</S.Event>
 						{/* <S.Event onClick={() => {
@@ -46,7 +47,10 @@ function Header() {
 				</S.ButtonContainer>
 
 				<S.Wallet>
-					<b>{session?.user?.wallet} $</b>
+					<b>
+						{session?.user?.wallet}
+						<Image src="/betcoin.jpeg" width={20} height={20} />
+					</b>
 				</S.Wallet>
 			</S.Top>
 			<S.Bottom>
