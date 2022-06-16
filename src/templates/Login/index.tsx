@@ -3,7 +3,7 @@ import Logo from '../../components/Logo';
 import * as S from './styles';
 
 function LoginTemplate() {
-	if (!window) {
+	if (window !== undefined) {
 		return
 	}
 	return (
