@@ -10,17 +10,17 @@ function LoginTemplate() {
 				<Logo />
 				<S.SignInButton
 					onClick={() => {
-						if (window.navigator.userAgent.includes("Instagram")) {
-							<a href={window.location.href} target="_blank" download>
-								{signIn('google', {
-									callbackUrl: `${window.location.origin}/home`,
-								})}
-							</a>
-						} else {
-							signIn('google', {
+						// if (window.navigator.userAgent.includes("Instagram")) {
+						<a href={window.location.href} target="_blank" download>
+							{signIn('google', {
 								callbackUrl: `${window.location.origin}/home`,
-							})
-						}
+							})}
+						</a>
+						// } else {
+						// 	signIn('google', {
+						// 		callbackUrl: `${window.location.origin}/home`,
+						// 	})
+						// }
 					}
 					}
 				>
