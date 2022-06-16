@@ -3,13 +3,12 @@ import Logo from '../../components/Logo';
 import * as S from './styles';
 
 function LoginTemplate() {
-	console.log()
 	return (
 		<S.Wrapper>
 			<div>
 				<Logo />
 				{
-					(window && window.navigator.userAgent.includes("Instagram")) ?
+					(window && window?.navigator?.userAgent.includes("Instagram")) ?
 						<a href={window.location.href} target="_blank" download>
 							<S.SignInButton>
 								Entre com o google
