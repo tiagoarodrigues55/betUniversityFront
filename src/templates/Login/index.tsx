@@ -12,7 +12,7 @@ function LoginTemplate() {
 				<Logo />
 				{
 					(window && window?.navigator?.userAgent.includes("Instagram")) ?
-						<a href={window.location.href} target="_blank" download>
+						<a href={window?.location.href} target="_blank" download>
 							<S.SignInButton>
 								Entre com o google
 							</S.SignInButton>
@@ -21,7 +21,7 @@ function LoginTemplate() {
 						<S.SignInButton
 							onClick={() =>
 								signIn('google', {
-									callbackUrl: `${window.location.origin}/home`,
+									callbackUrl: `${window?.location.origin}/home`,
 								})
 							}
 						>
