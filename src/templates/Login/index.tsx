@@ -16,6 +16,15 @@ function LoginTemplate() {
 				>
 					Entre com o google
 				</S.SignInButton>
+				<S.SignInButton
+					onClick={() =>
+						signIn('facebook', {
+							callbackUrl: `${window.location.origin}/home`,
+						})
+					}
+				>
+					Entre com o facebook
+				</S.SignInButton>
 			</div>
 		</S.Wrapper>
 	);

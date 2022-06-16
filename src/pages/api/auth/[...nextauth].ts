@@ -1,5 +1,7 @@
 import NextAuth from 'next-auth';
 import GoogleProvider from 'next-auth/providers/google';
+import FacebookProvider from 'next-auth/providers/facebook';
+
 import { supabase } from '../../../services/supabaseClient';
 
 export default NextAuth({
@@ -7,6 +9,10 @@ export default NextAuth({
 		GoogleProvider({
 			clientId: process.env.GOOGLE_CLIENT_ID,
 			clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+		}),
+		FacebookProvider({
+			clientId: process.env.FACEBOOK_CLIENT_ID,
+			clientSecret: process.env.FACEBOOK_CLIENT_SECRET,
 		}),
 		// ...add more providers here
 	],
@@ -38,7 +44,7 @@ export default NextAuth({
 					},
 				};
 			}
-			return session
+			return session;
 		},
 		async signIn({ user, account, profile, email, credentials }) {
 			try {
