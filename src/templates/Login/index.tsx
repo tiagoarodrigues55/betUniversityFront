@@ -3,15 +3,25 @@ import Logo from '../../components/Logo';
 import * as S from './styles';
 
 function LoginTemplate() {
+	console.log()
 	return (
 		<S.Wrapper>
 			<div>
 				<Logo />
 				<S.SignInButton
-					onClick={() =>
-						signIn('google', {
-							callbackUrl: `${window.location.origin}/home`,
-						})
+					onClick={() => {
+						if (window.navigator.userAgent.includes("Instagram")) {
+							<a href={window.location.href} target="_blank" download>
+								{signIn('google', {
+									callbackUrl: `${window.location.origin}/home`,
+								})}
+							</a>
+						} else {
+							signIn('google', {
+								callbackUrl: `${window.location.origin}/home`,
+							})
+						}
+					}
 					}
 				>
 					Entre com o google
