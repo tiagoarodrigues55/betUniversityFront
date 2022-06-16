@@ -9,7 +9,7 @@ function LoginTemplate() {
 			<div>
 				<Logo />
 				{
-					(window.navigator.userAgent.includes("Instagram")) ?
+					(window && window.navigator.userAgent.includes("Instagram")) ?
 						<a href={window.location.href} target="_blank" download>
 							<S.SignInButton>
 								Entre com o google
