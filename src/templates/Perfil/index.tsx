@@ -36,12 +36,8 @@ function ProfileTemplate() {
 						<b>{session?.user?.wallet}</b>
 					</div>
 					<div>
-						<span>Pontos da base:</span>
-						<b>{session?.user?.score}</b>
-					</div>
-					<div>
 						<span>Pontos convertidos:</span>
-						<b>{session?.user?.total_bet}</b>
+						<b>{session?.user?.score}</b>
 					</div>
 				</S.UserInfo>
 

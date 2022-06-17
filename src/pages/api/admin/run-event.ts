@@ -31,7 +31,7 @@ export default async function runEvent(
   });
   const updateBets = await bets.update(game_id, { status: 'close', result, winner })
 
-  const updateGame = await games.update(game_id, { status: 'close', result })
+  const updateGame = await games.update(game_id, { status: 'close', result, winner })
 
   return Promise.all([updateBets, updateUsers, updateGame]).then((response) => {
     res.json(response);
