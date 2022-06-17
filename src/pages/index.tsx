@@ -66,23 +66,23 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 
 
 	api.post(`/api/games/lock-games?date=${date.toISOString()}`).then(res => console.log(res.data)).catch(err => console.log(err))
-	if (!session) {
-		return {
-			redirect: {
-				destination: '/login',
-				permanent: false,
-			},
-		};
-	}
+	// if (!session) {
+	// 	return {
+	// 		redirect: {
+	// 			destination: '/login',
+	// 			permanent: false,
+	// 		},
+	// 	};
+	// }
 
-	if (!isUserInDatabase?.data?.email) {
-		return {
-			redirect: {
-				destination: '/register',
-				permanent: false,
-			},
-		};
-	}
+	// if (!isUserInDatabase?.data?.email) {
+	// 	return {
+	// 		redirect: {
+	// 			destination: '/register',
+	// 			permanent: false,
+	// 		},
+	// 	};
+	// }
 
 	return {
 		props: {},
