@@ -1,4 +1,4 @@
-import { BiFootball } from 'react-icons/bi';
+import { BiBeer, BiFootball } from 'react-icons/bi';
 import { FaBasketballBall, FaVolleyballBall } from 'react-icons/fa';
 import { IoIosFootball } from 'react-icons/io';
 import { MdSportsHandball } from 'react-icons/md';
@@ -41,6 +41,12 @@ function Sports({ sport, handleChooseSport }: SportsProps) {
 				onClick={() => handleChooseSport('Futsal')}
 			>
 				<IoIosFootball size={30} color={sport === 'Futsal' ? '#F78232' : "#FFFFFF"} />
+			</S.Sport>
+			<S.Sport
+				className={sport === 'XassaPong' ? 'active' : ''}
+				onClick={() => handleChooseSport('XassaPong')}
+			>
+				<BiBeer size={30} color={sport === 'XassaPong' ? '#F78232' : "#FFFFFF"} />
 			</S.Sport>
 		</S.Wrapper>
 	);

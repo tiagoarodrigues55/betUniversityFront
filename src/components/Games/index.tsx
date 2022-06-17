@@ -7,10 +7,10 @@ type GamesProps = {
 };
 
 function convertDate(date) {
-	const dateObject = new Date(date)
-	dateObject.setHours(dateObject.getHours() + 3)
-	return dateObject
-};
+	const dateObject = new Date(date);
+	dateObject.setHours(dateObject.getHours() + 3);
+	return dateObject;
+}
 
 function Games({ games, handleOpenModal }: GamesProps) {
 	return (
@@ -53,8 +53,12 @@ function Games({ games, handleOpenModal }: GamesProps) {
 							Apostar
 						</S.BetButton>
 					</S.Draw>
-					{game.place ? `${game.place} -` : null} {game.date ? `${convertDate(game.date).toLocaleString().slice(0, 16)}` : null}
-
+					<p className="time">
+						{game.place ? `${game.place} -` : null}{' '}
+						{game.date
+							? `${convertDate(game.date).toLocaleString().slice(0, 16)}`
+							: null}
+					</p>
 				</S.Game>
 			))}
 		</S.Wrapper>

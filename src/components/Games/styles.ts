@@ -15,6 +15,10 @@ export const Wrapper = styled.section`
 export const Game = styled.div`
 	margin-bottom: 30px;
 	color: #fff;
+
+	p {
+		margin-top: 16px;
+	}
 `;
 
 export const GameInfo = styled.div`
