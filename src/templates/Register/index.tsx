@@ -140,17 +140,16 @@ function RegisterTemplate() {
 							/>
 						)}
 					</div>
-					{question?.id === questions.length - 1 ? (
-						<S.SignInButton onClick={handleOnClick}>
-							Ir para tela inicial
-						</S.SignInButton>
-					) : (
-						<S.SignInButton onClick={nextQuestion}>
-							Ganhar mais 10 Betcoins
-						</S.SignInButton>
-					)}
 				</S.Form>
-
+				{question?.id === questions.length - 1 ? (
+					<S.SignInButton onClick={handleOnClick}>
+						Ir para tela inicial
+					</S.SignInButton>
+				) : (
+					<S.SignInButton onClick={nextQuestion}>
+						Próxima
+					</S.SignInButton>
+				)}
 			</S.Container>
 		</S.Wrapper>
 	);
