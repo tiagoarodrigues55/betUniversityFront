@@ -141,20 +141,16 @@ function RegisterTemplate() {
 						)}
 					</div>
 					{question?.id === questions.length - 1 ? (
-						<S.whatsappButton>
-							<button onClick={inviteFriend}>
-								<b>Convide um amigo</b>
-							</button>
-						</S.whatsappButton>
+						<S.SignInButton onClick={handleOnClick}>
+							Ir para tela inicial
+						</S.SignInButton>
 					) : (
 						<S.SignInButton onClick={nextQuestion}>
 							Ganhar mais 10 Betcoins
 						</S.SignInButton>
 					)}
 				</S.Form>
-				<S.SignInButton onClick={handleOnClick}>
-					Ir para tela inicial
-				</S.SignInButton>
+
 			</S.Container>
 		</S.Wrapper>
 	);
