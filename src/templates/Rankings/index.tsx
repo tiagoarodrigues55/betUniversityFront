@@ -63,7 +63,7 @@ function RankingsTemplate() {
 					<S.RankingItem key={item.id}>
 						<span>{item?.name}</span>
 						<span>
-							{item?.score}
+							{item?.score?.toFixed(2)}
 							<Image src="/betcoin.jpeg" width={20} height={20} />
 						</span>
 					</S.RankingItem>

@@ -48,7 +48,7 @@ function Header() {
 
 				<S.Wallet>
 					<b>
-						{session?.user?.wallet}
+						{session?.user?.wallet?.toFixed(2)}
 						<Image src="/betcoin.jpeg" width={20} height={20} />
 					</b>
 				</S.Wallet>

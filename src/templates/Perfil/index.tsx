@@ -33,7 +33,7 @@ function ProfileTemplate() {
 					</div>
 					<div>
 						<span>Saldo:</span>
-						<b>{session?.user?.wallet}</b>
+						<b>{session?.user?.wallet?.toFixed(2)}</b>
 					</div>
 					<div>
 						<span>Pontos convertidos:</span>
@@ -51,7 +51,7 @@ function ProfileTemplate() {
 				<S.Hr />
 
 				<S.UserLiquid>
-					<h2>Liquidar</h2>
+					<h2>Redimir pontos</h2>
 					<LiquidCash onClick={(value) => setQrCode(`https://interbet.vercel.app/liquid?value=${value.replace('R$', '')}&user_id=${session.user.id}`)} />
 				</S.UserLiquid>
 
