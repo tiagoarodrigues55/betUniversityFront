@@ -11,7 +11,7 @@ import { users } from '../services/registers-repo';
 import useEvent from '../context/EventContext';
 
 export default function Home() {
-	const { event } = useEvent()
+	const { event } = useEvent();
 	const [sport, setSport] = useState('Futebol');
 	const [modalBet, setModalBet] = useState<any>({
 		isModalOpen: false,
@@ -19,7 +19,9 @@ export default function Home() {
 	});
 
 	const { data, refetch } = useQuery(['games', sport], async () => {
-		const response = await api.get(`/api/games?modality=${sport}&event=${event}&status=open`);
+		const response = await api.get(
+			`/api/games?modality=${sport}&event=${event}&status=open`
+		);
 		return response.data.sort(function (a, b) {
 			if (a.name > b.name) {
 				return 1;
@@ -60,12 +62,13 @@ export default function Home() {
 export const getServerSideProps: GetServerSideProps = async (context) => {
 	const session = await getSession(context);
 	const isUserInDatabase = await users.getUserByEmail(session?.user?.email);
-	const date = new Date()
+	const date = new Date();
 	date.setHours(date.getHours() - 3);
 
-
-
-	api.post(`/api/games/lock-games?date=${date.toISOString()}`).then(res => console.log(res.data)).catch(err => console.log(err))
+	api
+		.post(`/api/games/lock-games?date=${date.toISOString()}`)
+		.then((res) => console.log(res.data))
+		.catch((err) => console.log(err));
 	if (!session) {
 		return {
 			redirect: {

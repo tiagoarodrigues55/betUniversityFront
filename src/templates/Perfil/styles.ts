@@ -99,6 +99,7 @@ export const whatsappButton = styled.a`
 		background-color: orange;
 		color: #ffffff;
 		border-radius: 10px;
+		border: none;
 	}
 `;
 
@@ -116,5 +117,16 @@ export const Backdrop = styled.div`
 	width: 100vw;
 	height: 100vh;
 	background-color: rgba(0, 0, 0, 0.6);
-	
+`;
+
+export const ButtonAward = styled.button`
+	background-color: #bc6d8d;
+	color: #ffffff;
+	width: 100%;
+	padding: 12px 0;
+	text-align: center;
+	border-radius: 8px;
+	border: none;
+	font-size: 1rem;
+	margin-top: 1rem;
 `;
