@@ -42,7 +42,7 @@ const products = [
 	{
 		id: 5,
 		name: 'Powerbank',
-		value: 50,
+		value: 100,
 		image_path: '/powerbank.png',
 	},
 	{

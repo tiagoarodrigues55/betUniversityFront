@@ -12,7 +12,7 @@ export default function Liquid(req) {
     if (password === "1234") {
       console.log(router.query.value);
       api.post('/api/admin/liquid', { id: router.query.user_id, value: router.query.value }).then(res => {
-        if (!res.data.error) {
+        if (!res.data.error && res.data.status !== "error") {
           console.log(res.data)
           return Swal.fire({
             text: 'Boa sorte!',
