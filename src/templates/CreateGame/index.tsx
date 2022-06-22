@@ -5,6 +5,7 @@ import * as S from './styles';
 
 import universities from '../../assets/universidades.json';
 import api from '../../services/api';
+import Swal from 'sweetalert2';
 
 function CreateGameTemplate() {
 	const [formData, setFormData] = useState({
@@ -28,6 +29,14 @@ function CreateGameTemplate() {
 		api.post('/api/games', payload).then((response) => {
 			console.log('Jogo criado');
 			console.log(response);
+			return Swal.fire({
+				text: 'Boa sorte!',
+				title: 'Jogo criado com sucesso',
+				icon: 'success',
+				confirmButtonText: 'Bora',
+				background: '#331A4d',
+				color: '#2ed03d'
+			});
 		});
 	}
 
@@ -104,7 +113,7 @@ function CreateGameTemplate() {
 				</S.FormControl>
 				<S.FormControl>
 					<label>Data</label>
-					<input value={date} type="date" name="date" onChange={handleChange} />
+					<input value={date} type="datetime-local" name="date" onChange={handleChange} />
 				</S.FormControl>
 			</S.InputContainer>
 			<button type="submit">Criar jogo</button>
