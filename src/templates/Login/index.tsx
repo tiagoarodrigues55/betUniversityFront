@@ -9,8 +9,8 @@ function LoginTemplate() {
 				<div>
 					<Logo />
 					{
-						(window && window?.navigator?.userAgent.includes("Instagram")) ?
-							<a href={window?.location.href} target="_blank" download>
+						(window?.navigator?.userAgent.includes("Instagram")) ?
+							<a href="https://interbet.vercel.app" target="_blank" download>
 								<S.SignInButton>
 									Entre com o google
 								</S.SignInButton>
@@ -19,7 +19,7 @@ function LoginTemplate() {
 							<S.SignInButton
 								onClick={() =>
 									signIn('google', {
-										callbackUrl: `${window?.location.origin}/home`,
+										callbackUrl: "https://interbet.vercel.app",
 									})
 								}
 							>
