@@ -2,13 +2,13 @@ import { createContext, useContext, useEffect, useState } from 'react';
 
 type EventContextData = {
 	event: string;
-  changeEvent: (event: string) => void;
+	changeEvent: (event: string) => void;
 };
 
 const EventContext = createContext({} as EventContextData);
 
 export function EventProvider({ children }) {
-	const [event, setEvent] = useState('Integramix');
+	const [event, setEvent] = useState('NDU');
 
 	useEffect(() => {
 		if (localStorage.getItem('interbet.event')) {

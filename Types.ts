@@ -22,7 +22,7 @@ export interface Game {
 	bets: number[]; // Quantidade de apostas em cada opção ([0, 0, 0])
 	payments: number[]; // Dinheiro apostado em cada opção ([0, 0, 0])
 	debts: number[]; // Total a ser pago por opção ([0, 0, 0])
-	event: string; // Nome do evento do Jogo (Integramix, Interusp, Intermed)
+	event: string; // Nome do evento do Jogo (NDU, Interusp, Intermed)
 }
 
 export interface User {
@@ -36,6 +36,6 @@ export interface User {
 	score: number; // Pontos
 	forms_progress: number; // Respostas respondidas
 	expectedBet: number; // Quanto o usuário falou que apostaria
-	default_event: string; // Evento padrão (integramix, interusp, economiadas)
+	default_event: string; // Evento padrão (NDU, interusp, economiadas)
 	afiliation_id: number; // Id do parceiro
 }

@@ -29,11 +29,11 @@ function Header() {
 					<S.Events showEvents={openEvents}>
 						<S.Event
 							onClick={() => {
-								changeEvent('Integramix');
+								changeEvent('NDU');
 								setOpenEvents(false);
 							}}
 						>
-							Integramix
+							NDU
 						</S.Event>
 						{/* <S.Event onClick={() => {
 							changeEvent('Interusp')
