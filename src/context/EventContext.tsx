@@ -8,7 +8,7 @@ type EventContextData = {
 const EventContext = createContext({} as EventContextData);
 
 export function EventProvider({ children }) {
-	const [event, setEvent] = useState('integramix');
+	const [event, setEvent] = useState('Integramix');
 
 	useEffect(() => {
 		if (localStorage.getItem('interbet.event')) {

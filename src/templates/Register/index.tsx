@@ -16,7 +16,7 @@ function RegisterTemplate() {
 	const [formValues, setFormValues] = useState<any>({});
 	const [question, setQuestion] = useState<any>();
 	const [wallet, setWallet] = useState<number>(0);
-	const event = 'integramix';
+	const event = 'Integramix';
 
 	const options = {
 		team: universities.map((uni) => ({
@@ -56,11 +56,8 @@ function RegisterTemplate() {
 		const payload = {
 			email: session.user.email,
 			name: session.user.name,
-			instagram: formValues.insta,
 			favorite_team: formValues.team,
-			wallet: wallet + 10,
-			forms_progress: question.id,
-			expected_bet: formValues.expectedBet,
+			wallet: 50,
 			afiliation_id: localStorage.getItem("afiliation_id") || null
 		};
 
@@ -141,15 +138,9 @@ function RegisterTemplate() {
 						)}
 					</div>
 				</S.Form>
-				{question?.id === questions.length - 1 ? (
-					<S.SignInButton onClick={handleOnClick}>
-						Ir para tela inicial
-					</S.SignInButton>
-				) : (
-					<S.SignInButton onClick={nextQuestion}>
-						Próxima
-					</S.SignInButton>
-				)}
+				<S.SignInButton onClick={handleOnClick}>
+					Ir para tela inicial
+				</S.SignInButton>
 			</S.Container>
 		</S.Wrapper>
 	);
