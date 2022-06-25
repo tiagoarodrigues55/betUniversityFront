@@ -16,7 +16,7 @@ function RegisterTemplate() {
 	const [formValues, setFormValues] = useState<any>({});
 	const [question, setQuestion] = useState<any>();
 	const [wallet, setWallet] = useState<number>(0);
-	const event = 'NDU';
+	const event = 'integramix';
 
 	const options = {
 		team: universities.map((uni) => ({
