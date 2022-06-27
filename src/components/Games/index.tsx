@@ -13,6 +13,7 @@ function convertDate(date) {
 }
 
 function Games({ games, handleOpenModal }: GamesProps) {
+	console.log(games);
 	return (
 		<S.Wrapper>
 			{games?.map((game) => (

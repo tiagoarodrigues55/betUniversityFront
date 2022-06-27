@@ -9,6 +9,7 @@ import api from '../services/api';
 import { useQuery } from 'react-query';
 import { users } from '../services/registers-repo';
 import useEvent from '../context/EventContext';
+import Highlights from '../components/Highlights';
 
 export default function Home() {
 	const { event } = useEvent();
@@ -54,6 +55,7 @@ export default function Home() {
 				game={modalBet.game}
 			/>
 			<Sports sport={sport} handleChooseSport={handleChooseSport} />
+			<Highlights games={data} handleOpenModal={handleOpenModal} />
 			<Games games={data} handleOpenModal={handleOpenModal} />
 		</>
 	);
