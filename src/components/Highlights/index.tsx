@@ -22,6 +22,9 @@ const fakeData = [
 ];
 
 function Highlights({ games, handleOpenModal }: HighlightsProps) {
+	if (!games) {
+		return <div />
+	}
 	return (
 		<S.Wrapper>
 			<h2>Destaques</h2>
@@ -55,7 +58,7 @@ function Highlights({ games, handleOpenModal }: HighlightsProps) {
 								/>
 							</S.GameImage>
 						</S.GameContent>
-            <S.Button onClick={() => handleOpenModal({ game })}>Apostar</S.Button>
+						<S.Button onClick={() => handleOpenModal({ game })}>Apostar</S.Button>
 					</S.Game>
 				))}
 			</S.GamesWrapper>
